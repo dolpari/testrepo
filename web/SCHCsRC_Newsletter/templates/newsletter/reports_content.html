@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+{% load filter %}
+<body style="font-family: 'SCDream4';">
+{% block content %}
+  <div class="container text-center" style="background-image:url({{ reports.thumbnail.url }}); opacity: 0.8;
+    background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <hr style="border: solid 1px gray">
+    <h1 style="padding-bottom: 50px; padding-top: 50px;">{{ reports.title }}</h1>
+    <hr style="border: solid 1px gray">
+  </div>
+  <div class="container" style="text-align: right; font-size: small; color: gray;">
+    {% if reports.modified_datetime %}
+      <p>작성자: {{ reports.author }}</p>
+      <p>작성일: {{ reports.created_datetime }}</p>
+      <p>수정일: {{ reports.modified_datetime }}</p>
+      <p>조회수: {{ reports.views }}</p>
+    {% else %}
+      <p>작성자: {{ reports.author }}</p>
+      <p>작성일: {{ reports.created_datetime }}</p>
+      <p>조회수: {{ reports.views }}</p>
+    {% endif %}
+  </div>
+  <div class="container">
+    <p>{{ reports.content|mark }}</p>
+  </div>
+
+  {% if login_session == 'schcsrc' %}
+  <div class="container" style="text-align: right;">
+    <a href="/admin/reports/{{ reports.id }}/modify_post/" class="btn btn-secondary">수정</a>
+    <a href="/admin/reports/{{ reports.id }}/delete_post/" class="btn btn-danger" onclick="return confirm('정말 삭제하시겠습니까?');">삭제</a>
+  </div>
+  {% endif %}
+
+  <div class="container">
+    <div class="row" style="display: flex; justify-content: center;">
+      <div class="col-md-7 text-left" style="font-size: small;">
+        <hr style="border: solid 1px black">
+        <p>'악성코드 레포트' 의 다른 글</p>
+        {% if reports_next %}
+        <p>다음 글 : <a href="../{{ reports_next.id }}/" style="text-decoration: none; color: black;">{{ reports_next.title }}</a></p>
+        {% else %}
+        <p>다음 글 : <span style="color: gray;">글이 없습니다.</span></p>
+        {% endif %}
+        <p style="font-weight: bold;">현재 글 : {{ reports.title }}</p>
+        {% if reports_pre %}
+        <p>이전 글 : <a href="../{{ reports_pre.id }}/" style="text-decoration: none; color: black">{{ reports_pre.title }}</a></p>
+        {% else %}
+        <p>이전 글 : <span style="color: gray;">글이 없습니다.</span></p>
+        {% endif %}
+      </div>
+    </div>
+    <div class="row" style="display: flex; justify-content: center;">
+      <div class="col-md-7" style="display: flex; justify-content: flex-end;">
+        <button type="button" class="btn-outline-dark btn-sm" onclick="location.href='../reports_list/'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          목록
+        </button>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+</body>

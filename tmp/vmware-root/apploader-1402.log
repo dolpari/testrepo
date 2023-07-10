@@ -1,0 +1,48 @@
+2023-05-23T05:37:41.349+09:00| appLoader| I120: Log for VMware Tools pid=1402 version=8.8.0 build=build-471268 option=Release
+2023-05-23T05:37:41.349+09:00| appLoader| I120: The process is 32-bit.
+2023-05-23T05:37:41.349+09:00| appLoader| I120: Host codepage=UTF-8 encoding=UTF-8
+2023-05-23T05:37:41.349+09:00| appLoader| I120: Host is Linux 3.11.0-26-generic Ubuntu 12.04.1 LTS
+2023-05-23T05:37:41.366+09:00| appLoader| I120: Invocation: "/usr/sbin/vmtoolsd --background /var/run/vmtoolsd.pid"
+2023-05-23T05:37:41.366+09:00| appLoader| I120: Calling: "/usr/sbin/vmtoolsd --background /var/run/vmtoolsd.pid"
+2023-05-23T05:37:41.366+09:00| appLoader| I120: VMDEVEL not set.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: VMWARE_SHIPPED_LIBS_LIST is not set.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: VMWARE_SYSTEM_LIBS_LIST is not set.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: VMWARE_USE_SHIPPED_LIBS is not set.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: VMWARE_USE_SYSTEM_LIBS is not set.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: Using configuration file /etc/vmware-tools/config.
+2023-05-23T05:37:41.366+09:00| appLoader| I120: Using library directory:  /usr/lib/vmware-tools.
+2023-05-23T05:37:41.367+09:00| appLoader| I120: Shipped glib version is 2.24
+2023-05-23T05:37:41.367+09:00| appLoader| I120: System glib version is 2.32
+2023-05-23T05:37:41.367+09:00| appLoader| I120: Using system version of glib.
+2023-05-23T05:37:41.367+09:00| appLoader| I120: Marking libvmtoolsd.so node as INVALID.
+2023-05-23T05:37:41.381+09:00| appLoader| I120: Marking libvmtools.so node as INVALID.
+2023-05-23T05:37:41.381+09:00| appLoader| I120: Marking libgthread-2.0.so.0 node as INVALID.
+2023-05-23T05:37:41.381+09:00| appLoader| I120: Marking libgobject-2.0.so.0 node as INVALID.
+2023-05-23T05:37:41.382+09:00| appLoader| I120: Marking libgmodule-2.0.so.0 node as INVALID.
+2023-05-23T05:37:41.382+09:00| appLoader| I120: Marking libglib-2.0.so.0 node as INVALID.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Created dependency tree.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: -- Processing libglib-2.0.so.0 --
+2023-05-23T05:37:41.402+09:00| appLoader| I120: GLib: glib_major_version: Comparing 2 with 2
+2023-05-23T05:37:41.402+09:00| appLoader| I120: GLib: glib_minor_version: Comparing 32 with 32
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libglib-2.0.so.0 validator returned true.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libglib-2.0.so.0 node as SYSTEM.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: -- Finished processing libglib-2.0.so.0 --
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libvmtoolsd.so node as SHIPPED.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libgmodule-2.0.so.0 node as SYSTEM.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libgobject-2.0.so.0 node as SYSTEM.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libgthread-2.0.so.0 node as SYSTEM.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: Marking libvmtools.so node as SHIPPED.
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libvmtoolsd.so <SHIPPED>
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libgthread-2.0.so.0 <SYSTEM>
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libgmodule-2.0.so.0 <SYSTEM>
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libgobject-2.0.so.0 <SYSTEM>
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libglib-2.0.so.0 <SYSTEM>
+2023-05-23T05:37:41.402+09:00| appLoader| I120: libvmtools.so <SHIPPED>
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Shipped glib version is 2.24
+2023-05-23T05:37:41.403+09:00| appLoader| I120: System glib version is 2.32
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Using system version of glib.
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Loading system version of libgthread-2.0.so.0.
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Loading system version of libgmodule-2.0.so.0.
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Loading system version of libgobject-2.0.so.0.
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Loading system version of libglib-2.0.so.0.
+2023-05-23T05:37:41.403+09:00| appLoader| I120: Loading shipped version of libvmtools.so.

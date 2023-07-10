@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>SCHCsRC</title>
+     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"/>
+     <link href="{% static 'css/signin.css' %}" rel="stylesheet"/>
+     <style>
+         @font-face {
+             font-family: SCDream4;
+             src:
+                     local('SCDream4'),
+                     url("../../static/fonts/SCDream4.otf") format("opentype");
+         }
+         body{
+             font-family: SCDream4;
+         }
+     </style>
+</head>
+
+{% if error %}
+<script>
+    alert('{{ error }}')
+</script>
+{% endif %}
+
+<body class="form-signin text-center">
+  <div class="container my-3">
+    <form method="POST">
+        {% csrf_token %}
+        <img class="mb-4" src="../../static/intro/img/SCHCSRC_logo.png" alt="" width="100" height="80">
+        <h1 class="h3 mb-3 fw-normal">Admin Login</h1>
+        <div class="form-floating">
+            <input type="admin" class="form-control" id="admin" name="admin" placeholder="admin">
+            <label for="admin">Admin</label>
+        </div>
+        <div class="form-floating">
+            <input type="password" class="form-control" id="password" name="password" placeholder="password">
+            <label for="password">Password</label>
+        </div>
+        <input class="w-100 btn btn-lg btn-primary" type="submit" value="Sign in">
+        <p class="mt-5 mb-3 text-muted">&copy; 2013-2022</p>
+    </form>
+  </div>
+</body>
+</html>
+

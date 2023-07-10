@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+{% load static %}
+<body style="font-family: 'SCDream4';">
+  {% block content %}
+
+  {% if messages %}
+    <div class="alert alert-danger my-3" role="dialog">
+      {% for message in messages %}
+        <strong>{{ message.tag }}</strong>
+        <ul><li>{{ message.message }}</li></ul>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+    <form class="row g-3" method="POST" enctype="multipart/form-data">
+      {% csrf_token %}
+      <div class="col-md-8">
+          <input type="text" class="form-control" id="title" name="title" placeholder="제목" value="{{ title }}">
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" id="author" name="author" placeholder="작성자" value="{{ author }}">
+      </div>
+      <div class="col-md-12"> 
+        <textarea type="text" class="form-control" id="content" name="content" rows="10" placeholder="내용">{{ content }}</textarea>
+      </div>
+      <div class="col-md-4">
+        <label for="thumbnail" class="form-label">썸네일 이미지 업로드</label>
+        <input class="form-control" type="file" id="thumbnail" name="thumbnail" accept=".jpg, .png, .gif, .jpeg"/>
+      </div>
+      <div class="col-md-8">
+        <label for="image" class="form-label">본문 내용 이미지 업로드</label>
+        <input class="form-control" type="file" id="image" name="image" accept=".jpg, .png, .gif, .jpeg" multiple/>
+      </div>
+      <div class="col-md-10"></div>
+      <div class="col-md-1">
+        <input type="submit" class="btn btn-primary btn-sm" value="작성 완료">
+      </div>
+      <div class="col-md-1">
+        <input type="button" class="btn btn-secondary btn-sm" onclick="location.href='../'" value="작성 취소">
+      </div>
+    </form>
+  {% endblock %}
+</body>

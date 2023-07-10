@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+<body style="font-family: 'SCDream4';">
+{% block content %}
+  <section class="page-section">
+    <div class="container text-center">
+      <h2 class="section-heading">최근 게시물</h2>
+      {% if trends_new2 or trends_new1 %}
+        <div class="row text-center">
+          {% for trends2 in trends_new2 %}
+           <div class="col-lg-4 col-sm-6 mb-4">
+             <div class="card" onclick="location.href='{{ trends2.id }}/'">
+               <img src="{{ trends2.thumbnail.url }}" class="card-img-top" alt="{{ trends2.thumbnail }}" style="height: 15rem; object-fit: cover;">
+               <div class="card-body">
+                 <h5 class="card-title">{{ trends2.title }}</h5>
+               </div>
+             </div>
+           </div>
+          {% endfor %}
+        </div>
+      <div class="row text-center">
+        {% for trends1 in trends_new1 %}
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="card" onclick="location.href='{{ trends1.id }}/'">
+            <img src="{{ trends1.thumbnail.url }}" class="card-img-top" alt="{{ trends1.thumbnail }}" style="height: 15rem; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">{{ trends1.title }}</h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <p class="text-center">게시물이 없습니다.</p>
+    {% endif %}
+    <botton type="button" class="btn btn-primary" onclick="location.href='trends_list/'" style="float:right" role="button">더보기</botton>
+  </section>
+{% endblock %}
+</body>
+
+

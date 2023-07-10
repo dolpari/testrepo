@@ -1,0 +1,91 @@
+{% load static %}
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>SCHCsRC</title>
+  <script type="text/javascript" src="{% static 'js/jquery-3.6.0.min.js' %}"></script>
+  <link rel="icon" type="image/x-icon" href="{% static 'intro/favicon.ico' %}"/>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
+  <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet"/>
+  <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  <style>
+    @font-face {
+      font-family: SCDream4;
+      src:
+        local('SCDream4'),
+        url("/static/fonts/SCDream4.otf") format("opentype");
+      }
+      body{
+        font-family: SCDream4;
+      }
+  </style>
+</head>
+<body>
+  <header class="py-5" style="background-image:url('/static/intro/img/header.jpg'); background-size: cover;">
+    <div class="container px-lg-4 px-lg-5 py-lg-1">
+      <div class="text-center text-white">
+        <h1 class="display-4 fw-bolder">SCHCsRC</h1>
+        <p class="lead fw-normal text-white-50 mb-0">SCH Cybersecurity Research Center</p>
+      </div>
+    </div>
+  </header>
+
+ 
+  {% if login_session == 'schcsrc' %}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+    <div class="container px-lg-4 px-lg-5">
+      <a class="navbar-brand" href="/admin/index/">SCHCsRC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_admin" aria-controls="navbar_admin" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbar_admin">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/admin/index/">소개</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/projects/">프로젝트</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/trends/">최근 보안기술 동향</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/reports/">악성코드 상세분석</a></li>
+        </ul>
+        <form class="d-flex">
+	{% csrf_token %}
+          <button type="button" class="btn btn-outline-dark" onclick="location.href='/admin/logout/'">
+            logout
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  {% else %}
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
+    <div class="container px-lg-4 px-lg-5">
+      <a class="navbar-brand" href="/">SCHCsRC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">소개</a></li>
+          <li class="nav-item"><a class="nav-link" href="/projects">프로젝트</a></li>
+          <li class="nav-item"><a class="nav-link" href="/trends">최근 보안기술 동향</a></li>
+          <li class="nav-item"><a class="nav-link" href="/reports">악성코드 상세분석</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% endif %}
+ 
+  <div class="container p-lg-4">
+    {% block content %}
+    {% endblock %}
+  </div>
+
+  <div class="container-fluid">
+    <hr style="border: solid 1px gray;">
+    <div class="row" style="display: flex; justify-content: center;">
+      <div class="col-md-2 text-center">
+	      <img src="{% static 'intro/img/logo.jpg' %}" style="width: 150px;">
+      </div>
+      <div class="col-md-3 mt-3 text-center" style="font-size: 0.9rem;">
+          <p>[31538] 충남 아산시 순천향로 22-3 공과대학 9332<br>
+            Email : schcsrc@gmail.com<br>
+            &copy; 2013 SCH Cybersecurity Research Center.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

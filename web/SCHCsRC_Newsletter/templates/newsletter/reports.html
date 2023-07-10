@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+<body style="font-family: 'SCDream4';">
+{% block content %}
+  <section class="page-section">
+    <div class="container text-center">
+      <h2 class="section-heading">최근 게시물</h2>
+      {% if reports_new2 or reports_new1 %}
+        <div class="row text-center">
+          {% for reports2 in reports_new2 %}
+           <div class="col-lg-4 col-sm-6 mb-4">
+             <div class="shadow card" onclick="location.href='{{ reports2.id }}/'">
+               <img src="{{ reports2.thumbnail.url }}" class="card-img-top" alt="{{ reports2.thumbnail }}" style="height: 15rem; object-fit: cover;">
+               <div class="card-body">
+                 <h5 class="card-title">{{ reports2.title }}</h5>
+               </div>
+             </div>
+           </div>
+          {% endfor %}
+        </div>
+      <div class="row text-center">
+        {% for reports1 in reports_new1 %}
+        <div class="col-lg-4 col-sm-6 mb-4">
+          <div class="shadow card" onclick="location.href='{{ reports1.id }}/'">
+            <img src="{{ reports1.thumbnail.url }}" class="card-img-top" alt="{{ reports1.thumbnail }}" style="height: 15rem; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title">{{ reports1.title }}</h5>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <p class="text-center">게시물이 없습니다.</p>
+    {% endif %}
+
+    <botton type="button" class="btn btn-primary" onclick="location.href='reports_list/'" style="float:right" role="button">더보기</botton>
+  </section>
+
+
+{% endblock %}
+</body>

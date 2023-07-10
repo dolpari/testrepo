@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+{% load filter %}
+<body style="font-family: 'SCDream4';">
+  {% block content %}
+  <!-- 검색창 -->
+  <div class="container">
+    <div style="margin-top: 30px;">
+      <form action="" method="GET">
+        <div style="float: right; display: flex;" class="form-row">
+          <div class="col" style="flex: 1; margin-top: 10px;">
+            <select style="width: 6em; height: 2.3em;" class="custom-select custom-select-md text-center" name="type">
+              <option value="title_content">제목+내용</option>
+              <option value="title">제목</option>
+              <option value="content">내용</option>
+              <option value="author">담당자</option>
+            </select>
+          </div>
+          <div class="col" style="flex: 1; margin-top: 10px;">
+            <input type="text" name="search" value="{{ search }}" class="form-control form-control-md"
+                   style="width: 15em;" placeholder="검색어를 입력해주세요.">
+          </div>
+          <div class="col" style="flex: 1; margin-top: 10px;">
+            <button class="btn btn-md btn-outline-dark" type="submit" id="search_btn">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <section class="page-section">
+    <!-- 검색 결과 문구 -->
+    {% if search %}
+      <h5 style="color: gray; font-weight: 550;">'{{ search }}' 검색 결과입니다.</h5>
+    {% endif %}
+
+    <!-- 검색 키워드 1글자일때 경고창 -->
+    {% if messages %}
+    <div class="alert alert-danger my-3" role="dialog">
+      {% for message in messages %}
+      <strong>{{ message.tag }}</strong>
+      <ul><li>{{ message.message }}</li></ul>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <div class="container my-3">
+      <!-- 게시판 구분 -->
+      <table class="table table-hover">
+        <thead>
+        <tr class="thead-dark text-center">
+          <th>번호</th>
+          <th>제목</th>
+          <th>담당자</th>
+          <th>작성일</th>
+          <th>조회수</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- 검색 키워드가 없을때 게시물 목록 -->
+          {% if projects_list %}
+            {% for projects in projects_list %}
+              <tr class="text-center" onclick="location.href='../{{ projects.id }}'" style="cursor:pointer">
+                <td>
+                  {{ projects_list.paginator.count|sub:projects_list.start_index|sub:forloop.counter0|add:1 }}
+                </td>
+                <td>{{ projects.title }}</td>
+                <td>{{ projects.author }}</td>
+                <td>{{ projects.created_datetime }}</td>
+                <td>{{ projects.views }}</td>
+              </tr>
+            {% endfor %}
+        <!-- 검색 키워드 결과 게시물이 있을 때 -->
+        {% else %}
+          <!-- 검색 키워드 게시물이 없을 때 -->
+          {% if search %}
+            <tr>
+              <td colspan="5" class="text-center">일치하는 검색 결과가 없습니다.</td>
+            </tr>
+          <!-- 게시물이 없을 때 -->
+          {% else %}
+            <tr>
+              <td colspan="5" class="text-center">프로젝트가 없습니다.</td>
+            </tr>
+          {% endif %}
+        {% endif %}
+        </tbody>
+      </table>
+
+      {% if login_session == 'schcsrc' %}
+      <div class="container" style="text-align: right;">
+        <a href="/admin/projects/post/" class="btn btn-primary">글쓰기</a>
+      </div>
+      {% endif %}
+
+      <!-- 페이징 -->
+      <ul class="pagination justify-content-center">
+        <!-- 이전페이지 -->
+        {% if projects_list.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?type={{ search_type }}&search={{ search }}&page={{ projects_list.previous_page_number }}">이전</a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" tabindex="-1" aria-disabled="true" href="#">이전</a>
+        </li>
+        {% endif %}
+        <!-- 페이지리스트 -->
+        {% for page_number in projects_list.paginator.page_range %}
+        {% if page_number >= projects_list.number|add:-3 and page_number <= projects_list.number|add:3 %}
+        {% if page_number == projects_list.number %}
+        <li class="page-item active" aria-current="page">
+          <a class="page-link" href="?type={{ search_type }}&search={{ search }}&page={{ page_number }}">{{ page_number }}</a>
+        </li>
+        {% else %}
+        <li class="page-item">
+          <a class="page-link" href="?type={{ search_type }}&search={{ search }}&page={{ page_number }}">{{ page_number }}</a>
+        </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+        <!-- 다음 페이지 -->
+        {% if projects_list.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?type={{ search_type }}&search={{ search }}&page={{ projects_list.next_page_number }}">다음</a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link" tabindex="-1" aria-disabled="true" href="#">다음</a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </section>
+  {% endblock %}
+</body>

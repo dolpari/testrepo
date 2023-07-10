@@ -1,0 +1,9 @@
+.idea
+db.sqlite3
+*.pyc
+__pycache__
+media
+admin/gmail
+.static_root/
+settings.py
+settings.py.old

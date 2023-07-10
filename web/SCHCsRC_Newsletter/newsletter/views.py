@@ -1,0 +1,259 @@
+from django.shortcuts import render, get_object_or_404
+from .models import trends_Post, reports_Post, projects_Post
+from django.core.paginator import Paginator
+from django.db.models import Q
+from django.contrib import messages
+
+from datetime import datetime, timedelta
+import re
+
+
+# email 유효성 검사
+def validateEmail(email):
+    if len(email) > 6:
+        if re.match('^[a-zA-Z0-9+-_.]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$', email) != None:
+            return True
+    return False
+
+# 게시물 검색 기능
+def search(request, post_list):
+    search_list = []
+    search = request.GET.get('search', '')
+    search_type = request.GET.get('type', '')
+    if search:
+        if len(search) > 1:
+            if search_type == 'title':
+                search_list = post_list.filter(Q(title__icontains=search))
+            elif search_type == 'content':
+                search_list = post_list.filter(Q(content__icontains=search))
+            elif search_type == 'title_content':
+                search_list = post_list.filter(Q(title__icontains=search) | Q(content__icontains=search))
+            elif search_type == 'author':
+                search_list = post_list.filter(Q(author__icontains=search))
+            for search_post in search_list:
+                search_post.created_datetime = datetime.strftime(search_post.created_datetime, '%Y-%m-%d %H:%M')
+        else:
+            messages.error(request, '검색어는 2글자 이상 입력해주세요.')
+        return search, search_list, search_type
+    return 0
+
+
+# 조회수 카운트
+def view_counter(request, post,  response):
+    # admin 로그인 확인 (로그인 : 조회수 카운트 X)
+    login_session = request.session.get('login_session', '')
+    context = {'login_session': login_session}
+    if login_session == 'schcsrc':
+        context['author'] = True
+        return 0
+    else:
+        context['author'] = False
+    # cookie 유효시간(1일), max_age = 남은 총 시간(초)
+    tomorrow, now = datetime.now(), datetime.now()
+    tomorrow += timedelta(days=1)
+    tomorrow = tomorrow.replace(hour=0, minute=0, second=0, microsecond=0)
+    tomorrow -= now
+    max_age = tomorrow.total_seconds()
+    cookie_value = request.COOKIES.get('views')
+    # views 쿠키값 이미 존재시, 게시물 id 추가
+    if cookie_value is not None:
+        cookie_list = cookie_value.split('|')
+        if f'_{post.id}_' not in cookie_list:
+            response.set_cookie('views', cookie_value + f'_{post.id}_|', max_age)
+            post.views += 1
+            post.save()
+            return response
+    # 현재 게시물이 처음 보는 게시물일 경우, 쿠키값 추가
+    else:
+        response.set_cookie('views', f'_{post.id}_|', max_age)
+        post.views += 1
+        post.save()
+        return response
+    return response
+
+
+# 센터 소개 페이지 (메인 페이지)
+def index(request):
+    login_session = request.session.get('login_session')
+    context = {'login_session': login_session}
+    return render(request, 'newsletter/index.html', context)
+
+
+# 최근 트렌드 게시물
+def trends(request):
+    login_session = request.session.get('login_session')
+    trends_new1 = trends_Post.objects.order_by('-created_datetime')[3:6]  # 최근 게시물(4~6번째)
+    trends_new2 = trends_Post.objects.order_by('-created_datetime')[0:3]  # 최근 게시물(1~3번째)
+    
+    context = {'trends_new1': trends_new1,
+               'trends_new2': trends_new2,
+               'login_session': login_session}
+    return render(request, 'newsletter/trends.html', context)
+
+
+# 트렌드 게시물 목록
+def trends_list(request):
+    login_session = request.session.get('login_session')
+    page = request.GET.get('page', '1')
+    trends_list = trends_Post.objects.order_by('-created_datetime')  # 게시물 작성일 역으로 불러옴
+    for trends in trends_list:
+        trends.created_datetime = datetime.strftime(trends.created_datetime, '%Y-%m-%d')
+    paginator_list = Paginator(trends_list, 10)
+    page_obj = paginator_list.get_page(page)
+    context = {'trends_list': page_obj,
+               'login_session': login_session}
+    
+    Search_content = search(request, trends_list)
+    if Search_content != 0:
+        paginator_search = Paginator(Search_content[1], 10)
+        context['search'] = Search_content[0]
+        context['trends_list'] = paginator_search.get_page(page)
+        context['search_type'] = Search_content[2]
+    return render(request, 'newsletter/trends_list.html', context)
+
+
+# 최근 악성코드 보고서 게시물
+def reports(request):
+    login_session = request.session.get('login_session')
+    reports_new1 = reports_Post.objects.order_by('-created_datetime')[3:6]  # 최근 게시물(4~6번째)
+    reports_new2 = reports_Post.objects.order_by('-created_datetime')[0:3]  # 최근 게시물(1~3번째)
+    context = {'reports_new1': reports_new1,
+               'reports_new2': reports_new2,
+               'login_session': login_session}
+    return render(request, 'newsletter/reports.html', context)
+
+
+def projects(request):
+    login_session = request.session.get('login_session')
+    projects_new1 = projects_Post.objects.order_by('-created_datetime')[3:6]  # 최근 게시물(4~6번째)
+    projects_new2 = projects_Post.objects.order_by('-created_datetime')[0:3]  # 최근 게시물(1~3번째)
+    context = {'projects_new1': projects_new1,
+               'projects_new2': projects_new2,
+               'login_session': login_session}
+    return render(request, 'newsletter/projects.html', context)
+
+
+# 악성코드 보고서 게시물 목록
+def projects_list(request):
+    login_session = request.session.get('login_session')
+    page = request.GET.get('page', '1')
+    projects_list = projects_Post.objects.order_by('-created_datetime')  # 게시물 생성시간 역으로 불러옴
+    for projects in projects_list:
+        projects.created_datetime = datetime.strftime(projects.created_datetime, '%Y-%m-%d')
+    paginator_list = Paginator(projects_list, 10)  # 게시물 페이지 당 10개씩
+    page_obj = paginator_list.get_page(page)
+    Search_content = search(request, projects_list)
+    context = {'projects_list': page_obj,
+               'login_session': login_session}
+    if Search_content != 0:
+        paginator_search = Paginator(Search_content[1], 10)
+        context['search'] = Search_content[0]
+        context['search_type'] = Search_content[2]
+        context['projects_list'] = paginator_search.get_page(page)
+    return render(request, 'newsletter/projects_list.html', context)
+
+
+# 악성코드 보고서 게시물 목록
+def reports_list(request):
+    login_session = request.session.get('login_session')
+    page = request.GET.get('page', '1')
+    reports_list = reports_Post.objects.order_by('-created_datetime')  # 게시물 생성시간 역으로 불러옴
+    for reports in reports_list:
+        reports.created_datetime = datetime.strftime(reports.created_datetime, '%Y-%m-%d')
+    paginator_list = Paginator(reports_list, 10)  # 게시물 페이지 당 10개씩
+    page_obj = paginator_list.get_page(page)
+    Search_content = search(request, reports_list)
+    context = {'reports_list': page_obj,
+               'login_session': login_session}
+    if Search_content != 0:
+        paginator_search = Paginator(Search_content[1], 10)
+        context['search'] = Search_content[0]
+        context['search_type'] = Search_content[2]
+        context['reports_list'] = paginator_search.get_page(page)
+    return render(request, 'newsletter/reports_list.html', context)
+
+
+# 트렌드 게시물 상세보기
+def trends_content(request, post_id):
+    login_session = request.session.get('login_session')
+    trends = get_object_or_404(trends_Post, id=post_id)
+    trendsList = trends_Post.objects.order_by('created_datetime')
+    counter = 0
+    for trends_now in trendsList:
+        if trends_now == trends:
+            if counter + 1 >= len(trendsList):
+                trends_next = None
+            else:
+                trends_next = trendsList[counter+1]
+            if counter == 0:
+                trends_pre = None
+            else:
+                trends_pre = trendsList[counter-1]
+        counter += 1
+    trends.created_datetime = datetime.strftime(trends.created_datetime, '%Y-%m-%d %H:%M')
+    if trends.modified_datetime:
+        trends.modified_datetime = datetime.strftime(trends.modified_datetime, '%Y-%m-%d %H:%M')
+    context = {'trends': trends,
+               'login_session': login_session,
+               'trends_next': trends_next,
+               'trends_pre': trends_pre}
+    response = render(request, 'newsletter/trends_content.html', context)
+    view_counter(request, trends, response)
+    return response
+
+
+# 악성코드 보고서 게시물 상세보기
+def reports_content(request, post_id):
+    login_session = request.session.get('login_session')
+    reports = get_object_or_404(reports_Post, id=post_id)
+    reportsList = reports_Post.objects.order_by('created_datetime')
+    counter = 0
+    for reports_now in reportsList:
+        if reports_now == reports:
+            if counter + 1 >= len(reportsList):
+                reports_next = None
+            else:
+                reports_next = reportsList[counter+1]
+            if counter == 0:
+                reports_pre = None
+            else:
+                reports_pre = reportsList[counter-1]
+        counter += 1
+    reports.created_datetime = datetime.strftime(reports.created_datetime, '%Y-%m-%d %H:%M')
+    if reports.modified_datetime:
+        reports.modified_datetime = datetime.strftime(reports.modified_datetime, '%Y-%m-%d %H:%M')
+    context = {'reports': reports,
+               'login_session': login_session,
+               'reports_pre': reports_pre,
+               'reports_next': reports_next}
+    response = render(request, 'newsletter/reports_content.html', context)
+    view_counter(request, reports, response)
+    return response
+
+
+def projects_content(request, post_id):
+    login_session = request.session.get('login_session')
+    projects = get_object_or_404(projects_Post, id=post_id)
+    projectsList = projects_Post.objects.order_by('created_datetime')
+    counter = 0
+    for projects_now in projectsList:
+        if projects_now == projects:
+            if counter + 1 >= len(projectsList):
+                projects_next = None
+            else:
+                projects_next = projectsList[counter+1]
+            if counter == 0:
+                projects_pre = None
+            else:
+                projects_pre = projectsList[counter-1]
+        counter += 1
+    projects.created_datetime = datetime.strftime(projects.created_datetime, '%Y-%m-%d %H:%M')
+    if projects.modified_datetime:
+        projects.modified_datetime = datetime.strftime(projects.modified_datetime, '%Y-%m-%d %H:%M')
+    context = {'projects': projects,
+               'login_session': login_session,
+               'projects_pre': projects_pre,
+               'projects_next': projects_next}
+    response = render(request, 'newsletter/projects_content.html', context)
+    view_counter(request, projects, response)
+    return response

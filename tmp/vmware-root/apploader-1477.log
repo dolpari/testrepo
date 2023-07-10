@@ -1,0 +1,27 @@
+2023-06-18T17:40:00.251+09:00| appLoader| I120: Log for VMware Tools pid=1477 version=8.8.0 build=build-471268 option=Release
+2023-06-18T17:40:00.251+09:00| appLoader| I120: The process is 32-bit.
+2023-06-18T17:40:00.251+09:00| appLoader| I120: Host codepage=UTF-8 encoding=UTF-8
+2023-06-18T17:40:00.251+09:00| appLoader| I120: Host is Linux 3.11.0-26-generic Ubuntu 12.04.1 LTS
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Invocation: "tpvmlpd2"
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Calling: "tpvmlpd2"
+2023-06-18T17:40:00.265+09:00| appLoader| I120: VMDEVEL not set.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: VMWARE_SHIPPED_LIBS_LIST is not set.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: VMWARE_SYSTEM_LIBS_LIST is not set.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: VMWARE_USE_SHIPPED_LIBS is not set.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: VMWARE_USE_SYSTEM_LIBS is not set.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Using configuration file /etc/vmware-tools/config.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Using library directory:  /usr/lib/vmware-tools.
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Shipped glib version is 2.24
+2023-06-18T17:40:00.265+09:00| appLoader| I120: System glib version is 2.32
+2023-06-18T17:40:00.265+09:00| appLoader| I120: Using system version of glib.
+2023-06-18T17:40:00.266+09:00| appLoader| I120: Marking libtpvmlpd2.so node as INVALID.
+2023-06-18T17:40:00.267+09:00| appLoader| I120: Marking libz.so.1 node as INVALID.
+2023-06-18T17:40:00.267+09:00| appLoader| I120: Created dependency tree.
+2023-06-18T17:40:00.267+09:00| appLoader| I120: Marking libtpvmlpd2.so node as SHIPPED.
+2023-06-18T17:40:00.267+09:00| appLoader| I120: Marking libz.so.1 node as SYSTEM.
+2023-06-18T17:40:00.267+09:00| appLoader| I120: libtpvmlpd2.so <SHIPPED>
+2023-06-18T17:40:00.267+09:00| appLoader| I120: libz.so.1 <SYSTEM>
+2023-06-18T17:40:00.268+09:00| appLoader| I120: Shipped glib version is 2.24
+2023-06-18T17:40:00.268+09:00| appLoader| I120: System glib version is 2.32
+2023-06-18T17:40:00.268+09:00| appLoader| I120: Using system version of glib.
+2023-06-18T17:40:00.268+09:00| appLoader| I120: Loading system version of libz.so.1.

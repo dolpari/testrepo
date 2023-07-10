@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+{% extends 'newsletter/base.html' %}
+{% load static %}
+<body style="font-family: 'SCDream4';">
+  {% block content %}
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/static/intro/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <section class="page-section" id="services">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">주요 활동</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row mt-lg-5 text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-user-secret fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">사이버 공격자 추적 </h4>
+            <p class="text-muted">점차 고도화 되어가는 사이버공격을 효과적으로 예방하고, 침해사고 발생시 해커그룹 등 사이버 범죄자들을 보다 신속히 추적하기 위한 능력 확보</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-bug fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">악성코드 분석</h4>
+            <p class="text-muted">지속적으로 진화하고 고도화되고있는 악성코드를 분석하고 이에 맞춰 대응법을 갖추기 위한 실무 능력 확보</p>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">취약점 분석</h4>
+            <p class="text-muted">시스템, 네트워크, 응용프로그램의 취약점을 분석하여 정보시스템의 정상적인 서비스를 방해하는 위협요소 방지</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-light" id="portfolio">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">프로젝트</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/phishing.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">모바일 악성코드 크롤러</div>
+                <div class="portfolio-caption-subheading text-muted">Crawler</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 2-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/AI.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">머신러닝</div>
+                <div class="portfolio-caption-subheading text-muted">Machine Learning</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 3-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/DynamicAnalysis.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">모바일 악성코드 동적분석</div>
+                <div class="portfolio-caption-subheading text-muted">Dynamic Analysis</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/DFATT&CK.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">프레임워크 구축</div>
+                <div class="portfolio-caption-subheading text-muted">Development</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <!-- Portfolio item 5-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/antivirus.png" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Antivirus 오픈소스</div>
+                <div class="portfolio-caption-subheading text-muted">Open-Source Software</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Portfolio item 6-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/web.jpg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">웹 개발</div>
+                <div class="portfolio-caption-subheading text-muted">Website Design</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <!-- Portfolio item 7-->
+            <div class="portfolio-item">
+              <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                </div>
+                <img class="img-fluid" src="/static/intro/img/portfolio/traning.jpeg" alt="..." />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">기초교육</div>
+                <div class="portfolio-caption-subheading text-muted">Traning</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">연혁</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="/static/intro/img/about/1.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2013.12.05</h4>
+                <h4 class="subheading">사이버보안연구센터 설립</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">최근 지능화된 사이버 위협 및 사이버전 대응 능력 확보
+                및 국내외 유관기관과의 사이버 보안 협력 강화
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="/static/intro/img/about/2.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2014.12.03</h4>
+                <h4 class="subheading">SCH 사이버보안연구센터 컨퍼러스 <br>개최</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">사이버전과 APT의 악성코드를 분석하고 연구하는 <br>SCH사이버보안연구센터의 주요 악성코드 정보를 <br>공유하는 컨퍼러스 개최</p></div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="/static/intro/img/about/3.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2017.12.29</h4>
+                <h4 class="subheading">더블체인과 블록체인 협약체결</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">블록체인보안 전문인력 양성을 위한 더블체인과의 협약 </p></div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image"><img class="rounded-circle img-fluid" src="/static/intro/img/about/4.jpg" alt="..." /></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>2021~</h4>
+                <h4 class="subheading">SCH사이버보안연구센터의 방향성</h4>
+              </div>
+              <div class="timeline-body"><p class="text-muted">SCH 사이버보안연구센터는 글로벌 수준의 사이버전 대응 능력을 확보하기위해 악성코드분석, 조기탐지, 사전 예측, 활동 추적 등 효과적 대응으로 구성되는 사이버 공격 대응 프레임워크에 대한 연구 및 실무 능력을 확보할예정.</p></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">연구원</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>김동언</h4>
+              <p class="text-muted">14기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="https://www.naver.com"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>차현석</h4>
+              <p class="text-muted">15기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>서성환[팀장]</h4>
+              <p class="text-muted">15기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>박준형</h4>
+              <p class="text-muted">16기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>이수지</h4>
+              <p class="text-muted">16기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>안병열</h4>
+              <p class="text-muted">17기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>이익규</h4>
+              <p class="text-muted">17기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>송현호</h4>
+              <p class="text-muted">18기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="/static/intro/img/team/1.jpg" alt="..." />
+              <h4>신동호</h4>
+              <p class="text-muted">18기 연구원</p>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fa fa-user-circle"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+              <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"><strong>SCH 사이버보안연구센터는 열정있는 신입 연구원을 기다리고 있습니다.</strong></p></div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Mobile malware Crawler</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/phishing.png" alt="..." />
+                  <p> <strong>국내로 들어오는 스미싱 공격의 경우 피싱 사이트를 통해 유포되는 것이 대다수이다.<br>
+                  이를 이용하여 공격에 자주 사용되는 IP 대역을 선제적으로 탐지하여 유포되는 APK를 수집 및 분석하고,<br>
+                  민간 피해 감소 및 신규 동향 파악을 목표로 한다.</strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      서성환
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      Crawler
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">machine learning</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/AI.jpg" alt="..." />
+                  <p><strong>주로 사회공학적 기법으로 유포되는 문서형 악성코드를 대상으로 악성코드 탐지 모델을 개발한다.<br>
+                  이를 무해화 기술인 CDR과 결합하여 문서형 악성코드 판별 근거를 보여주고,<br>
+                    안전한 파일로 재구성 및 제공해주는 솔루션 개발을 목표로 한다.</strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      이수지
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      Machine learning
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Dynamic Analysis</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/DynamicAnalysis.jpg" alt="..." />
+                  <p><strong>현재 여러 모바일 악성코드 탐지 플랫폼이 존재하나, <br>
+                    분석가 및 보안 관련 종사자가 아닌 이상 이해하기 어려운 형태의 보고서를 제공하고 있다.<br>
+                  이를 해결하고자 XAI를 적용하여 설명 가능한 분석 결과를 제공할 수 있도록 하고<br>
+                  기존과 다른 모바일 악성코드 분석 및 탐지 플랫폼 구축을 목표로 한다.</strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      안병열
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      Dynamic Analysis
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Framework Development</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/DFATT&CK.png" alt="..." />
+                  <p><strong>현재 기업 및 공공기관에서는 Mitre Att&CK을 사용하여 침해사고를 분석 및 대응하지만,<br>내부 정보 유출 사고에 대해서는 다루지 않는다.<br>
+                  해당 프로젝트는 Mitre ATT&CK 기반 디지털포렌식관점의 정보 유출 프레임워크를 구축하여<br>내/외부 정보 유출에 대한 보안 향상에 기여하고자 하는 프로젝트이다. </strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      이익규
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      Development
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Antivirus Open-Source</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/antivirus.png" alt="..." />
+                  <p> <strong>Python을 통해 개발된 KICOM AV 오픈소스 프로젝트에 대한<br>
+                    버그수정, 악성코드 패턴 추가 등을 통해 해당 AV의 완성도와 성능 향상을 목표로 한다.</strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      신동호
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      Open-Source
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Web Programing</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/web.jpg" alt="..." />
+                  <p><strong>센터 홈페이지 개발 및 유지 보수 지속적으로 개발예정</strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>담당 연구원:</strong>
+                      이수지
+                    </li>
+                    <li>
+                      <strong>대분류:</strong>
+                      웹 개발
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 7 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal"><img src="/static/intro/img/close-icon.svg" alt="Close modal" /></div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">기초 교육</h2>
+                  <p class="item-intro text-muted"></p>
+                  <img class="img-fluid d-block mx-auto" src="/static/intro/img/portfolio/traning.jpeg" alt="..." />
+                  <p> <strong>실무능력의 확보를 위한 악성코드와 Exploit Kit에 대한 기초교육 </strong></p>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>악성코드 담당 연구원:</strong>
+                      서성환
+                    </li>
+                    <li>
+                      <strong>EK 담당 연구원:</strong>
+                      박준형
+                    </li>
+                    <li>
+                      <strong>신입 연구원:</strong>
+                      송현호, 신동호
+                    </li>
+                  </ul>
+                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                    <i class="fas fa-times me-1"></i>
+                    Close Project
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endblock %}
+</body>
+</html>
