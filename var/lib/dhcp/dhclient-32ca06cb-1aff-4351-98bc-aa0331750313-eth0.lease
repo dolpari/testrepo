@@ -1,0 +1,128 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.134;
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 1800;
+  option routers 192.168.187.2;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 192.168.187.254;
+  option domain-name-servers 192.168.187.2;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 13:00:15;
+  rebind 1 2015/12/28 13:12:31;
+  expire 1 2015/12/28 13:16:16;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.134;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 04:46:57;
+  rebind 1 2015/12/28 05:00:01;
+  expire 1 2015/12/28 05:03:46;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 05:45:16;
+  rebind 1 2015/12/28 05:57:44;
+  expire 1 2015/12/28 06:01:29;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 05:57:41;
+  rebind 1 2015/12/28 06:11:31;
+  expire 1 2015/12/28 06:15:16;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 06:10:16;
+  rebind 1 2015/12/28 06:23:56;
+  expire 1 2015/12/28 06:27:41;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 06:22:48;
+  rebind 1 2015/12/28 06:36:31;
+  expire 1 2015/12/28 06:40:16;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 06:35:45;
+  rebind 1 2015/12/28 06:49:03;
+  expire 1 2015/12/28 06:52:48;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.187.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.187.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.187.2;
+  option dhcp-server-identifier 192.168.187.254;
+  option broadcast-address 192.168.187.255;
+  option netbios-name-servers 192.168.187.2;
+  option domain-name "localdomain";
+  renew 1 2015/12/28 06:48:53;
+  rebind 1 2015/12/28 07:02:00;
+  expire 1 2015/12/28 07:05:45;
+}

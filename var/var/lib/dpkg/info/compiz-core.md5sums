@@ -1,0 +1,17 @@
+76a15c14eb54cde06e54bfb0636528f7  usr/bin/compiz
+47d01e67352b686557c9f472c7088af8  usr/bin/compiz-decorator
+f255ff2ecf7f9ead9dd7b33417418cde  usr/lib/libcompiz_core.so.0.9.7.8
+a18fe65800237c7fa87f4b0d7eb1dfb3  usr/share/applications/compiz.desktop
+275d04f9f6dd07d5da1cb84ff70a2ce2  usr/share/apport/package-hooks/source_compiz.py
+5bff00f0794fb856f90f20a546584a97  usr/share/compiz/core.xml
+71ffa91ff2be3ea713561674030a0dae  usr/share/compiz/cube/images/freedesktop.png
+4f499fce806fc394bb9930388d006328  usr/share/compiz/icon.png
+03eae3106cba40521d29e51d781f1878  usr/share/doc/compiz-core/AUTHORS.gz
+d9aab211899ac8d30b0df1ce2b6ba2c1  usr/share/doc/compiz-core/NEWS.gz
+6fd0e2246177d5126525d5ae170558c4  usr/share/doc/compiz-core/README
+919b819b461a7141fc615417c52ab968  usr/share/doc/compiz-core/README.Debian
+233990cbb3e179201d7cc3976d8f9634  usr/share/doc/compiz-core/TODO
+bfa2a0530323717ad979228715eaa109  usr/share/doc/compiz-core/changelog.Debian.gz
+6a25c0ee72a4fedd5e9cf898940e8509  usr/share/doc/compiz-core/copyright
+b2761dee39327eb0a48a0cee870c35e3  usr/share/man/man1/compiz-decorator.1.gz
+c85bb7ab98444273d3b15cc92223617d  usr/share/man/man1/compiz.1.gz

@@ -1,0 +1,669 @@
+[Mon Jul 10 17:51:49.814635 2023] [mpm_prefork:notice] [pid 28049] AH00163: Apache/2.4.7 (Ubuntu) PHP/5.5.9-1ubuntu4.11 configured -- resuming normal operations
+[Mon Jul 10 17:51:49.814690 2023] [core:notice] [pid 28049] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Jul 10 17:51:56.912250 2023] [:error] [pid 28053] [client 192.168.211.1:61255] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 17:51:58.150177 2023] [:error] [pid 28061] [client 192.168.211.1:61260] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 17:52:10.068759 2023] [:error] [pid 28063] [client 192.168.211.1:61262] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 17:54:44.862563 2023] [:error] [pid 28054] [client 192.168.211.1:61414] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 17:54:52.273173 2023] [:error] [pid 28068] [client 192.168.211.1:61419] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 17:58:11.745451 2023] [:error] [pid 28054] [client 192.168.211.1:61602] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 17:58:14.117798 2023] [:error] [pid 28065] [client 192.168.211.1:61607] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 17:58:15.814860 2023] [:error] [pid 28064] [client 192.168.211.1:61603] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 17:58:16.096900 2023] [:error] [pid 28054] [client 192.168.211.1:61602] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 17:58:36.492066 2023] [:error] [pid 28067] [client 192.168.211.1:61608] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:01:24.334393 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:01:26.491809 2023] [:error] [pid 28064] [client 192.168.211.1:61754] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:27.360604 2023] [:error] [pid 28074] [client 192.168.211.1:61758] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:01:29.560511 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:01:30.309855 2023] [:error] [pid 28067] [client 192.168.211.1:61759] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:01:32.193519 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:32.193547 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:32.196122 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:32.196149 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:32.196156 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:32.196161 2023] [:error] [pid 28054] [client 192.168.211.1:61753] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895648 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895695 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895726 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895734 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895745 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:41.895753 2023] [:error] [pid 28065] [client 192.168.211.1:61755] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683486 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683512 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683528 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683535 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683541 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:42.683546 2023] [:error] [pid 28053] [client 192.168.211.1:61779] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304740 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304792 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304836 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304847 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304854 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:01:43.304872 2023] [:error] [pid 28181] [client 192.168.211.1:61781] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:02:30.135005 2023] [:error] [pid 28066] [client 192.168.211.1:61778] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:42.206083 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:42.206136 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:42.206232 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:42.206246 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:42.206252 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:42.206258 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:07:44.099775 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:44.099800 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:44.099815 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:44.099823 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:44.099829 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:07:44.099835 2023] [:error] [pid 28057] [client 192.168.211.1:62116] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:09:14.241258 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 18:09:14.241338 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 18:09:14.241365 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 18:09:14.241374 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 18:09:14.241382 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 18:09:14.241390 2023] [:error] [pid 28067] [client 61.248.224.18:5526] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 18:09:59.754672 2023] [:error] [pid 28181] [client 192.168.211.1:62123] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:11:20.484692 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 18:11:20.484923 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 18:11:20.485014 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 18:11:20.485048 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 18:11:20.485077 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 18:11:20.485104 2023] [:error] [pid 28054] [client 85.133.221.67:53730] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 18:11:30.347374 2023] [:error] [pid 28053] [client 192.168.211.1:62319] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:11:30.970905 2023] [:error] [pid 28183] [client 192.168.211.1:62323] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:11:33.258041 2023] [:error] [pid 28065] [client 192.168.211.1:62324] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:11:36.777858 2023] [:error] [pid 28067] [client 192.168.211.1:62320] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:11:37.251387 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:11:37.251461 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:11:37.251543 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:11:37.251568 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:11:37.251588 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:11:37.251607 2023] [:error] [pid 28061] [client 192.168.211.1:62321] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:12:36.706585 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 18:12:36.706696 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 18:12:36.706787 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 18:12:36.706822 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 18:12:36.706852 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 18:12:36.706881 2023] [:error] [pid 28064] [client 219.79.184.94:56983] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 18:12:46.033460 2023] [:error] [pid 28057] [client 192.168.211.1:62336] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:13:12.612222 2023] [:error] [pid 28061] [client 192.168.211.1:62418] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:13:13.450999 2023] [:error] [pid 28065] [client 192.168.211.1:62419] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:13:13.859040 2023] [:error] [pid 28061] [client 192.168.211.1:62418] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:13:16.100827 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:16.100853 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:16.100872 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:16.100879 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:16.100885 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:16.100890 2023] [:error] [pid 28053] [client 192.168.211.1:62420] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:13:56.875922 2023] [:error] [pid 28065] [client 192.168.211.1:62419] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:14:42.546844 2023] [:error] [pid 28202] [client 192.168.211.1:62466] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:43.341151 2023] [:error] [pid 28061] [client 192.168.211.1:62504] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:14:50.776854 2023] [:error] [pid 28053] [client 192.168.211.1:62515] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:14:53.099745 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:53.099785 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:53.099830 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:53.099841 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:53.099847 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:14:53.099853 2023] [:error] [pid 28200] [client 192.168.211.1:62517] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:21.186061 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:16:24.371442 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:24.371486 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:24.371510 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:24.371518 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:24.371523 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:24.371529 2023] [:error] [pid 28185] [client 192.168.211.1:62520] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.131829 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.131990 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.132247 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.132304 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.132335 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:16:33.132365 2023] [:error] [pid 28203] [client 192.168.211.1:62519] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907290 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907340 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907381 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907389 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907395 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:15.907401 2023] [:error] [pid 28202] [client 192.168.211.1:62733] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:27:18.707921 2023] [:error] [pid 28185] [client 192.168.211.1:62740] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:41:20.772392 2023] [:error] [pid 28204] [client 192.168.211.1:63460] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:41:43.201565 2023] [:error] [pid 28185] [client 192.168.211.1:63467] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:41:46.719609 2023] [:error] [pid 28459] [client 192.168.211.1:63500] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:44:44.989838 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:44:44.989866 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:44:44.989886 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:44:44.989893 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:44:44.989899 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:44:44.989905 2023] [:error] [pid 28202] [client 192.168.211.1:63652] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:45:19.742501 2023] [:error] [pid 28460] [client 192.168.211.1:63656] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:45:22.706728 2023] [:error] [pid 28181] [client 192.168.211.1:63687] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:45:24.629875 2023] [:error] [pid 28460] [client 192.168.211.1:63656] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 18:45:26.545952 2023] [:error] [pid 28181] [client 192.168.211.1:63687] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:45:29.044294 2023] [:error] [pid 28181] [client 192.168.211.1:63687] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:45:31.760136 2023] [:error] [pid 28053] [client 192.168.211.1:63653] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:45:34.820226 2023] [:error] [pid 28459] [client 192.168.211.1:63688] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:50:23.045689 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 18:50:23.045785 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 18:50:23.045875 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 18:50:23.045911 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 18:50:23.045940 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 18:50:23.045969 2023] [:error] [pid 28202] [client 125.138.133.213:49925] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 18:50:30.088878 2023] [:error] [pid 28460] [client 125.138.133.213:49944] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:50:42.202492 2023] [:error] [pid 28802] [client 125.138.133.213:49949] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:50:48.339889 2023] [:error] [pid 28053] [client 125.138.133.213:49979] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 18:51:42.394236 2023] [:error] [pid 28202] [client 192.168.211.1:64013] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 18:51:45.835670 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:45.835696 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:45.835716 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:45.835722 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:45.835728 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:45.835734 2023] [:error] [pid 28181] [client 192.168.211.1:64020] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992338 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992360 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992381 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992389 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992396 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:52.992402 2023] [:error] [pid 28200] [client 192.168.211.1:64019] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 18:51:54.597186 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:51:54.597236 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:51:54.597269 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:51:54.597287 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:51:54.597302 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:51:54.597334 2023] [:error] [pid 28064] [client 192.168.211.1:64035] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624168 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624209 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624252 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624264 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624270 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:27.624275 2023] [:error] [pid 28265] [client 192.168.211.1:64036] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368536 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368577 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368600 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368610 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368618 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:52:28.368626 2023] [:error] [pid 28460] [client 192.168.211.1:64065] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962466 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962508 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962551 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962562 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962568 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:56:32.962574 2023] [:error] [pid 28856] [client 192.168.211.1:64066] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:27.138316 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 18:58:27.138343 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 18:58:27.138363 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 18:58:27.138380 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 18:58:27.138386 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 18:58:27.138391 2023] [:error] [pid 28200] [client 192.168.211.2:64698] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 18:58:37.490161 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:37.490187 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:37.490207 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:37.490215 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:37.490221 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 18:58:37.490227 2023] [:error] [pid 28202] [client 192.168.211.1:64709] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512871 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512913 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512958 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512969 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512975 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:03:55.512981 2023] [:error] [pid 28576] [client 192.168.211.1:64734] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555735 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555760 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555779 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555787 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555793 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:04:01.555799 2023] [:error] [pid 28064] [client 192.168.211.1:64741] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481778 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481814 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481834 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481842 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481848 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:02.481853 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:08.508297 2023] [:error] [pid 28576] [client 192.168.211.1:64761] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:07:12.690395 2023] [:error] [pid 28200] [client 192.168.211.1:64762] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:07:13.462493 2023] [:error] [pid 28053] [client 192.168.211.1:64772] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:07:14.614609 2023] [:error] [pid 28202] [client 192.168.211.1:64784] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:07:16.746486 2023] [:error] [pid 28064] [client 192.168.211.1:64783] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:10:36.284704 2023] [:error] [pid 28802] [client 192.168.211.1:64961] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:11:52.431917 2023] [:error] [pid 28053] [client 192.168.211.1:65035] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:15:01.974785 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:15:01.974878 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:15:01.974969 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:15:01.975005 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:15:01.975035 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:15:01.975065 2023] [:error] [pid 28181] [client 85.133.221.67:47746] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:15:37.828834 2023] [:error] [pid 28802] [client 192.168.211.1:65231] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:16:22.781080 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:16:26.652059 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:26.652158 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:26.652235 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:26.652259 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:26.652278 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:26.652297 2023] [:error] [pid 29070] [client 192.168.211.1:65236] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:32.376490 2023] [:error] [pid 28064] [client 192.168.211.1:65291] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:16:33.189088 2023] [:error] [pid 28053] [client 192.168.211.1:65296] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:35.825325 2023] [:error] [pid 28064] [client 192.168.211.1:65291] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:16:36.524347 2023] [:error] [pid 28802] [client 192.168.211.1:65292] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:16:53.949740 2023] [:error] [pid 28576] [client 192.168.211.1:65298] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:16:56.212868 2023] [:error] [pid 28856] [client 192.168.211.1:65300] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 19:16:58.082069 2023] [:error] [pid 29070] [client 192.168.211.1:65303] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:17:01.094539 2023] [:error] [pid 28856] [client 192.168.211.1:65300] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:17:01.384348 2023] [:error] [pid 28064] [client 192.168.211.1:65301] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:17:02.080882 2023] [:error] [pid 29070] [client 192.168.211.1:65303] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:17:11.856793 2023] [:error] [pid 28460] [client 192.168.211.1:65304] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:19:00.983896 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:19:00.983965 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:19:00.984026 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:19:00.984050 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:19:00.984090 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:19:00.984108 2023] [:error] [pid 28576] [client 125.138.133.213:52447] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:19:24.130151 2023] [:error] [pid 28460] [client 125.138.133.213:52482] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 19:19:26.622508 2023] [:error] [pid 28802] [client 125.138.133.213:52483] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:19:50.301134 2023] [:error] [pid 28181] [client 125.138.133.213:52522] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 19:19:51.371794 2023] [:error] [pid 28802] [client 125.138.133.213:52524] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:19:52.146879 2023] [:error] [pid 28576] [client 125.138.133.213:52525] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:19:58.454994 2023] [:error] [pid 29235] [client 192.168.211.1:65318] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:24:24.836371 2023] [:error] [pid 28181] [client 192.168.211.1:65467] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 19:25:26.621092 2023] [:error] [pid 28202] [client 192.168.211.1:65484] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:27:36.604135 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:27:36.604350 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:27:36.604568 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:27:36.604623 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:27:36.604654 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:27:36.604683 2023] [:error] [pid 29241] [client 87.236.176.242:44047] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:42:31.949041 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:42:31.949156 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:42:31.949265 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:42:31.949301 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:42:31.949331 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:42:31.949361 2023] [:error] [pid 29235] [client 149.50.103.48:42914] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:51:26.856345 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:51:26.856470 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:51:26.856562 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:51:26.856596 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:51:26.856625 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:51:26.856653 2023] [:error] [pid 28181] [client 167.94.146.55:36030] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:51:30.687613 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:51:30.687639 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:51:30.687658 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:51:30.687665 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:51:30.687670 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:51:30.687675 2023] [:error] [pid 28460] [client 167.94.146.55:51768] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:53:35.971142 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:53:35.971180 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:53:35.971248 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:53:35.971260 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:53:35.971268 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:53:35.971276 2023] [:error] [pid 29241] [client 83.97.73.245:49580] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 19:56:20.020090 2023] [:error] [pid 29234] [client 192.168.211.1:50743] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:56:54.072967 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:56:54.072999 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:56:54.073019 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:56:54.073027 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:56:54.073033 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:56:54.073039 2023] [:error] [pid 28460] [client 192.168.211.1:50750] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 19:57:57.803428 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 19:57:57.803463 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 19:57:57.803482 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 19:57:57.803489 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 19:57:57.803495 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 19:57:57.803500 2023] [:error] [pid 28181] [client 192.168.211.2:50825] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:01:17.363491 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:01:17.363518 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:01:17.363538 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:01:17.363545 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:01:17.363561 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:01:17.363567 2023] [:error] [pid 28202] [client 192.168.211.2:50972] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:01:26.335859 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:01:26.335896 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:01:26.335928 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:01:26.335941 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:01:26.335951 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:01:26.335960 2023] [:error] [pid 29241] [client 192.168.211.2:51023] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:01:39.510607 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:01:39.510640 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:01:39.510669 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:01:39.510681 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:01:39.510690 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:01:39.510699 2023] [:error] [pid 28576] [client 125.138.133.213:56409] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:01:41.626031 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://localhost/
+[Mon Jul 10 20:01:42.390029 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://localhost/?page=prize
+[Mon Jul 10 20:02:00.943989 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:00.944017 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:00.944038 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:00.944045 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:00.944051 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:00.944058 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236920 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236949 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236969 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236978 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236984 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:07.236991 2023] [:error] [pid 28460] [client 192.168.211.2:51024] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://localhost/?page=poster
+[Mon Jul 10 20:02:10.752124 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:10.752157 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:10.752204 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:10.752215 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:10.752222 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:10.752227 2023] [:error] [pid 29240] [client 192.168.211.1:51066] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:22.300774 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:02:22.301023 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:02:22.301235 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:02:22.301292 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:02:22.301356 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:02:22.301385 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:02:26.585212 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:02:26.585238 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:02:26.585256 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:02:26.585262 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:02:26.585268 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:02:26.585274 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:02:28.519394 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:02:28.519420 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:02:28.519434 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:02:28.519441 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:02:28.519447 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:02:28.519453 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:02:29.789275 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:02:29.789312 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:02:29.789330 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:02:29.789337 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:02:29.789343 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:02:29.789349 2023] [:error] [pid 29421] [client 192.168.211.2:51088] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:02:33.298969 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.299036 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.299133 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.299147 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.299155 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.299172 2023] [:error] [pid 29422] [client 192.168.211.1:51091] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:02:33.847641 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:02:33.847665 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:02:33.847678 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:02:33.847685 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:02:33.847691 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:02:33.847697 2023] [:error] [pid 28202] [client 125.138.133.213:56510] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:02:37.193121 2023] [:error] [pid 28460] [client 192.168.211.1:51090] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:02:38.765685 2023] [:error] [pid 29424] [client 125.138.133.213:56514] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:02:45.768918 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:45.768979 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:45.769025 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:45.769036 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:45.769042 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:45.769047 2023] [:error] [pid 29426] [client 192.168.211.1:51096] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:50.716577 2023] [:error] [pid 29422] [client 125.138.133.213:56529] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:02:54.895183 2023] [:error] [pid 28576] [client 125.138.133.213:56542] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348408 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348482 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348541 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348567 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348613 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:14.348633 2023] [:error] [pid 29421] [client 192.168.211.1:51098] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:26.348856 2023] [:error] [pid 28576] [client 192.168.211.1:51103] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:03:37.092736 2023] [:error] [pid 29419] [client 192.168.211.1:51111] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:03:38.127514 2023] [:error] [pid 29422] [client 192.168.211.1:51112] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:40.830204 2023] [:error] [pid 29423] [client 192.168.211.1:51114] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:03:41.751042 2023] [:error] [pid 29421] [client 192.168.211.1:51113] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:03:43.369430 2023] [:error] [pid 29428] [client 192.168.211.1:51115] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:03:48.908225 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:03:48.908377 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:03:48.908471 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:03:48.908515 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:03:48.908546 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:03:48.908575 2023] [:error] [pid 28202] [client 83.97.73.245:41688] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:03:49.217008 2023] [:error] [pid 29423] [client 192.168.211.1:51114] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:03:49.954165 2023] [:error] [pid 29240] [client 192.168.211.1:51117] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:04:11.472413 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:11.472444 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:11.472467 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:11.472474 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:11.472480 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:11.472495 2023] [:error] [pid 29234] [client 192.168.211.1:51122] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:16.822354 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:04:16.822391 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:04:16.822423 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:04:16.822435 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:04:16.822445 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:04:16.822454 2023] [:error] [pid 28576] [client 222.239.104.207:32969] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:04:17.179176 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:17.179251 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:17.179289 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:17.179300 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:17.179306 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:04:17.179311 2023] [:error] [pid 29433] [client 192.168.211.1:51127] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:05:11.045525 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:11.045619 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:11.045730 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:11.045759 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:11.045775 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:11.045790 2023] [:error] [pid 29432] [client 106.101.129.182:56310] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270499 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270547 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270600 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270623 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270631 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:17.270637 2023] [:error] [pid 29427] [client 106.101.129.182:56324] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: https://l.facebook.com/
+[Mon Jul 10 20:05:35.528035 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:35.528056 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:35.528074 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:35.528080 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:35.528086 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:35.528092 2023] [:error] [pid 28576] [client 192.168.211.1:51193] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:38.562699 2023] [:error] [pid 29421] [client 192.168.211.1:51201] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:05:39.443298 2023] [:error] [pid 29240] [client 192.168.211.1:51200] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=intro
+[Mon Jul 10 20:06:06.049994 2023] [:error] [pid 29447] [client 106.101.129.182:56395] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:09.860794 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:09.860833 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:09.860876 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:09.860887 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:09.860893 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:09.860899 2023] [:error] [pid 29448] [client 192.168.211.1:51205] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:19.518097 2023] [:error] [pid 29431] [client 106.101.129.182:56404] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:06:24.129795 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:24.129823 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:24.129852 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:24.129859 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:24.129864 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:24.129870 2023] [:error] [pid 29428] [client 192.168.211.1:51207] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:28.517502 2023] [:error] [pid 29430] [client 192.168.211.1:51215] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:06:32.082784 2023] [:error] [pid 29432] [client 192.168.211.1:51218] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:06:41.231332 2023] [:error] [pid 29431] [client 106.101.129.182:56414] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388128 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388185 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388228 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388239 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388245 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:05.388251 2023] [:error] [pid 29453] [client 192.168.211.1:51221] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:44.006867 2023] [:error] [pid 29452] [client 106.101.129.182:56423] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:08:49.568116 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:49.568234 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:49.568364 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:49.568399 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:49.568420 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:49.568441 2023] [:error] [pid 29445] [client 192.168.211.1:51227] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:08:52.951974 2023] [:error] [pid 29432] [client 106.101.129.182:56429] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:09:51.928861 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:09:51.928908 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:09:51.929005 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:09:51.929023 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:09:51.929031 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:09:51.929038 2023] [:error] [pid 29456] [client 192.168.211.1:51266] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850929 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850957 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850976 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850983 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850989 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:10:39.850995 2023] [:error] [pid 28576] [client 192.168.211.1:51324] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:32.528640 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:11:32.528710 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:11:32.528783 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:11:32.528806 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:11:32.528825 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:11:32.528843 2023] [:error] [pid 29447] [client 149.50.103.48:42838] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:11:44.476208 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:44.476229 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:44.476249 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:44.476264 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:44.476270 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:11:44.476276 2023] [:error] [pid 29445] [client 192.168.211.1:51369] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054702 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054735 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054766 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054776 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054782 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.054788 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988466 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988487 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988502 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988509 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988516 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:22.988522 2023] [:error] [pid 29432] [client 192.168.211.1:51565] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494868 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494889 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494903 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494910 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494916 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:14:23.494932 2023] [:error] [pid 28576] [client 192.168.211.1:51533] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751095 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751123 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751143 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751150 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751156 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:15:50.751162 2023] [:error] [pid 29460] [client 192.168.211.1:51532] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:18:04.014776 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:18:04.014824 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:18:04.014877 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:18:04.014891 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:18:04.014900 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:18:04.014908 2023] [:error] [pid 29455] [client 66.240.236.116:45374] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:19:39.832820 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:19:39.832863 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:19:39.832908 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:19:39.832919 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:19:39.832925 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:19:39.832931 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195372 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195401 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195421 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195438 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195444 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:21:45.195450 2023] [:error] [pid 29450] [client 192.168.211.1:51834] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868186 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868217 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868238 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868246 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868252 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:23:18.868258 2023] [:error] [pid 29455] [client 192.168.211.1:52038] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.629929 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.630001 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.630061 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.630081 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.630096 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:01.630112 2023] [:error] [pid 29452] [client 192.168.211.1:51962] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:26:22.332621 2023] [:error] [pid 29450] [client 192.168.211.1:52185] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:28.541936 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:28.541964 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:28.541984 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:28.541991 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:28.542005 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:28.542011 2023] [:error] [pid 29447] [client 192.168.211.1:52364] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:44.987846 2023] [:error] [pid 29445] [client 192.168.211.1:52369] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:53.994291 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:53.994318 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:53.994338 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:53.994345 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:53.994350 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:53.994356 2023] [:error] [pid 29445] [client 192.168.211.1:52373] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:29:59.209900 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:59.209925 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:59.209946 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:59.209953 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:59.209959 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:29:59.209964 2023] [:error] [pid 29452] [client 192.168.211.1:52380] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:55.960349 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:55.960390 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:55.960418 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:55.960427 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:55.960435 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:55.960442 2023] [:error] [pid 29447] [client 192.168.211.2:52428] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://localhost/?page=poster
+[Mon Jul 10 20:31:59.794119 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:59.794146 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:59.794166 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:59.794173 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:59.794179 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:31:59.794184 2023] [:error] [pid 29445] [client 192.168.211.1:52431] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122251 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122280 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122301 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122309 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122315 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:41:58.122321 2023] [:error] [pid 29445] [client 192.168.211.1:52544] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570526 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570556 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570578 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570587 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570594 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:02.570601 2023] [:error] [pid 29460] [client 192.168.211.1:52574] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:09.393112 2023] [:error] [pid 29450] [client 192.168.211.1:52588] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:42:11.382764 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:11.382790 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:11.382823 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:11.382831 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:11.382837 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:11.382842 2023] [:error] [pid 29447] [client 192.168.211.1:52591] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:12.007652 2023] [:error] [pid 29523] [client 125.138.133.213:60372] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:42:14.985241 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:42:17.401160 2023] [:error] [pid 29523] [client 125.138.133.213:60372] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:42:19.748276 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:19.748342 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:19.748441 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:19.748465 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:19.748483 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:19.748501 2023] [:error] [pid 29665] [client 125.138.133.213:60378] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:42:36.243851 2023] [:error] [pid 29447] [client 125.138.133.213:60412] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:44:37.335824 2023] [:error] [pid 29674] [client 125.138.133.213:60681] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:46:17.446722 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:17.447063 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:17.447144 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:17.447156 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:17.447162 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:17.447299 2023] [:error] [pid 28576] [client 192.168.211.1:52609] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:46:26.898034 2023] [:error] [pid 29523] [client 192.168.211.1:52613] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:46:30.108450 2023] [:error] [pid 29674] [client 192.168.211.1:52614] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:48:13.618586 2023] [cgi:error] [pid 28576] [client 45.148.10.202:42410] script not found or unable to stat: /usr/lib/cgi-bin/luci
+[Mon Jul 10 20:48:14.093132 2023] [cgi:error] [pid 29664] [client 45.148.10.202:42422] script not found or unable to stat: /usr/lib/cgi-bin/luci
+[Mon Jul 10 20:49:19.678674 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:49:19.678704 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:49:19.678722 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:49:19.678728 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:49:19.678733 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:49:19.678737 2023] [:error] [pid 29445] [client 125.138.133.213:52850] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:49:22.971175 2023] [:error] [pid 29674] [client 125.138.133.213:52859] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/
+[Mon Jul 10 20:50:31.646002 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:50:31.646258 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:50:31.646474 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:50:31.646530 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:50:31.646561 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:50:31.646591 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:50:34.957074 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:50:34.957164 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 18
+[Mon Jul 10 20:50:34.957247 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 55
+[Mon Jul 10 20:50:34.957281 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 58
+[Mon Jul 10 20:50:34.957311 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 64
+[Mon Jul 10 20:50:34.957340 2023] [:error] [pid 29679] [client 164.52.25.202:57979] PHP Notice:  Undefined index: page in /var/www/index.php on line 68
+[Mon Jul 10 20:50:42.237664 2023] [:error] [pid 29432] [client 125.138.133.213:61299] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:50:42.929763 2023] [:error] [pid 29445] [client 125.138.133.213:61303] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:50:43.500041 2023] [:error] [pid 29677] [client 125.138.133.213:61304] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:50:43.757496 2023] [:error] [pid 29445] [client 125.138.133.213:61303] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:50:47.073894 2023] [:error] [pid 29432] [client 125.138.133.213:61299] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:50:47.877404 2023] [:error] [pid 29455] [client 125.138.133.213:61306] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:51:10.885133 2023] [:error] [pid 29688] [client 192.168.211.1:52659] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:51:34.800040 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=join
+[Mon Jul 10 20:51:35.519873 2023] [:error] [pid 29445] [client 192.168.211.1:52675] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:51:38.182617 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:38.182684 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Undefined index: page in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:38.182749 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Undefined index: page in /var/www/index.php on line 55, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:38.182775 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Undefined index: page in /var/www/index.php on line 58, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:38.182795 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Undefined index: page in /var/www/index.php on line 64, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:38.182815 2023] [:error] [pid 29432] [client 192.168.211.1:52664] PHP Notice:  Undefined index: page in /var/www/index.php on line 68, referer: http://yisf.sch.ac.kr/?page=poster
+[Mon Jul 10 20:51:46.081873 2023] [:error] [pid 29675] [client 125.138.133.213:61409] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:51:47.052811 2023] [:error] [pid 29675] [client 125.138.133.213:61409] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://yisf.sch.ac.kr/?page=prize
+[Mon Jul 10 20:52:51.921257 2023] [:error] [pid 29445] [client 210.124.110.9:51832] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18, referer: http://210.124.110.13/?page=poster
+[Mon Jul 10 20:53:21.706694 2023] [:error] [pid 29690] [client 210.124.110.9:51867] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:53:25.965167 2023] [:error] [pid 29689] [client 210.124.110.9:51870] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 20:55:18.451280 2023] [:error] [pid 29674] [client 210.124.110.9:51943] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 21:12:03.354520 2023] [:error] [pid 29689] [client 210.124.110.9:53013] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18
+[Mon Jul 10 21:12:14.536967 2023] [:error] [pid 29455] [client 210.124.110.9:53023] PHP Notice:  Use of undefined constant page - assumed 'page' in /var/www/index.php on line 18

@@ -1,0 +1,17 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapache2-mod-auth-mysql
+/usr/share/doc/libapache2-mod-auth-mysql/copyright
+/usr/share/doc/libapache2-mod-auth-mysql/changelog.Debian.gz
+/usr/share/doc/libapache2-mod-auth-mysql/USAGE.gz
+/usr/share/doc/libapache2-mod-auth-mysql/DIRECTIVES.gz
+/usr/lib
+/usr/lib/apache2
+/usr/lib/apache2/modules
+/usr/lib/apache2/modules/mod_auth_mysql.so
+/etc
+/etc/apache2
+/etc/apache2/mods-available
+/etc/apache2/mods-available/auth_mysql.load

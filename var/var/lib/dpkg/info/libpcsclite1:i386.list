@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libpcsclite1
+/usr/share/doc/libpcsclite1/copyright
+/usr/share/doc/libpcsclite1/changelog.Debian.gz
+/lib
+/lib/i386-linux-gnu
+/lib/i386-linux-gnu/libpcsclite.so.1.0.0
+/lib/i386-linux-gnu/libpcsclite.so.1

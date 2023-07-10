@@ -1,0 +1,12 @@
+/etc
+/etc/phpmyadmin
+/etc/phpmyadmin/phpmyadmin.service
+/etc/phpmyadmin/apache.conf
+/etc/phpmyadmin/lighttpd.conf
+/etc/phpmyadmin/config.header.inc.php
+/etc/phpmyadmin/config.footer.inc.php
+/etc/phpmyadmin/config.inc.php
+/etc/phpmyadmin/phpmyadmin.desktop
+/var
+/var/lib
+/var/lib/phpmyadmin

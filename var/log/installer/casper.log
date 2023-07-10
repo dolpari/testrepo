@@ -1,0 +1,26 @@
+cp: can't stat '/custom-installation/initrd-override/*': No such file or directory
+cp: can't stat '/custom-installation/iso-override/*': No such file or directory
+Generating locales...
+  en_US.UTF-8... done
+Generation complete.
+grep: /root/floppy/preseed.cfg: No such file or directory
+pwconv: failed to change the mode of /etc/passwd- to 0600
+/usr/lib/python2.7/dist-packages/LanguageSelector/LocaleInfo.py:256: UserWarning: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+  warnings.warn(msg.args[0].encode('UTF-8'))
+Using CD-ROM mount point /cdrom/
+Identifying.. [d0e93b94d0784f6dd7092f81a0754b54-2]
+Scanning disc for index files..
+Found 2 package indexes, 0 source indexes, 0 translation indexes and 1 signatures
+Found label 'Ubuntu 12.04.1 LTS _Precise Pangolin_ - Release i386 (20120817.3)'
+This disc is called: 
+'Ubuntu 12.04.1 LTS _Precise Pangolin_ - Release i386 (20120817.3)'
+Copying package lists...gpgv: Signature made Fri Aug 17 22:17:55 2012 UTC using DSA key ID FBB75451
+gpgv: Good signature from "Ubuntu CD Image Automatic Signing Key <cdimage@ubuntu.com>"
+Reading Package Indexes... 0%Reading Package Indexes... 10%Reading Package Indexes... Done
+Writing new source list
+Source list entries for this disc are:
+deb cdrom:[Ubuntu 12.04.1 LTS _Precise Pangolin_ - Release i386 (20120817.3)]/ precise main restricted
+Repeat this process for the rest of the CDs in your set.
+W: Skipping nonexistent file /cdrom/dists/precise/main/binary-i386/Packages
+W: Skipping nonexistent file /cdrom/dists/precise/restricted/binary-i386/Packages
+Adding 'diversion of /usr/bin/bluetooth-applet to /usr/bin/bluetooth-applet.orig by casper'

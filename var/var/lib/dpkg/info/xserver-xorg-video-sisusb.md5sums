@@ -1,0 +1,4 @@
+2f3650967908ad0fb5eb145641e4fc1d  usr/lib/xorg/modules/drivers/sisusb_drv.so
+28859e5c05d53394158b0543d3e8129e  usr/share/doc/xserver-xorg-video-sisusb/changelog.Debian.gz
+8ff3e22b7d1443bb88fdf0d822f62730  usr/share/doc/xserver-xorg-video-sisusb/copyright
+5d254ac44f2359cd6132cf7d38fd37ee  usr/share/man/man4/sisusb.4.gz

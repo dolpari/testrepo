@@ -1,0 +1,128 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 07:01:54;
+  rebind 3 2014/05/14 07:14:13;
+  expire 3 2014/05/14 07:17:58;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 07:14:56;
+  rebind 3 2014/05/14 07:28:09;
+  expire 3 2014/05/14 07:31:54;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 07:26:57;
+  rebind 3 2014/05/14 07:41:11;
+  expire 3 2014/05/14 07:44:56;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 07:40:31;
+  rebind 3 2014/05/14 07:53:12;
+  expire 3 2014/05/14 07:56:57;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 07:52:28;
+  rebind 3 2014/05/14 08:06:46;
+  expire 3 2014/05/14 08:10:31;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 08:06:30;
+  rebind 3 2014/05/14 08:18:43;
+  expire 3 2014/05/14 08:22:28;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 08:18:49;
+  rebind 3 2014/05/14 08:32:45;
+  expire 3 2014/05/14 08:36:30;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.137;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 3 2014/05/14 08:30:28;
+  rebind 3 2014/05/14 08:45:04;
+  expire 3 2014/05/14 08:48:49;
+}

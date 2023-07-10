@@ -1,0 +1,96 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 11:44:33;
+  rebind 4 2013/09/26 11:56:08;
+  expire 4 2013/09/26 11:59:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 11:56:38;
+  rebind 4 2013/09/26 12:10:48;
+  expire 4 2013/09/26 12:14:33;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 12:08:26;
+  rebind 4 2013/09/26 12:22:53;
+  expire 4 2013/09/26 12:26:38;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 12:23:07;
+  rebind 4 2013/09/26 12:34:41;
+  expire 4 2013/09/26 12:38:26;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 12:34:36;
+  rebind 4 2013/09/26 12:49:22;
+  expire 4 2013/09/26 12:53:07;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.171.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.171.133;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.171.133;
+  option dhcp-server-identifier 192.168.171.254;
+  option broadcast-address 192.168.171.255;
+  option netbios-name-servers 192.168.171.133;
+  option domain-name "localdomain";
+  renew 4 2013/09/26 12:49:25;
+  rebind 4 2013/09/26 13:00:51;
+  expire 4 2013/09/26 13:04:36;
+}

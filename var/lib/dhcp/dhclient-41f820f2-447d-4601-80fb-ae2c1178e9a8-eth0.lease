@@ -1,0 +1,64 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.59.130;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.59.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.59.2;
+  option dhcp-server-identifier 192.168.59.254;
+  option broadcast-address 192.168.59.255;
+  option netbios-name-servers 192.168.59.2;
+  option domain-name "localdomain";
+  renew 3 2015/05/13 08:40:34;
+  rebind 3 2015/05/13 08:54:48;
+  expire 3 2015/05/13 08:58:33;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.59.130;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.59.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.59.2;
+  option dhcp-server-identifier 192.168.59.254;
+  option broadcast-address 192.168.59.255;
+  option netbios-name-servers 192.168.59.2;
+  option domain-name "localdomain";
+  renew 3 2015/05/13 08:51:53;
+  rebind 3 2015/05/13 09:06:49;
+  expire 3 2015/05/13 09:10:34;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.59.130;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.59.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.59.2;
+  option dhcp-server-identifier 192.168.59.254;
+  option broadcast-address 192.168.59.255;
+  option netbios-name-servers 192.168.59.2;
+  option domain-name "localdomain";
+  renew 3 2015/05/13 09:06:00;
+  rebind 3 2015/05/13 09:18:08;
+  expire 3 2015/05/13 09:21:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.59.130;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.59.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.59.2;
+  option dhcp-server-identifier 192.168.59.254;
+  option broadcast-address 192.168.59.255;
+  option netbios-name-servers 192.168.59.2;
+  option domain-name "localdomain";
+  renew 3 2015/05/13 09:19:47;
+  rebind 3 2015/05/13 09:32:15;
+  expire 3 2015/05/13 09:36:00;
+}

@@ -1,0 +1,11 @@
+Language: australian (Australian English)
+Hash-Name: en_AU
+Emacsen-Name: australian
+Casechars: [A-Za-z]
+Not-Casechars: [^A-Za-z]
+Otherchars: [']
+Many-Otherchars: no
+Additionalchars:
+Extended-Character-Mode: 
+Coding-System: iso-8859-1
+hunspell-locales: en, en_AU

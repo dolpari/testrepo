@@ -1,0 +1,64 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.129;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 4 2014/01/09 01:47:41;
+  rebind 4 2014/01/09 02:01:47;
+  expire 4 2014/01/09 02:05:32;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.129;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 4 2014/01/09 02:01:56;
+  rebind 4 2014/01/09 02:13:56;
+  expire 4 2014/01/09 02:17:41;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.129;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 4 2014/01/09 02:13:59;
+  rebind 4 2014/01/09 02:28:11;
+  expire 4 2014/01/09 02:31:56;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.80.129;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.80.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.80.2;
+  option dhcp-server-identifier 192.168.80.254;
+  option broadcast-address 192.168.80.255;
+  option netbios-name-servers 192.168.80.2;
+  option domain-name "localdomain";
+  renew 4 2014/01/09 02:26:25;
+  rebind 4 2014/01/09 02:40:14;
+  expire 4 2014/01/09 02:43:59;
+}

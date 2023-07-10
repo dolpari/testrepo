@@ -1,0 +1,368 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 21:31:32;
+  rebind 0 2019/07/14 21:43:05;
+  expire 0 2019/07/14 21:46:50;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 21:45:50;
+  rebind 0 2019/07/14 21:57:47;
+  expire 0 2019/07/14 22:01:32;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 21:59:12;
+  rebind 0 2019/07/14 22:12:05;
+  expire 0 2019/07/14 22:15:50;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 22:11:43;
+  rebind 0 2019/07/14 22:25:27;
+  expire 0 2019/07/14 22:29:12;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 22:25:54;
+  rebind 0 2019/07/14 22:37:59;
+  expire 0 2019/07/14 22:41:44;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 22:37:59;
+  rebind 0 2019/07/14 22:52:09;
+  expire 0 2019/07/14 22:55:54;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 22:51:53;
+  rebind 0 2019/07/14 23:04:14;
+  expire 0 2019/07/14 23:07:59;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 23:03:36;
+  rebind 0 2019/07/14 23:18:08;
+  expire 0 2019/07/14 23:21:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 23:17:23;
+  rebind 0 2019/07/14 23:29:51;
+  expire 0 2019/07/14 23:33:36;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 23:31:39;
+  rebind 0 2019/07/14 23:43:38;
+  expire 0 2019/07/14 23:47:23;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 23:45:15;
+  rebind 0 2019/07/14 23:57:54;
+  expire 1 2019/07/15 00:01:39;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 0 2019/07/14 23:58:52;
+  rebind 1 2019/07/15 00:11:30;
+  expire 1 2019/07/15 00:15:15;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 00:12:07;
+  rebind 1 2019/07/15 00:25:08;
+  expire 1 2019/07/15 00:28:53;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 00:26:15;
+  rebind 1 2019/07/15 00:38:22;
+  expire 1 2019/07/15 00:42:07;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 00:39:54;
+  rebind 1 2019/07/15 00:52:30;
+  expire 1 2019/07/15 00:56:15;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 00:51:50;
+  rebind 1 2019/07/15 01:06:10;
+  expire 1 2019/07/15 01:09:55;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 01:04:17;
+  rebind 1 2019/07/15 01:18:05;
+  expire 1 2019/07/15 01:21:50;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 01:18:49;
+  rebind 1 2019/07/15 01:30:32;
+  expire 1 2019/07/15 01:34:17;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 01:33:37;
+  rebind 1 2019/07/15 01:45:44;
+  expire 1 2019/07/15 01:49:29;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 01:46:59;
+  rebind 1 2019/07/15 01:59:53;
+  expire 1 2019/07/15 02:03:38;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 01:59:12;
+  rebind 1 2019/07/15 02:13:14;
+  expire 1 2019/07/15 02:16:59;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 02:13:20;
+  rebind 1 2019/07/15 02:25:27;
+  expire 1 2019/07/15 02:29:12;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.211.131;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.211.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.211.2;
+  option dhcp-server-identifier 192.168.211.254;
+  option broadcast-address 192.168.211.255;
+  option netbios-name-servers 192.168.211.2;
+  option domain-name "localdomain";
+  renew 1 2019/07/15 02:25:11;
+  rebind 1 2019/07/15 02:39:35;
+  expire 1 2019/07/15 02:43:20;
+}

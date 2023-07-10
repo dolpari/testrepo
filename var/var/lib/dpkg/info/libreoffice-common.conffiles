@@ -1,0 +1,4 @@
+/etc/libreoffice/sofficerc
+/etc/libreoffice/psprint.conf
+/etc/libreoffice/soffice.sh
+/etc/bash_completion.d/libreoffice.sh

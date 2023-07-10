@@ -1,0 +1,12 @@
+c0db579bb4506205a584e496bda4bca5  usr/lib/libicudata.so.48.1.1
+23dda25a010b30ebedea0ace41a46a02  usr/lib/libicui18n.so.48.1.1
+2b9aa68f418d00bf5b41f40fbdf9aec7  usr/lib/libicuio.so.48.1.1
+39d500dc7819b64e42a7905314759577  usr/lib/libicule.so.48.1.1
+aac685baa9d00f2b6f74773ac2180fcb  usr/lib/libiculx.so.48.1.1
+47ada9445314138a907c47dda08e7aac  usr/lib/libicutest.so.48.1.1
+3209bdf385f0c8a6355038b7b91e73a5  usr/lib/libicutu.so.48.1.1
+e24605c0f427caee846b23986fc717a4  usr/lib/libicuuc.so.48.1.1
+9c69789ded16fb0ebc4e278ce0502678  usr/share/doc/libicu48/NEWS.Debian.gz
+a89db6cb7e8fb186d18a1182711f83e5  usr/share/doc/libicu48/changelog.Debian.gz
+5b740ffe32c601f5505884571630bc75  usr/share/doc/libicu48/copyright
+10c707548c51b1fd6b3743781ec2af8d  usr/share/lintian/overrides/libicu48

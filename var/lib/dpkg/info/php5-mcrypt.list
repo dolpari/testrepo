@@ -1,0 +1,4 @@
+/etc
+/etc/php5
+/etc/php5/mods-available
+/etc/php5/mods-available/mcrypt.ini

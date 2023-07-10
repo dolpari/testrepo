@@ -1,0 +1,64 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.111.141;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.111.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.111.2;
+  option dhcp-server-identifier 192.168.111.254;
+  option broadcast-address 192.168.111.255;
+  option netbios-name-servers 192.168.111.2;
+  option domain-name "localdomain";
+  renew 5 2017/02/03 00:21:47;
+  rebind 5 2017/02/03 00:35:39;
+  expire 5 2017/02/03 00:39:24;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.111.141;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.111.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.111.2;
+  option dhcp-server-identifier 192.168.111.254;
+  option broadcast-address 192.168.111.255;
+  option netbios-name-servers 192.168.111.2;
+  option domain-name "localdomain";
+  renew 5 2017/02/03 00:33:26;
+  rebind 5 2017/02/03 00:48:02;
+  expire 5 2017/02/03 00:51:47;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.111.141;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.111.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.111.2;
+  option dhcp-server-identifier 192.168.111.254;
+  option broadcast-address 192.168.111.255;
+  option netbios-name-servers 192.168.111.2;
+  option domain-name "localdomain";
+  renew 5 2017/02/03 00:46:53;
+  rebind 5 2017/02/03 00:59:41;
+  expire 5 2017/02/03 01:03:26;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.111.141;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.111.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.111.2;
+  option dhcp-server-identifier 192.168.111.254;
+  option broadcast-address 192.168.111.255;
+  option netbios-name-servers 192.168.111.2;
+  option domain-name "localdomain";
+  renew 5 2017/02/03 00:58:48;
+  rebind 5 2017/02/03 01:13:08;
+  expire 5 2017/02/03 01:16:53;
+}

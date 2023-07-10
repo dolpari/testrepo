@@ -1,0 +1,64 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 5 2016/12/23 09:34:12;
+  rebind 5 2016/12/23 09:48:50;
+  expire 5 2016/12/23 09:52:35;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 5 2016/12/23 09:46:09;
+  rebind 5 2016/12/23 10:00:27;
+  expire 5 2016/12/23 10:04:12;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 5 2016/12/23 09:59:29;
+  rebind 5 2016/12/23 10:12:24;
+  expire 5 2016/12/23 10:16:09;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 5 2016/12/23 10:14:30;
+  rebind 5 2016/12/23 10:25:44;
+  expire 5 2016/12/23 10:29:29;
+}

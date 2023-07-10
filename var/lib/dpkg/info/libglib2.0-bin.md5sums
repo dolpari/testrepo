@@ -1,0 +1,10 @@
+4d84ec7f52a7c6dd5487255700272d98  usr/bin/gdbus
+0d9eb717e6659cfa6ca7acfe3d350f0f  usr/bin/gresource
+a780029d14fc61c5f9b860d670aa8e49  usr/bin/gsettings
+37aa7cdc50eb504646d52e9263328ac9  usr/share/doc/libglib2.0-bin/copyright
+6a31f628896d6af325df2e8a066bd8e0  usr/share/man/man1/gdbus.1.gz
+eee2e4b6d125d619716eedd4e691e674  usr/share/man/man1/gio-querymodules.1.gz
+bbbb8a839a5020b15e8f12ae932aecd8  usr/share/man/man1/glib-compile-resources.1.gz
+c6696b1668da31b207d297e254bea974  usr/share/man/man1/glib-compile-schemas.1.gz
+595e551595bd068522b664bd9c5c7d5e  usr/share/man/man1/gresource.1.gz
+9178924876739d881f9ffbd5cfa695fa  usr/share/man/man1/gsettings.1.gz

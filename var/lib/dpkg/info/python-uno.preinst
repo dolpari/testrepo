@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -e
+
+PLATFORMID=linux_x86
+
+
+if [ "$1" = "upgrade" ]; then
+	rm -rf /usr/lib/libreoffice/share/extensions/script-provider-for-python
+fi
+
+
+

@@ -1,0 +1,11 @@
+a5d756399aae6e02cf4d84679fd0992b  lib/udev/rules.d/40-xserver-xorg-video-intel.rules
+cf119bd494caecc0dfaffedceab1215a  usr/lib/libI810XvMC.so.1.0.0
+dd20dbac50c9a7a175f0ab0ebac5f56c  usr/lib/libIntelXvMC.so.1.0.0
+3413ac0dd6737ba0eae6d457bb9a7fbb  usr/lib/xorg/modules/drivers/intel_drv.so
+59da70afc3c23d78a95e11d08ccf2d38  usr/share/doc/xserver-xorg-video-intel/NEWS.gz
+30951f205eb7339b61059f1a308c8c61  usr/share/doc/xserver-xorg-video-intel/README
+238112d3c9d2e3d6226c83f5cc570352  usr/share/doc/xserver-xorg-video-intel/README.Debian
+91c1018d7fadbbdf5e72b6a034ef0d41  usr/share/doc/xserver-xorg-video-intel/changelog.Debian.gz
+b3f9a301026a40105cd6e7170671851c  usr/share/doc/xserver-xorg-video-intel/copyright
+c978eead6751d25c1607405fa3598146  usr/share/lintian/overrides/xserver-xorg-video-intel
+d0f76c48277e009ca12760d2b72aa090  usr/share/man/man4/intel.4.gz

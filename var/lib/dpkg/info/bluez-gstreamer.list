@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/bluez-gstreamer
+/usr/share/doc/bluez-gstreamer/copyright
+/usr/lib
+/usr/lib/i386-linux-gnu
+/usr/lib/i386-linux-gnu/gstreamer-0.10
+/usr/lib/i386-linux-gnu/gstreamer-0.10/libgstbluetooth.so
+/usr/share/doc/bluez-gstreamer/README
+/usr/share/doc/bluez-gstreamer/AUTHORS
+/usr/share/doc/bluez-gstreamer/NEWS.Debian.gz
+/usr/share/doc/bluez-gstreamer/TODO.gz
+/usr/share/doc/bluez-gstreamer/changelog.Debian.gz

@@ -1,0 +1,8 @@
+3cd6e95b6eff662f3a134af3dac19dfe  usr/bin/gpg-error
+7cad2a4f8e9e62010b4556a673941c7b  usr/bin/gpg-error-config
+3719636cd0441487690c0dbf23aad948  usr/include/gpg-error.h
+56c57d18b50a4adfe9a2bd7da6a60383  usr/lib/i386-linux-gnu/libgpg-error.a
+90591333ee67330655e88aeedc31ea0f  usr/share/aclocal/gpg-error.m4
+6b2a852645e18d52af7b36a87d062fef  usr/share/doc/libgpg-error-dev/copyright
+addb24bb2be48b3d9f043138ca950f7f  usr/share/man/man1/gpg-error-config.1.gz
+774ed39ab50374a493a55a9d1eca225b  usr/share/man/man1/gpg-error.1.gz

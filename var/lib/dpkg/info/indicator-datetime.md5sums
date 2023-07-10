@@ -1,0 +1,10 @@
+b41e343b4923c0cec385c6a3bdfed05f  usr/lib/control-center-1/panels/libindicator-datetime.so
+ac646d7024398a386079f94e9f8aa2fd  usr/lib/indicator-datetime/indicator-datetime-service
+e82b9c80aeabd82d331dcd58fcfe3b68  usr/lib/indicators3/7/libdatetime.so
+f4176610f8105c1a9d340689b86881a7  usr/share/applications/indicator-datetime-preferences.desktop
+990550e87c3bfdd9d78d271e51d3c329  usr/share/dbus-1/services/indicator-datetime.service
+4527a11fda6a9e467b6ca8bf4b9aa066  usr/share/doc/indicator-datetime/AUTHORS
+f14b7624139d6a2c57aee33d78ada931  usr/share/doc/indicator-datetime/changelog.Debian.gz
+fc83e2f6e40ff3baf9e492f1500a96b8  usr/share/doc/indicator-datetime/copyright
+7d6e61a21aeaf0768c92d26185563a80  usr/share/glib-2.0/schemas/com.canonical.indicator.datetime.gschema.xml
+7e938c0c0f72fc414d54cb44b16be608  usr/share/indicator-datetime/datetime-dialog.ui

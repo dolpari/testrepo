@@ -1,0 +1,52 @@
+#!/bin/sh
+
+set -e
+
+dpkg-maintscript-helper mv_conffile /etc/apache2/mods-available/php5_cgi.conf /etc/apache2/conf-available/php5-cgi.conf 5.5.0~beta4-1 -- "$@"
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/php5_cgi.load 5.5.0~beta4-1 -- "$@"
+
+php5_enable() { return 0; }
+
+if [ "$1" = "purge" ]; then
+    phpini=/etc/php5/cgi/php.ini
+    # remove the flag to remember the original state
+    if [ -e /etc/php5/cgi/.start ]; then
+	rm -f /etc/php5/cgi/.start
+    fi
+    for ext in '~' '%' .bak .ucf-new .ucf-old .ucf-dist;  do
+	rm -f $phpini$ext
+    done
+    rm -f $phpini
+    if which ucf >/dev/null; then
+	ucf --purge $phpini
+    fi
+    if which ucfr >/dev/null; then
+	ucfr --purge php5-cgi $phpini
+    fi
+fi
+
+if [ -e /usr/share/php5/php5-maintscript-helper ]; then
+    . /usr/share/php5/php5-maintscript-helper
+
+    mods=$(php5query -M)
+    for mod in $mods; do
+	php5_invoke dismod cgi $mod
+    done
+fi
+
+# Automatically added by dh_apache2
+if [ "$1" = "purge" ] ; then
+	if php5_enable; then
+		if [ -e /usr/share/apache2/apache2-maintscript-helper ] ; then
+			. /usr/share/apache2/apache2-maintscript-helper
+
+			for conf in php5-cgi  ; do
+				apache2_invoke disconf $conf  || exit $?
+			done
+		fi
+	fi
+fi
+# End automatically added section
+
+
+exit 0

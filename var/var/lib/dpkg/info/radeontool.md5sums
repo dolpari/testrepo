@@ -1,0 +1,7 @@
+7413c94e055747cced3d4c277da00022  usr/sbin/avivotool
+70b1014032f53da5377adef39d4bebc1  usr/sbin/radeontool
+09ccb8a1e8e51a85facabd7f847d0de4  usr/share/doc/radeontool/README.Debian
+590b1cee4b803f92a733d5241d642c6b  usr/share/doc/radeontool/changelog.Debian.gz
+3b2c578fb00c56104f97a3ab120e6be5  usr/share/doc/radeontool/copyright
+abbad8444765515a9a2972bb5c34845b  usr/share/lintian/overrides/radeontool
+126a6e9bce89e9b28b8c9a06c03175b6  usr/share/man/man8/radeontool.8.gz

@@ -1,0 +1,304 @@
+Package: libnl-3-200
+Architecture: i386
+Auto-Installed: 0
+
+Package: grub2-common
+Architecture: i386
+Auto-Installed: 0
+
+Package: iw
+Architecture: i386
+Auto-Installed: 1
+
+Package: grub-pc
+Architecture: i386
+Auto-Installed: 0
+
+Package: libfuse2
+Architecture: i386
+Auto-Installed: 0
+
+Package: grub-gfxpayload-lists
+Architecture: i386
+Auto-Installed: 0
+
+Package: crda
+Architecture: i386
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: i386
+Auto-Installed: 0
+
+Package: gettext-base
+Architecture: i386
+Auto-Installed: 0
+
+Package: grub-pc-bin
+Architecture: i386
+Auto-Installed: 0
+
+Package: libfreetype6
+Architecture: i386
+Auto-Installed: 0
+
+Package: wireless-regdb
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnl-genl-3-200
+Architecture: i386
+Auto-Installed: 0
+
+Package: grub-common
+Architecture: i386
+Auto-Installed: 0
+
+Package: linux-headers-3.2.0-29
+Architecture: i386
+Auto-Installed: 1
+
+Package: printer-driver-postscript-hp
+Architecture: i386
+Auto-Installed: 1
+
+Package: linux-headers-3.2.0-29-generic-pae
+Architecture: i386
+Auto-Installed: 1
+
+Package: patch
+Architecture: i386
+Auto-Installed: 1
+
+Package: apache2-utils
+Architecture: i386
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: i386
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: i386
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: i386
+Auto-Installed: 1
+
+Package: apache2-mpm-prefork
+Architecture: i386
+Auto-Installed: 1
+
+Package: php5-common
+Architecture: i386
+Auto-Installed: 1
+
+Package: libnet-daemon-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: mysql-client-core-5.5
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdbd-mysql-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: mysql-server-5.5
+Architecture: i386
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: i386
+Auto-Installed: 1
+
+Package: mysql-client-5.5
+Architecture: i386
+Auto-Installed: 1
+
+Package: libplrpc-perl
+Architecture: i386
+Auto-Installed: 1
+
+Package: mysql-server-core-5.5
+Architecture: i386
+Auto-Installed: 1
+
+Package: libmysqlclient18
+Architecture: i386
+Auto-Installed: 1
+
+Package: vim-runtime
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-support
+Architecture: i386
+Auto-Installed: 1
+
+Package: par2
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-glade2
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-vte
+Architecture: i386
+Auto-Installed: 1
+
+Package: libvte9
+Architecture: i386
+Auto-Installed: 1
+
+Package: libglade2-0
+Architecture: i386
+Auto-Installed: 1
+
+Package: libvte-common
+Architecture: i386
+Auto-Installed: 1
+
+Package: libreoffice-l10n-ko
+Architecture: i386
+Auto-Installed: 1
+
+Package: firefox-locale-ko
+Architecture: i386
+Auto-Installed: 1
+
+Package: language-pack-ko
+Architecture: i386
+Auto-Installed: 1
+
+Package: libhangul1
+Architecture: i386
+Auto-Installed: 1
+
+Package: language-pack-gnome-ko
+Architecture: i386
+Auto-Installed: 1
+
+Package: linux-headers-3.11.0-26
+Architecture: i386
+Auto-Installed: 1
+
+Package: linux-headers-3.11.0-26-generic
+Architecture: i386
+Auto-Installed: 1
+
+Package: ssh-import-id
+Architecture: i386
+Auto-Installed: 1
+
+Package: ncurses-term
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpython2.7-stdlib
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-six
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpython2.7-minimal
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssh-sftp-server
+Architecture: i386
+Auto-Installed: 1
+
+Package: libpython-stdlib
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-requests
+Architecture: i386
+Auto-Installed: 1
+
+Package: init-system-helpers
+Architecture: i386
+Auto-Installed: 1
+
+Package: libdb5.3
+Architecture: i386
+Auto-Installed: 1
+
+Package: openssh-server
+Architecture: i386
+Auto-Installed: 1
+
+Package: python-urllib3
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgpg-error-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libgcrypt11-dev
+Architecture: i386
+Auto-Installed: 1
+
+Package: libjson-c2
+Architecture: i386
+Auto-Installed: 1
+
+Package: libssh2-1
+Architecture: i386
+Auto-Installed: 1
+
+Package: php5-json
+Architecture: i386
+Auto-Installed: 1
+
+Package: php5-readline
+Architecture: i386
+Auto-Installed: 1
+
+Package: fonts-dejavu-core
+Architecture: i386
+Auto-Installed: 1
+
+Package: javascript-common
+Architecture: i386
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: i386
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: i386
+Auto-Installed: 1
+
+Package: libapache2-mod-php5
+Architecture: i386
+Auto-Installed: 1
+
+Package: git-man
+Architecture: i386
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: i386
+Auto-Installed: 1
+

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+PLATFORMID=linux_x86
+
+
+if [ "$1" = "remove" ]; then
+	rm -rf /var/spool/libreoffice
+fi
+
+
+
+exit 0

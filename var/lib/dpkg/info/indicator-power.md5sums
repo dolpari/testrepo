@@ -1,0 +1,5 @@
+822be010cd1b10b396f62fc7983a5a21  usr/lib/indicators3/7/libpower.so
+41b71c3623a889eeb186788e7abb9584  usr/share/apport/package-hooks/source_indicator-power.py
+062ae237422943d8369fdee7ef309f1a  usr/share/doc/indicator-power/changelog.Debian.gz
+4851f094838f4278f27ac9eeed3fa9d1  usr/share/doc/indicator-power/copyright
+5846852d32e6a7b692eeec9246b7f33a  usr/share/glib-2.0/schemas/com.canonical.indicator.power.gschema.xml

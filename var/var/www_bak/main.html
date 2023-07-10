@@ -1,0 +1,87 @@
+<script type='text/javascript' src='./jquery-1.7.1.min.js'></script>
+<script type="text/javascript" src="./stepcarousel.js"></script>
+<link href="./designcenter.css" type="text/css" rel="stylesheet" />
+
+<style type="text/css">
+<!--
+.stepcarousel{
+	position: relative;
+	overflow: scroll;
+	width: 800px;
+	height: 440px;
+}
+
+.stepcarousel .belt{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.stepcarousel .panel{
+	float: left; 
+	overflow: hidden; 
+	margin: 0px; 
+	width: 800px; 
+}
+
+#promotion{
+	width: 800px;
+	height: 440px;
+	border: 0;
+}
+
+#promotion .panel{
+	height: 440px;
+	text-align: center;
+}
+-->
+</style>
+
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td style="padding:10px 0px 20px 20px;text-align:left;"><table width="800" border="0" cellspacing="0" cellpadding="0">
+
+					    	<script type="text/javascript">
+							stepcarousel.setup({
+								galleryid: 'promotion',
+								beltclass: 'belt',
+								panelclass: 'panel',
+								panelbehavior: {speed:500, wraparound:true, wrapbehavior:'pushpull', persist:false},
+								defaultbuttons: {enable: false, moveby: 1, leftnav: ['/./img/arrowl.gif', -10, 100], rightnav: ['/arrowr.gif', -10, 100]},
+								statusvars: ['reportA', 'reportB', 'reportC'],
+								contenttype: ['inline']
+							});
+							</script>
+<style type="text/css">
+#promotion{overflow: hidden;}
+</style>
+							<div id="promotion" class="stepcarousel">								<div class="belt" style="width: 2265px; left: 0px; ">
+									<div class="panel" style="float: none; position: absolute; left: 0px; "><img src="././img/01.jpg" class="hand"></div>
+									<div class="panel" style="float: none; position: absolute; left: 800px; "><img src="././img/02.jpg" class="hand"></div>
+									<div class="panel" style="float: none; position: absolute; left: 1510px; "><img src="././img/03.jpg" class="hand"></div>
+								</div>
+							</div>
+</td>
+						</tr>
+						<tr>
+							<td height="10"></td>
+						</tr>
+						<tr>
+						<td>
+							<p id="promotion-paginate" style="position:relative; width:800px; top:-40px; text-align:center; z-index:999;">
+									<img src="././img/icon_off.gif" data-over="././img/icon_on.gif" data-select="././img/icon_on.gif" data-moveby="1"/>
+							</p>
+						</td>
+						</tr>
+				</table>
+
+<script type="text/javascript">
+//4초마다 이동
+function moveStep()
+{
+	stepcarousel.stepBy('promotion', 1);
+	setTimeout(moveStep,4000);
+}
+moveStep();
+</script>
+

@@ -1,0 +1,16 @@
+e10c4ce62b35d6556c91319aff3884fc  usr/lib/freerdp/audin.so
+f5422343f3ce9ad0ef72d7d367b4078e  usr/lib/freerdp/audin_alsa.so
+2e152ef206ba3e05f61c84dce51f6e83  usr/lib/freerdp/cliprdr.so
+9dcc8a972b223025a97e90fda12c305d  usr/lib/freerdp/disk.so
+6c32887cce42168aa82dcb322d39a075  usr/lib/freerdp/drdynvc.so
+11e1207b328885428bf2bd020a6640bb  usr/lib/freerdp/parallel.so
+211fa940ac3167c998daa63c31f37f0c  usr/lib/freerdp/printer.so
+02a9bc61cbd091fda052a1f0b33c64f2  usr/lib/freerdp/rail.so
+7b379778418346d0286d09c1f363eea6  usr/lib/freerdp/rdpdbg.so
+2400f409bc998275e3ed918dec79c009  usr/lib/freerdp/rdpdr.so
+ec38b414e6c608113a168773d6da364e  usr/lib/freerdp/rdpsnd.so
+52597edf883ddcd83933dff7ea3b7aef  usr/lib/freerdp/rdpsnd_alsa.so
+6a37e91f8f8e094e46de3647b1d73efd  usr/lib/freerdp/serial.so
+72bdc551fa2c57c6bbda124c2cf9013d  usr/lib/freerdp/tsmf.so
+b4c2c2f0fa31a7275f0ae6d40f5f6d49  usr/lib/freerdp/tsmf_alsa.so
+d6822f1456be01ad8ade8775fb88b4dc  usr/share/doc/libfreerdp-plugins-standard/copyright

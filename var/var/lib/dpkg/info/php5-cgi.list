@@ -1,0 +1,6 @@
+/etc
+/etc/apache2
+/etc/apache2/conf-available
+/etc/apache2/conf-available/php5-cgi.conf
+/etc/php5
+/etc/php5/cgi

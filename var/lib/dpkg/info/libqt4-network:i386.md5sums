@@ -1,0 +1,6 @@
+3a7a6e7d1ab8e600e5e1be263f1d3145  usr/lib/i386-linux-gnu/libQtNetwork.so.4.8.1
+6b9fbf93ecf78b3a55162fad86c8fbb6  usr/lib/i386-linux-gnu/qt4/plugins/bearer/libqconnmanbearer.so
+0f95be566c178fadd23a401e857deb5e  usr/lib/i386-linux-gnu/qt4/plugins/bearer/libqgenericbearer.so
+18619add50bcf60e4aeb98553cb79459  usr/lib/i386-linux-gnu/qt4/plugins/bearer/libqnmbearer.so
+6554abaa9d7013bd3a7b13294c73b55c  usr/share/doc/libqt4-network/copyright
+5841018376fa976a03dc54ea98a6eeeb  usr/share/lintian/overrides/libqt4-network

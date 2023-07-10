@@ -1,0 +1,9 @@
+/etc/pam.d/cups
+/etc/apparmor.d/usr.sbin.cupsd
+/etc/default/cups
+/etc/init/cups.conf
+/etc/cups/cupsd.conf.default
+/etc/cups/snmp.conf
+/etc/cups/cupsd.conf
+/etc/ufw/applications.d/cups
+/etc/logrotate.d/cups

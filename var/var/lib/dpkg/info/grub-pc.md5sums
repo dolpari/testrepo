@@ -1,0 +1,7 @@
+b9a2b362eec4d8fc3921de365b73271c  usr/lib/grub-legacy/update-grub
+b06333c3e85cbf57464d85b39414e30b  usr/sbin/upgrade-from-grub-legacy
+8078b6f24767ff216eb390a997926d48  usr/share/bug/grub-pc/presubj
+647866c3ee9d4b27d565ef5bf33ce3f0  usr/share/bug/grub-pc/script
+3586da33e1c58be6836cca3e4e9c3e24  usr/share/man/man8/grub-install.8.gz
+0286f88275819f082c5a1f12f7f93a92  usr/share/man/man8/grub-mknetdir.8.gz
+121d4aebf770dbbeb0c9e57a73204d6c  usr/share/man/man8/grub-setup.8.gz

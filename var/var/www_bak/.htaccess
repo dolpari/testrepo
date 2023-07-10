@@ -1,0 +1,7 @@
+#AuthType Basic
+#AuthName "By Invitation Only"
+#AuthUserFile /home/blackt1ger/passwords
+
+<Limit GET POST>
+	require valid-user
+</Limit>

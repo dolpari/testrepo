@@ -1,0 +1,8 @@
+ad54c251059d42159ef6fc087c6f4f07  usr/lib/libreoffice/program/mailmerge.py
+ee3f5f420267dff9003af851ba02a7c9  usr/lib/libreoffice/program/msgbox.py
+921aa96e627d4d9b893acf1c2f3c156a  usr/lib/libreoffice/program/officehelper.py
+5773fc0d25a3334b0cbc7163c020298b  usr/share/bug/libreoffice-emailmerge/control
+4583c119b7c148a61e54ddbbdc1917a9  usr/share/bug/libreoffice-emailmerge/presubj
+7d595f3d237933c39bcf7379d8043192  usr/share/doc/libreoffice-emailmerge/README.Debian.gz
+ae704830e4042d0a454ed1240d01564c  usr/share/doc/libreoffice-emailmerge/copyright
+d064b3114dbae6fb83abd2fac44d7034  usr/share/lintian/overrides/libreoffice-emailmerge

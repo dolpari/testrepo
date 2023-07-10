@@ -1,0 +1,8 @@
+a89ad4aa43cb378f64b15b1fbf5b541d  usr/lib/libreoffice/program/gnome-open-url
+cbb1cbdb22cb0b1c29b70a823f7ef470  usr/lib/libreoffice/program/gnome-open-url.bin
+26b42d9124159f16e07bfa53ffcf3a73  usr/lib/libreoffice/program/libqstart_gtklo.so
+3034cada07dffe52f45acf97e0dc5288  usr/lib/libreoffice/program/libvclplug_gtklo.so
+4de38b02de5408e51fee8cf00dee2689  usr/lib/libreoffice/share/xdg/qstart.desktop
+4583c119b7c148a61e54ddbbdc1917a9  usr/share/bug/libreoffice-gtk/presubj
+ae704830e4042d0a454ed1240d01564c  usr/share/doc/libreoffice-gtk/copyright
+6f07fb286d333aa09b7463a489171b0a  usr/share/lintian/overrides/libreoffice-gtk

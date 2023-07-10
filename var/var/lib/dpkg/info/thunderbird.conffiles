@@ -1,0 +1,3 @@
+/etc/thunderbird/syspref.js
+/etc/apport/native-origins.d/thunderbird
+/etc/apport/blacklist.d/thunderbird

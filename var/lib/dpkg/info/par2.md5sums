@@ -1,0 +1,11 @@
+3ddceb98dbef6c0c0d38def3676eab55  usr/bin/par2
+6cbd03a86ee6388aa8de24ebd47c252c  usr/share/doc/par2/AUTHORS
+70d4872e11397506dd154344c8828ef2  usr/share/doc/par2/PORTING
+3df71bf6be6d86ff4a496e6b0fc40e79  usr/share/doc/par2/README.gz
+8808ed3ece174e3973eabf7d8644b3ab  usr/share/doc/par2/ROADMAP.gz
+09f66843045469fb1e50605166f0d943  usr/share/doc/par2/changelog.Debian.gz
+cf1b9a8e2fb221a386939bc89787a493  usr/share/doc/par2/copyright
+87570296c191df0232607aaa2e31b586  usr/share/man/man1/par2.1.gz
+87570296c191df0232607aaa2e31b586  usr/share/man/man1/par2create.1.gz
+87570296c191df0232607aaa2e31b586  usr/share/man/man1/par2repair.1.gz
+87570296c191df0232607aaa2e31b586  usr/share/man/man1/par2verify.1.gz

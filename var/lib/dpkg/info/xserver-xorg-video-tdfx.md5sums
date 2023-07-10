@@ -1,0 +1,4 @@
+6ee3e4a9fc7c572dbdba32e188ac7708  usr/lib/xorg/modules/drivers/tdfx_drv.so
+43a8fa1faddc00dfd7e5f547f281a4aa  usr/share/doc/xserver-xorg-video-tdfx/changelog.Debian.gz
+1c94df1c8e7f891c6143ae7728cb2c8d  usr/share/doc/xserver-xorg-video-tdfx/copyright
+8250dbefb14e15aa6599686d86eb0767  usr/share/man/man4/tdfx.4.gz

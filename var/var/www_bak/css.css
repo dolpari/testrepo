@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ padding:0px; margin:0px auto; }
+body{ font-family:"Malgun Gothic", "Times New Roman", Times, serif; font-size:12px;  margin:0px auto;}
+
+#all{ width:1200px; height:600px; margin:20px auto; }
+#top{ position:relative; width:900px; height:150px; background-image:url(123.png); margin:10px auto; }
+	#total{ position:absolute; top:120px; left:460px; width:80px; height:20px; }
+	#login{ width:200px; height:110px; float:right; margin:20px; color:#000; }
+	#logo{ width:330px; height:100px; margin:0px auto; }
+#menu{ display:inline-block; height:46px; text-align:center; font-size:10px; font-weight:bold; margin:0px auto }
+	#menu ul{ list-style:none; margin:0px auto;}
+	#menu li{ float:left; width:100; height:23}
+	#menu li a:link, #menu a:visited{ text-decoration:none; padding:10px 30px 10px 30px; color:#000; display:compact }
+	#menu li a:hover{ background-color:#999; color:#000; }
+#body{ width:1200px; float:left; margin:0px auto; }
+	#main{ width:1100px; height:260px; margin:20px auto; padding:10px; margin:0px auto;}
+	#sub{ width:1100px; margin:20px auto; padding:10px; margin:0px auto;}
+		#pagename{ width:1100px; height:50px; float:left; font-size:18px; font-weight:bold; margin-top:10px; }
+		#pagename_line{ width:1100px; height:10px; float:left; }
+		#content{ width:1100px; min-height:260px; padding:10px; margin:0px auto;}
+
+#menu2{ width:100px; height:46px; float:left; padding-left:50px; font-size:10px; font-weight:bold; margin:0px auto }
+	#menu2 ul{ list-style:none; margin:0px auto;}
+	#menu2 li{ float:left; width:100; height:23}
+
+
+
+#board_page a:link, #board_page a:visited{ text-decoration:none; color:#0000FF; font-size:12px; }
+.ui-dialog { z-index: 9999 !important  }

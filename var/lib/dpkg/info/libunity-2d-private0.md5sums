@@ -1,0 +1,7 @@
+5a3a0f4a2729f0a87c29a0821354f680  usr/lib/libunity-2d-private.so.0.0.0
+d10c2a18568a0e3b41d979a0bc163d65  usr/lib/qt4/imports/Unity2d/GnomeBackground.qml
+a520c1eaa0b59376ee0c0618908b757d  usr/lib/qt4/imports/Unity2d/libunity-2d-private-qml.so
+70225b4b3b146e9b2b57045e17eb5dc2  usr/lib/qt4/imports/Unity2d/qmldir
+e4195bb29d6d027ad303156aac5f9164  usr/share/doc/libunity-2d-private0/changelog.Debian.gz
+fea99ccd595c2f46dac7815c0f8ecab2  usr/share/doc/libunity-2d-private0/copyright
+c2494e4d8cd6b9999bb20e73b7822ba5  usr/share/lintian/overrides/libunity-2d-private0

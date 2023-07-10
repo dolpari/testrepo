@@ -1,0 +1,63 @@
+<?php
+	$t = time();
+	if(True or $_SERVER['REMOTE_ADDR'] == "211.229.218.185" || ( <= $t && $t <= 1533798000)) {	// 2016/07/24 01:00:00 KST ~ 2016/08/10 13:00:00 KST
+?>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body { text-align: center; }
+#info { text-align: center; }
+table { margin: 0 auto; }
+input[type=password],
+textarea { width: 500px; }
+input[type=submit] { padding: 3px 15px; border: 1px solid #000; cursor: pointer; }
+</style>
+<script type="text/javascript" src="sha512.js"></script>
+<script>
+function gen(form) {
+	if(form.password.value == "") {
+		alert("비밀번호를 입력하세요.");
+		form.password.value = form.hash.value = "";
+	} else {
+		var shaObj = new jsSHA("SHA-512", "TEXT");
+		shaObj.update(form.password.value);
+		form.hash.value = shaObj.getHash("HEX");
+	}
+	return false;
+}
+</script>
+</head>
+<body>
+<br>
+<div id="info">
+	<img src='/img/01.jpg' width=700px>
+<br><br>
+아래에서 변환된 SHA512 값을 신청서에 넣어주세요.
+</div>
+<br>
+<form onsubmit="return gen(this)" autocomplete="off">
+<table>
+<tr>
+	<td>비밀번호</td>
+	<td><input type="password" id="password"></td>
+</tr>
+<tr>
+	<td colspan="2" align="center"><input type="submit" value="변환"></td>
+</tr>
+<tr>
+	<td>SHA512</td>
+	<td><textarea id="hash"></textarea></td>
+</tr>
+</table>
+<br><br>
+<a href="/reg1ster.zip">2019 YISF 신청서 다운로드</a>
+</form>
+</body>
+</html>
+<?php
+	} else {
+?>
+<script>alert("참가신청 기간이 마감되었습니다.");history.go(-1);</script>
+<?php
+	}

@@ -1,0 +1,1892 @@
+Log time: 2015-03-26 21:27:46.442796
+Log time: 2015-03-26 21:28:15.953195
+Log time: 2015-03-26 21:31:16.001416
+  MarkInstall ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) FU=0
+  ubuntuone-client:i386 Recommends on ubuntu-sso-client-gui [ i386 ] < none > ( none ) (>= 2.99.91) can't be satisfied!
+  MarkInstall libfolks-telepathy25 [ i386 ] < 0.6.8-2 -> 0.9.5-1ubuntu5 > ( libs ) FU=0
+  Installing libgee-0.8-2 as Depends of libfolks-telepathy25
+    MarkInstall libgee-0.8-2 [ i386 ] < none -> 0.10.5-1ubuntu1 > ( libs ) FU=0
+  Installing libzeitgeist-2.0-0 as Depends of libfolks-telepathy25
+    MarkInstall libzeitgeist-2.0-0 [ i386 ] < none -> 0.9.14-0ubuntu4.1 > ( utils ) FU=0
+  MarkInstall gnome-keyring [ i386 ] < 3.2.2-2ubuntu4 -> 3.10.1-1ubuntu4.2 > ( gnome ) FU=0
+  Installing libgcr-base-3-1 as Depends of gnome-keyring
+    MarkInstall libgcr-base-3-1 [ i386 ] < none -> 3.10.1-1 > ( libs ) FU=0
+  Installing gcr as Depends of gnome-keyring
+    MarkInstall gcr [ i386 ] < none -> 3.10.1-1 > ( gnome ) FU=0
+    Installing libgcr-ui-3-1 as Depends of gcr
+      MarkInstall libgcr-ui-3-1 [ i386 ] < none -> 3.10.1-1 > ( libs ) FU=0
+      Installing libpango-1.0-0 as Depends of libgcr-ui-3-1
+        MarkInstall libpango-1.0-0 [ i386 ] < none -> 1.36.3-1ubuntu1.1 > ( libs ) FU=0
+  Installing p11-kit as Depends of gnome-keyring
+    MarkInstall p11-kit [ i386 ] < none -> 0.20.2-2ubuntu2 > ( misc ) FU=0
+    Installing libtasn1-6 as Depends of p11-kit
+      MarkInstall libtasn1-6 [ i386 ] < none -> 3.4-3ubuntu0.1 > ( libs ) FU=0
+    Installing p11-kit-modules as Depends of p11-kit
+      MarkInstall p11-kit-modules [ i386 ] < none -> 0.20.2-2ubuntu2 > ( misc ) FU=0
+  new important dependency: libp11-kit-gnome-keyring:i386
+  Installing libp11-kit-gnome-keyring as Recommends of gnome-keyring
+    MarkInstall libp11-kit-gnome-keyring [ i386 ] < none -> 3.10.1-1ubuntu4.2 > ( libs ) FU=0
+  MarkInstall activity-log-manager-control-center [ i386 ] < 0.9.4-0ubuntu3 -> 0.9.7-0ubuntu14.1 > ( utils ) FU=0
+  Installing activity-log-manager as Depends of activity-log-manager-control-center
+    MarkInstall activity-log-manager [ i386 ] < none -> 0.9.7-0ubuntu14.1 > ( utils ) FU=0
+    Installing libunity-control-center1 as Depends of activity-log-manager
+      MarkInstall libunity-control-center1 [ i386 ] < none -> 14.04.3+14.04.20140922-0ubuntu1 > ( libs ) FU=0
+    Installing libwhoopsie-preferences0 as Depends of activity-log-manager
+      MarkInstall libwhoopsie-preferences0 [ i386 ] < none -> 0.12 > ( libs ) FU=0
+    Installing whoopsie-preferences as Depends of activity-log-manager
+      MarkInstall whoopsie-preferences [ i386 ] < none -> 0.12 > ( utils ) FU=0
+      Installing libwhoopsie0 as Depends of whoopsie-preferences
+        MarkInstall libwhoopsie0 [ i386 ] < none -> 0.2.24.6 > ( libs ) FU=0
+      MarkDelete activity-log-manager-common [ i386 ] < 0.9.4-0ubuntu3 > ( utils ) FU=0
+  MarkInstall libpurple0 [ i386 ] < 1:2.10.3-0ubuntu1.1 -> 1:2.10.9-0ubuntu3.2 > ( net ) FU=0
+  Installing libperl5.18 as Depends of libpurple0
+    MarkInstall libperl5.18 [ i386 ] < none -> 5.18.2-2ubuntu1 > ( libs ) FU=0
+  MarkInstall ttf-freefont [ i386 ] < 20100919-1 -> 20120503-4 > ( universe/x11 ) FU=0
+  Installing fonts-freefont-ttf as Depends of ttf-freefont
+    MarkInstall fonts-freefont-ttf [ i386 ] < none -> 20120503-4 > ( fonts ) FU=0
+  MarkInstall libpam0g [ i386 ] < 1.1.3-7ubuntu2 -> 1.1.8-1ubuntu2 > ( libs ) FU=0
+  Installing libaudit1 as Depends of libpam0g
+    MarkInstall libaudit1 [ i386 ] < none -> 1:2.3.2-2ubuntu1 > ( libs ) FU=0
+    Installing libaudit-common as Depends of libaudit1
+      MarkInstall libaudit-common [ i386 ] < none -> 1:2.3.2-2ubuntu1 > ( libs ) FU=0
+  MarkInstall apturl-common [ i386 ] < 0.5.1ubuntu3 -> 0.5.2ubuntu4 > ( admin ) FU=0
+  Installing python3 as Depends of apturl-common
+    MarkInstall python3 [ i386 ] < none -> 3.4.0-0ubuntu2 > ( python ) FU=0
+    Installing python3.4 as Depends of python3
+      MarkInstall python3.4 [ i386 ] < none -> 3.4.0-2ubuntu1 > ( python ) FU=0
+      Installing python3.4-minimal as Depends of python3.4
+        MarkInstall python3.4-minimal [ i386 ] < none -> 3.4.0-2ubuntu1 > ( python ) FU=0
+        Installing libpython3.4-minimal as Depends of python3.4-minimal
+          MarkInstall libpython3.4-minimal [ i386 ] < none -> 3.4.0-2ubuntu1 > ( python ) FU=0
+          Installing libpython3.4-stdlib as Recommends of libpython3.4-minimal
+            MarkInstall libpython3.4-stdlib [ i386 ] < none -> 3.4.0-2ubuntu1 > ( python ) FU=0
+            Installing libdb5.3 as Depends of libpython3.4-stdlib
+              MarkInstall libdb5.3 [ i386 ] < none -> 5.3.28-3ubuntu3 > ( libs ) FU=0
+            Installing libmpdec2 as Depends of libpython3.4-stdlib
+              MarkInstall libmpdec2 [ i386 ] < none -> 2.4.0-6 > ( libs ) FU=0
+    Installing python3-minimal as Depends of python3
+      MarkInstall python3-minimal [ i386 ] < none -> 3.4.0-0ubuntu2 > ( python ) FU=0
+    Installing libpython3-stdlib as Depends of python3
+      MarkInstall libpython3-stdlib [ i386 ] < none -> 3.4.0-0ubuntu2 > ( python ) FU=0
+    Installing dh-python as Depends of python3
+      MarkInstall dh-python [ i386 ] < none -> 1.20140128-1ubuntu8 > ( python ) FU=0
+  Installing python3-apt as Depends of apturl-common
+    MarkInstall python3-apt [ i386 ] < none -> 0.9.3.5ubuntu1 > ( python ) FU=0
+    Installing libapt-inst1.5 as Depends of python3-apt
+      MarkInstall libapt-inst1.5 [ i386 ] < none -> 1.0.1ubuntu2.6 > ( admin ) FU=0
+  Installing python3-update-manager as Depends of apturl-common
+    MarkInstall python3-update-manager [ i386 ] < none -> 1:0.196.12 > ( python ) FU=0
+    Installing python3-distupgrade as Depends of python3-update-manager
+      MarkInstall python3-distupgrade [ i386 ] < none -> 1:0.220.7 > ( python ) FU=0
+  MarkInstall ttf-dejavu-core [ i386 ] < 2.33-2ubuntu1 -> 2.34-1ubuntu1 > ( x11 ) FU=0
+  Installing fonts-dejavu-core as Depends of ttf-dejavu-core
+    MarkInstall fonts-dejavu-core [ i386 ] < none -> 2.34-1ubuntu1 > ( fonts ) FU=0
+  MarkInstall unity [ i386 ] < 5.14.0-0ubuntu1 -> 7.2.4+14.04.20141217-0ubuntu1 > ( gnome ) FU=0
+  Installing libatk-bridge2.0-0 as Depends of unity
+    MarkInstall libatk-bridge2.0-0 [ i386 ] < none -> 2.10.2-2ubuntu1 > ( libs ) FU=0
+  Installing libbamf3-2 as Depends of unity
+    MarkInstall libbamf3-2 [ i386 ] < none -> 0.5.1+14.04.20140409-0ubuntu1 > ( libs ) FU=0
+  Installing libglew1.10 as Depends of unity
+    MarkInstall libglew1.10 [ i386 ] < none -> 1.10.0-3 > ( libs ) FU=0
+  Installing libgnome-desktop-3-7 as Depends of unity
+    MarkInstall libgnome-desktop-3-7 [ i386 ] < none -> 3.8.4-0ubuntu3 > ( libs ) FU=0
+  Installing libnux-4.0-0 as Depends of unity
+    MarkInstall libnux-4.0-0 [ i386 ] < none -> 4.0.6+14.04.20141107-0ubuntu1 > ( libs ) FU=0
+    Installing libnux-4.0-common as Depends of libnux-4.0-0
+      MarkInstall libnux-4.0-common [ i386 ] < none -> 4.0.6+14.04.20141107-0ubuntu1 > ( libs ) FU=0
+    Installing libgeis1 as Depends of libnux-4.0-0
+      MarkInstall libgeis1 [ i386 ] < none -> 2.2.16+14.04.20140303-0ubuntu1 > ( libs ) FU=0
+      Installing libframe6 as Depends of libgeis1
+        MarkInstall libframe6 [ i386 ] < none -> 2.5.0daily13.06.05-0ubuntu1 > ( libs ) FU=0
+      Installing libgrail6 as Depends of libgeis1
+        MarkInstall libgrail6 [ i386 ] < none -> 3.1.0daily13.06.05-0ubuntu1 > ( libs ) FU=0
+    Installing libglewmx1.10 as Depends of libnux-4.0-0
+      MarkInstall libglewmx1.10 [ i386 ] < none -> 1.10.0-3 > ( libs ) FU=0
+    Installing libibus-1.0-5 as Depends of libnux-4.0-0
+      MarkInstall libibus-1.0-5 [ i386 ] < none -> 1.5.5-1ubuntu3 > ( libs ) FU=0
+    Installing libpangocairo-1.0-0 as Depends of libnux-4.0-0
+      MarkInstall libpangocairo-1.0-0 [ i386 ] < none -> 1.36.3-1ubuntu1.1 > ( libs ) FU=0
+      Installing libpangoft2-1.0-0 as Depends of libpangocairo-1.0-0
+        MarkInstall libpangoft2-1.0-0 [ i386 ] < none -> 1.36.3-1ubuntu1.1 > ( libs ) FU=0
+        Installing libharfbuzz0b as Depends of libpangoft2-1.0-0
+          MarkInstall libharfbuzz0b [ i386 ] < none -> 0.9.27-1ubuntu1 > ( libs ) FU=0
+          Installing libgraphite2-3 as Depends of libharfbuzz0b
+            MarkInstall libgraphite2-3 [ i386 ] < none -> 1.2.4-1ubuntu1 > ( libs ) FU=0
+  Installing libunity-core-6.0-9 as Depends of unity
+    MarkInstall libunity-core-6.0-9 [ i386 ] < none -> 7.2.4+14.04.20141217-0ubuntu1 > ( libs ) FU=0
+    Installing libunity-protocol-private0 as Depends of libunity-core-6.0-9
+      MarkInstall libunity-protocol-private0 [ i386 ] < none -> 7.1.4+14.04.20140210-0ubuntu1 > ( libs ) FU=0
+      MarkDelete unity-common [ i386 ] < 5.14.0-0ubuntu1 > ( gnome ) FU=0
+  Installing session-migration as Depends of unity
+    MarkInstall session-migration [ i386 ] < none -> 0.2.1 > ( misc ) FU=0
+  Installing dconf-cli as Depends of unity
+    MarkInstall dconf-cli [ i386 ] < none -> 0.20.0-1 > ( utils ) FU=0
+    Installing libdconf1 as Depends of dconf-cli
+      MarkInstall libdconf1 [ i386 ] < none -> 0.20.0-1 > ( libs ) FU=0
+  Installing unity-scope-home as Depends of unity
+    MarkInstall unity-scope-home [ i386 ] < none -> 6.8.2+14.04.20131029.1-0ubuntu1 > ( gnome ) FU=0
+    Installing unity-scopes-master-default as Depends of unity-scope-home
+      MarkInstall unity-scopes-master-default [ i386 ] < none -> 6.8.2+14.04.20131029.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-control-center:i386
+  Installing unity-control-center as Recommends of unity
+    MarkInstall unity-control-center [ i386 ] < none -> 14.04.3+14.04.20140922-0ubuntu1 > ( gnome ) FU=0
+    Installing libcheese-gtk23 as Depends of unity-control-center
+      MarkInstall libcheese-gtk23 [ i386 ] < none -> 3.10.2-0ubuntu2 > ( libs ) FU=0
+      Installing libcheese7 as Depends of libcheese-gtk23
+        MarkInstall libcheese7 [ i386 ] < none -> 3.10.2-0ubuntu2 > ( libs ) FU=0
+        Installing libclutter-gst-2.0-0 as Depends of libcheese7
+          MarkInstall libclutter-gst-2.0-0 [ i386 ] < none -> 2.0.8-1build1 > ( libs ) FU=0
+          Installing libclutter-1.0-0 as Depends of libclutter-gst-2.0-0
+            MarkInstall libclutter-1.0-0 [ i386 ] < none -> 1.16.4-0ubuntu2 > ( libs ) FU=0
+            Installing libcogl-pango15 as Depends of libclutter-1.0-0
+              MarkInstall libcogl-pango15 [ i386 ] < none -> 1.16.2-1 > ( libs ) FU=0
+              Installing libcogl15 as Depends of libcogl-pango15
+                MarkInstall libcogl15 [ i386 ] < none -> 1.16.2-1 > ( libs ) FU=0
+                Installing libegl1-mesa as Depends of libcogl15
+                  MarkInstall libegl1-mesa [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                  Installing libgbm1 as Depends of libegl1-mesa
+                    MarkInstall libgbm1 [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                    Installing libwayland-client0 as Depends of libgbm1
+                      MarkInstall libwayland-client0 [ i386 ] < none -> 1.4.0-1ubuntu1 > ( libs ) FU=0
+                    Installing libwayland-server0 as Depends of libgbm1
+                      MarkInstall libwayland-server0 [ i386 ] < none -> 1.4.0-1ubuntu1 > ( libs ) FU=0
+                  Installing libxcb-xfixes0 as Depends of libegl1-mesa
+                    MarkInstall libxcb-xfixes0 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+                  Installing libegl1-mesa-drivers as Recommends of libegl1-mesa
+                    MarkInstall libegl1-mesa-drivers [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                    Installing libdrm-nouveau2 as Depends of libegl1-mesa-drivers
+                      MarkInstall libdrm-nouveau2 [ i386 ] < none -> 2.4.56-1~ubuntu2 > ( libs ) FU=0
+                    Installing libllvm3.4 as Depends of libegl1-mesa-drivers
+                      MarkInstall libllvm3.4 [ i386 ] < none -> 1:3.4-1ubuntu3 > ( libs ) FU=0
+                    Installing libopenvg1-mesa as Depends of libegl1-mesa-drivers
+                      MarkInstall libopenvg1-mesa [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                    Installing libwayland-egl1-mesa as Depends of libegl1-mesa-drivers
+                      MarkInstall libwayland-egl1-mesa [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                Installing libcogl-common as Recommends of libcogl15
+                  MarkInstall libcogl-common [ i386 ] < none -> 1.16.2-1 > ( libs ) FU=0
+            Installing libclutter-1.0-common as Recommends of libclutter-1.0-0
+              MarkInstall libclutter-1.0-common [ i386 ] < none -> 1.16.4-0ubuntu2 > ( libs ) FU=0
+          Installing libgstreamer-plugins-base1.0-0 as Depends of libclutter-gst-2.0-0
+            MarkInstall libgstreamer-plugins-base1.0-0 [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=0
+            Installing libgstreamer1.0-0 as Depends of libgstreamer-plugins-base1.0-0
+              MarkInstall libgstreamer1.0-0 [ i386 ] < none -> 1.2.4-0ubuntu1 > ( libs ) FU=0
+        Installing cheese-common as Depends of libcheese7
+          MarkInstall cheese-common [ i386 ] < none -> 3.10.2-0ubuntu2 > ( gnome ) FU=0
+        Installing gstreamer1.0-clutter as Depends of libcheese7
+          MarkInstall gstreamer1.0-clutter [ i386 ] < none -> 2.0.8-1build1 > ( libs ) FU=0
+        Installing gstreamer1.0-plugins-base as Depends of libcheese7
+          MarkInstall gstreamer1.0-plugins-base [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=0
+        Installing gstreamer1.0-plugins-good as Depends of libcheese7
+          MarkInstall gstreamer1.0-plugins-good [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=0
+          Installing libgstreamer-plugins-good1.0-0 as Depends of gstreamer1.0-plugins-good
+            MarkInstall libgstreamer-plugins-good1.0-0 [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=0
+          Installing libvpx1 as Depends of gstreamer1.0-plugins-good
+            MarkInstall libvpx1 [ i386 ] < none -> 1.3.0-2 > ( libs ) FU=0
+          Installing gstreamer1.0-x as Recommends of gstreamer1.0-plugins-good
+            MarkInstall gstreamer1.0-x [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=0
+      Installing libclutter-gtk-1.0-0 as Depends of libcheese-gtk23
+        MarkInstall libclutter-gtk-1.0-0 [ i386 ] < none -> 1.4.4-3ubuntu2.2 > ( libs ) FU=0
+    Installing libgnome-bluetooth11 as Depends of unity-control-center
+      MarkInstall libgnome-bluetooth11 [ i386 ] < none -> 3.8.2.1-0ubuntu4.2 > ( libs ) FU=0
+    Installing libpwquality1 as Depends of unity-control-center
+      MarkInstall libpwquality1 [ i386 ] < none -> 1.2.3-1ubuntu1.1 > ( libs ) FU=0
+      Installing libcrack2 as Depends of libpwquality1
+        MarkInstall libcrack2 [ i386 ] < none -> 2.9.1-1build1 > ( libs ) FU=0
+        Installing cracklib-runtime as Recommends of libcrack2
+          MarkInstall cracklib-runtime [ i386 ] < none -> 2.9.1-1build1 > ( admin ) FU=0
+      Installing libpwquality-common as Depends of libpwquality1
+        MarkInstall libpwquality-common [ i386 ] < none -> 1.2.3-1ubuntu1.1 > ( libs ) FU=0
+    Installing gkbd-capplet as Depends of unity-control-center
+      MarkInstall gkbd-capplet [ i386 ] < none -> 3.6.0-0ubuntu2 > ( libs ) FU=0
+      Installing libgnomekbd8 as Depends of gkbd-capplet
+        MarkInstall libgnomekbd8 [ i386 ] < none -> 3.6.0-0ubuntu2 > ( libs ) FU=0
+    Installing unity-settings-daemon as Depends of unity-control-center
+      MarkInstall unity-settings-daemon [ i386 ] < none -> 14.04.0+14.04.20140606-0ubuntu1 > ( gnome ) FU=0
+      Installing gnome-settings-daemon-schemas as Depends of unity-settings-daemon
+        MarkInstall gnome-settings-daemon-schemas [ i386 ] < none -> 3.8.6.1-0ubuntu11.2 > ( gnome ) FU=0
+      Installing gsettings-ubuntu-schemas as Depends of unity-settings-daemon
+        MarkInstall gsettings-ubuntu-schemas [ i386 ] < none -> 0.0.1+14.04.20140401-0ubuntu1 > ( gnome ) FU=0
+      Installing systemd-services as Recommends of unity-settings-daemon
+        MarkInstall systemd-services [ i386 ] < none -> 204-5ubuntu20.10 > ( admin ) FU=0
+        Installing libcgmanager0 as Depends of systemd-services
+          MarkInstall libcgmanager0 [ i386 ] < none -> 0.24-0ubuntu7.3 > ( admin ) FU=0
+        Installing libsystemd-daemon0 as Depends of systemd-services
+          MarkInstall libsystemd-daemon0 [ i386 ] < none -> 204-5ubuntu20.10 > ( libs ) FU=0
+        Installing libudev1 as Depends of systemd-services
+          MarkInstall libudev1 [ i386 ] < none -> 204-5ubuntu20.10 > ( libs ) FU=0
+        Installing systemd-shim as Depends of systemd-services
+          MarkInstall systemd-shim [ i386 ] < none -> 6-2bzr1 > ( admin ) FU=0
+    Installing indicator-bluetooth as Depends of unity-control-center
+      MarkInstall indicator-bluetooth [ i386 ] < none -> 0.0.6+14.04.20140207-0ubuntu2 > ( gnome ) FU=0
+      Installing liburl-dispatcher1 as Depends of indicator-bluetooth
+        MarkInstall liburl-dispatcher1 [ i386 ] < none -> 0.1+14.04.20140403-0ubuntu1 > ( libs ) FU=0
+    Installing indicator-keyboard as Depends of unity-control-center
+      MarkInstall indicator-keyboard [ i386 ] < none -> 0.0.0+14.04.20140410.1-0ubuntu1 > ( gnome ) FU=0
+    Installing cups-pk-helper as Recommends of unity-control-center
+      MarkInstall cups-pk-helper [ i386 ] < none -> 0.2.5-0ubuntu1 > ( gnome ) FU=0
+    Installing gnome-control-center-shared-data as Recommends of unity-control-center
+      MarkInstall gnome-control-center-shared-data [ i386 ] < none -> 1:3.6.3-0ubuntu56.1 > ( gnome ) FU=0
+  new important dependency: unity-scope-yelp:i386
+  Installing unity-scope-yelp as Recommends of unity
+    MarkInstall unity-scope-yelp [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+    Installing python3-gi as Depends of unity-scope-yelp
+      MarkInstall python3-gi [ i386 ] < none -> 3.12.0-1ubuntu1 > ( python ) FU=0
+    Installing unity-scopes-runner as Depends of unity-scope-yelp
+      MarkInstall unity-scopes-runner [ i386 ] < none -> 7.1.4+14.04.20140210-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-devhelp:i386
+  Installing unity-scope-devhelp as Recommends of unity
+    MarkInstall unity-scope-devhelp [ i386 ] < none -> 0.1+14.04.20140328-0ubuntu1 > ( gnome ) FU=0
+    Installing python3-lxml as Depends of unity-scope-devhelp
+      MarkInstall python3-lxml [ i386 ] < none -> 3.3.3-1ubuntu0.1 > ( python ) FU=0
+  new important dependency: unity-scope-virtualbox:i386
+  Installing unity-scope-virtualbox as Recommends of unity
+    MarkInstall unity-scope-virtualbox [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-clementine:i386
+  Installing unity-scope-clementine as Recommends of unity
+    MarkInstall unity-scope-clementine [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+    Installing python3-dbus as Depends of unity-scope-clementine
+      MarkInstall python3-dbus [ i386 ] < none -> 1.2.0-2build2 > ( python ) FU=0
+  new important dependency: unity-scope-chromiumbookmarks:i386
+  Installing unity-scope-chromiumbookmarks as Recommends of unity
+    MarkInstall unity-scope-chromiumbookmarks [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-lens-photos:i386
+  Installing unity-lens-photos as Recommends of unity
+    MarkInstall unity-lens-photos [ i386 ] < none -> 1.0+14.04.20140318-0ubuntu1 > ( gnome ) FU=0
+    Installing gir1.2-accounts-1.0 as Depends of unity-lens-photos
+      MarkInstall gir1.2-accounts-1.0 [ i386 ] < none -> 1.15+14.04.20131126.2-0ubuntu3 > ( libs ) FU=0
+      Installing libaccounts-glib0 as Depends of gir1.2-accounts-1.0
+        MarkInstall libaccounts-glib0 [ i386 ] < none -> 1.15+14.04.20131126.2-0ubuntu3 > ( libs ) FU=0
+    Installing gir1.2-gdata-0.0 as Depends of unity-lens-photos
+      MarkInstall gir1.2-gdata-0.0 [ i386 ] < none -> 0.14.1-1 > ( libs ) FU=0
+      Installing gir1.2-goa-1.0 as Depends of gir1.2-gdata-0.0
+        MarkInstall gir1.2-goa-1.0 [ i386 ] < none -> 3.10.3-0ubuntu1 > ( gnome ) FU=0
+        Installing libgoa-1.0-0b as Depends of gir1.2-goa-1.0
+          MarkInstall libgoa-1.0-0b [ i386 ] < none -> 3.10.3-0ubuntu1 > ( libs ) FU=0
+            MarkDelete libgoa-1.0-0 [ i386 ] < 3.4.0-0ubuntu1 > ( libs ) FU=0
+    Installing gir1.2-signon-1.0 as Depends of unity-lens-photos
+      MarkInstall gir1.2-signon-1.0 [ i386 ] < none -> 1.10daily13.06.25-0ubuntu2 > ( libs ) FU=0
+      Installing libsignon-glib1 as Depends of gir1.2-signon-1.0
+        MarkInstall libsignon-glib1 [ i386 ] < none -> 1.10daily13.06.25-0ubuntu2 > ( libs ) FU=0
+    Installing python3-httplib2 as Depends of unity-lens-photos
+      MarkInstall python3-httplib2 [ i386 ] < none -> 0.8-2build1 > ( python ) FU=0
+    Installing python3-oauthlib as Depends of unity-lens-photos
+      MarkInstall python3-oauthlib [ i386 ] < none -> 0.6.1-1 > ( python ) FU=0
+      Installing python3-crypto as Depends of python3-oauthlib
+        MarkInstall python3-crypto [ i386 ] < none -> 2.6.1-4build1 > ( python ) FU=0
+    Installing account-plugin-flickr as Recommends of unity-lens-photos
+      MarkInstall account-plugin-flickr [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+      Installing libaccount-plugin-generic-oauth as Depends of account-plugin-flickr
+        MarkInstall libaccount-plugin-generic-oauth [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+        Installing libaccount-plugin-1.0-0 as Depends of libaccount-plugin-generic-oauth
+          MarkInstall libaccount-plugin-1.0-0 [ i386 ] < none -> 0.1.7~+14.04.20140211.2-0ubuntu4 > ( libs ) FU=0
+          Installing signond as Depends of libaccount-plugin-1.0-0
+            MarkInstall signond [ i386 ] < none -> 8.56+14.04.20140307-0ubuntu2 > ( gnome ) FU=0
+            Installing libqt5core5a as Depends of signond
+              MarkInstall libqt5core5a [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+              Installing libicu52 as Depends of libqt5core5a
+                MarkInstall libicu52 [ i386 ] < none -> 52.1-3ubuntu0.2 > ( libs ) FU=0
+            Installing libqt5dbus5 as Depends of signond
+              MarkInstall libqt5dbus5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+            Installing libqt5network5 as Depends of signond
+              MarkInstall libqt5network5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+            Installing libqt5sql5 as Depends of signond
+              MarkInstall libqt5sql5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+              Installing libqt5sql5-sqlite as Recommends of libqt5sql5
+                MarkInstall libqt5sql5-sqlite [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+            Installing libsignon-extension1 as Depends of signond
+              MarkInstall libsignon-extension1 [ i386 ] < none -> 8.56+14.04.20140307-0ubuntu2 > ( libs ) FU=0
+            Installing libsignon-plugins-common1 as Depends of signond
+              MarkInstall libsignon-plugins-common1 [ i386 ] < none -> 8.56+14.04.20140307-0ubuntu2 > ( libs ) FU=0
+            Installing signon-ui as Recommends of signond
+              MarkInstall signon-ui [ i386 ] < none -> 0.16+14.04.20140304.is.0.15+14.04.20140313-0ubuntu1 > ( gnome ) FU=0
+              Installing libaccounts-qt5-1 as Depends of signon-ui
+                MarkInstall libaccounts-qt5-1 [ i386 ] < none -> 1.11+14.04.20140410.1-0ubuntu1 > ( libs ) FU=0
+                Installing libqt5xml5 as Depends of libaccounts-qt5-1
+                  MarkInstall libqt5xml5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+              Installing libqt5gui5 as Depends of signon-ui
+                MarkInstall libqt5gui5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+                Installing libgles2-mesa as Depends of libqt5gui5
+                  MarkInstall libgles2-mesa [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+                Installing libxcb-icccm4 as Depends of libqt5gui5
+                  MarkInstall libxcb-icccm4 [ i386 ] < none -> 0.4.1-1ubuntu1 > ( libs ) FU=0
+                Installing libxcb-image0 as Depends of libqt5gui5
+                  MarkInstall libxcb-image0 [ i386 ] < none -> 0.3.9-1ubuntu2 > ( libdevel ) FU=0
+                Installing libxcb-keysyms1 as Depends of libqt5gui5
+                  MarkInstall libxcb-keysyms1 [ i386 ] < none -> 0.3.9-1ubuntu1 > ( libs ) FU=0
+                Installing libxcb-randr0 as Depends of libqt5gui5
+                  MarkInstall libxcb-randr0 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+                Installing libxcb-render-util0 as Depends of libqt5gui5
+                  MarkInstall libxcb-render-util0 [ i386 ] < none -> 0.3.8-1.1ubuntu1 > ( libs ) FU=0
+                Installing libxcb-sync1 as Depends of libqt5gui5
+                  MarkInstall libxcb-sync1 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+                Installing libxcb-xkb1 as Depends of libqt5gui5
+                  MarkInstall libxcb-xkb1 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+                Installing libxkbcommon-x11-0 as Depends of libqt5gui5
+                  MarkInstall libxkbcommon-x11-0 [ i386 ] < none -> 0.4.1-0ubuntu1 > ( libs ) FU=0
+                  Installing libxkbcommon0 as Depends of libxkbcommon-x11-0
+                    MarkInstall libxkbcommon0 [ i386 ] < none -> 0.4.1-0ubuntu1 > ( libs ) FU=0
+              Installing libqt5qml5 as Depends of signon-ui
+                MarkInstall libqt5qml5 [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+              Installing libqt5quick5 as Depends of signon-ui
+                MarkInstall libqt5quick5 [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+              Installing libqt5test5 as Depends of signon-ui
+                MarkInstall libqt5test5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+              Installing libqt5webkit5 as Depends of signon-ui
+                MarkInstall libqt5webkit5 [ i386 ] < none -> 5.1.1-1ubuntu8 > ( libs ) FU=0
+                Installing libqt5opengl5 as Depends of libqt5webkit5
+                  MarkInstall libqt5opengl5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+                  Installing libqt5widgets5 as Depends of libqt5opengl5
+                    MarkInstall libqt5widgets5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+                Installing libqt5positioning5 as Depends of libqt5webkit5
+                  MarkInstall libqt5positioning5 [ i386 ] < none -> 5.2.1-1ubuntu2 > ( libs ) FU=0
+                Installing libqt5printsupport5 as Depends of libqt5webkit5
+                  MarkInstall libqt5printsupport5 [ i386 ] < none -> 5.2.1+dfsg-1ubuntu14.2 > ( libs ) FU=0
+                Installing libqt5sensors5 as Depends of libqt5webkit5
+                  MarkInstall libqt5sensors5 [ i386 ] < none -> 5.2.1+dfsg-2ubuntu2 > ( libs ) FU=0
+              Installing libsignon-qt5-1 as Depends of signon-ui
+                MarkInstall libsignon-qt5-1 [ i386 ] < none -> 8.56+14.04.20140307-0ubuntu2 > ( libs ) FU=0
+          Installing unity-control-center-signon as Recommends of libaccount-plugin-1.0-0
+            MarkInstall unity-control-center-signon [ i386 ] < none -> 0.1.7~+14.04.20140211.2-0ubuntu4 > ( gnome ) FU=0
+            Installing libaccount-plugin-google as Depends of unity-control-center-signon
+              MarkInstall libaccount-plugin-google [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+              Installing signon-plugin-oauth2 as Depends of libaccount-plugin-google
+                MarkInstall signon-plugin-oauth2 [ i386 ] < none -> 0.19+14.04.20140305-0ubuntu2 > ( libs ) FU=0
+            Installing signon-keyring-extension as Depends of unity-control-center-signon
+              MarkInstall signon-keyring-extension [ i386 ] < none -> 0.6+14.04.20140307-0ubuntu1 > ( gnome ) FU=0
+              Installing libsecret-1-0 as Depends of signon-keyring-extension
+                MarkInstall libsecret-1-0 [ i386 ] < none -> 0.16-0ubuntu1 > ( libs ) FU=0
+                Installing libsecret-common as Depends of libsecret-1-0
+                  MarkInstall libsecret-common [ i386 ] < none -> 0.16-0ubuntu1 > ( libs ) FU=0
+    Installing account-plugin-google as Recommends of unity-lens-photos
+      MarkInstall account-plugin-google [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+    Installing account-plugin-facebook as Recommends of unity-lens-photos
+      MarkInstall account-plugin-facebook [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-colourlovers:i386
+  Installing unity-scope-colourlovers as Recommends of unity
+    MarkInstall unity-scope-colourlovers [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-audacious:i386
+  Installing unity-scope-audacious as Recommends of unity
+    MarkInstall unity-scope-audacious [ i386 ] < none -> 0.1+13.10.20130927.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-gourmet:i386
+  Installing unity-scope-gourmet as Recommends of unity
+    MarkInstall unity-scope-gourmet [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-musique:i386
+  Installing unity-scope-musique as Recommends of unity
+    MarkInstall unity-scope-musique [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-manpages:i386
+  Installing unity-scope-manpages as Recommends of unity
+    MarkInstall unity-scope-manpages [ i386 ] < none -> 3.0+14.04.20140324-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-texdoc:i386
+  Installing unity-scope-texdoc as Recommends of unity
+    MarkInstall unity-scope-texdoc [ i386 ] < none -> 0.1+14.04.20140328-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-openclipart:i386
+  Installing unity-scope-openclipart as Recommends of unity
+    MarkInstall unity-scope-openclipart [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+    Installing python3-feedparser as Depends of unity-scope-openclipart
+      MarkInstall python3-feedparser [ i386 ] < none -> 5.1.3-2 > ( python ) FU=0
+  new important dependency: unity-scope-guayadeque:i386
+  Installing unity-scope-guayadeque as Recommends of unity
+    MarkInstall unity-scope-guayadeque [ i386 ] < none -> 0.1+13.10.20130927.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-firefoxbookmarks:i386
+  Installing unity-scope-firefoxbookmarks as Recommends of unity
+    MarkInstall unity-scope-firefoxbookmarks [ i386 ] < none -> 0.1+13.10.20130809.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-lens-friends:i386
+  Installing unity-lens-friends as Recommends of unity
+    MarkInstall unity-lens-friends [ i386 ] < none -> 0.1.3+14.04.20140317-0ubuntu1 > ( misc ) FU=0
+    Installing libfriends0 as Depends of unity-lens-friends
+      MarkInstall libfriends0 [ i386 ] < none -> 0.1.2+14.04.20131108.1-0ubuntu1 > ( libs ) FU=0
+      Installing friends-dispatcher as Depends of libfriends0
+        MarkInstall friends-dispatcher [ i386 ] < none -> 0.2.0+14.04.20140217.1-0ubuntu1 > ( misc ) FU=0
+        Installing gir1.2-ebook-1.2 as Depends of friends-dispatcher
+          MarkInstall gir1.2-ebook-1.2 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+          Installing gir1.2-ebookcontacts-1.2 as Depends of gir1.2-ebook-1.2
+            MarkInstall gir1.2-ebookcontacts-1.2 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( introspection ) FU=0
+            Installing gir1.2-edataserver-1.2 as Depends of gir1.2-ebookcontacts-1.2
+              MarkInstall gir1.2-edataserver-1.2 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+              Installing libedataserver-1.2-18 as Depends of gir1.2-edataserver-1.2
+                MarkInstall libedataserver-1.2-18 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+                Installing libcamel-1.2-45 as Depends of libedataserver-1.2-18
+                  MarkInstall libcamel-1.2-45 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+            Installing libebook-contacts-1.2-0 as Depends of gir1.2-ebookcontacts-1.2
+              MarkInstall libebook-contacts-1.2-0 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+          Installing libebook-1.2-14 as Depends of gir1.2-ebook-1.2
+            MarkInstall libebook-1.2-14 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+            Installing libebackend-1.2-7 as Depends of libebook-1.2-14
+              MarkInstall libebackend-1.2-7 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+            Installing libedata-book-1.2-20 as Depends of libebook-1.2-14
+              MarkInstall libedata-book-1.2-20 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+        Installing gir1.2-networkmanager-1.0 as Depends of friends-dispatcher
+          MarkInstall gir1.2-networkmanager-1.0 [ i386 ] < none -> 0.9.8.8-0ubuntu7 > ( libs ) FU=0
+        Installing python3-pkg-resources as Depends of friends-dispatcher
+          MarkInstall python3-pkg-resources [ i386 ] < none -> 3.3-1ubuntu1 > ( python ) FU=0
+        Installing friends-facebook as Recommends of friends-dispatcher
+          MarkInstall friends-facebook [ i386 ] < none -> 0.2.0+14.04.20140217.1-0ubuntu1 > ( misc ) FU=0
+          Installing friends as Depends of friends-facebook
+            MarkInstall friends [ i386 ] < none -> 0.2.0+14.04.20140217.1-0ubuntu1 > ( misc ) FU=0
+        Installing friends-twitter as Recommends of friends-dispatcher
+          MarkInstall friends-twitter [ i386 ] < none -> 0.2.0+14.04.20140217.1-0ubuntu1 > ( misc ) FU=0
+          Installing account-plugin-twitter as Depends of friends-twitter
+            MarkInstall account-plugin-twitter [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+        Installing gir1.2-messagingmenu-1.0 as Recommends of friends-dispatcher
+          MarkInstall gir1.2-messagingmenu-1.0 [ i386 ] < none -> 13.10.1+14.04.20140410-0ubuntu1 > ( libs ) FU=0
+          Installing libmessaging-menu0 as Depends of gir1.2-messagingmenu-1.0
+            MarkInstall libmessaging-menu0 [ i386 ] < none -> 13.10.1+14.04.20140410-0ubuntu1 > ( libs ) FU=0
+  new important dependency: unity-scope-calculator:i386
+  Installing unity-scope-calculator as Recommends of unity
+    MarkInstall unity-scope-calculator [ i386 ] < none -> 0.1+14.04.20140328-0ubuntu1 > ( gnome ) FU=0
+    Installing gnome-calculator as Depends of unity-scope-calculator
+      MarkInstall gnome-calculator [ i386 ] < none -> 1:3.10.3-0ubuntu0.1.1 > ( math ) FU=0
+  new important dependency: unity-scope-tomboy:i386
+  Installing unity-scope-tomboy as Recommends of unity
+    MarkInstall unity-scope-tomboy [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-zotero:i386
+  Installing unity-scope-zotero as Recommends of unity
+    MarkInstall unity-scope-zotero [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-gmusicbrowser:i386
+  Installing unity-scope-gmusicbrowser as Recommends of unity
+    MarkInstall unity-scope-gmusicbrowser [ i386 ] < none -> 0.1+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-scope-gdrive:i386
+  Installing unity-scope-gdrive as Recommends of unity
+    MarkInstall unity-scope-gdrive [ i386 ] < none -> 0.9+13.10.20130723-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: hud:i386
+  Installing hud as Recommends of unity
+    MarkInstall hud [ i386 ] < none -> 14.04+14.04.20140604-0ubuntu1 > ( gnome ) FU=0
+    Installing libcolumbus1 as Depends of hud
+      MarkInstall libcolumbus1 [ i386 ] < none -> 1.1.0+14.04.20140325.3-0ubuntu1 > ( libs ) FU=0
+      Installing libcolumbus1-common as Depends of libcolumbus1
+        MarkInstall libcolumbus1-common [ i386 ] < none -> 1.1.0+14.04.20140325.3-0ubuntu1 > ( libs ) FU=0
+    Installing libdbusmenu-qt5 as Depends of hud
+      MarkInstall libdbusmenu-qt5 [ i386 ] < none -> 0.9.3+14.04.20140314-0ubuntu1 > ( libs ) FU=0
+    Installing libgsettings-qt1 as Depends of hud
+      MarkInstall libgsettings-qt1 [ i386 ] < none -> 0.1+14.04.20140408-0ubuntu1 > ( libs ) FU=0
+    Installing libunityvoice1 as Depends of hud
+      MarkInstall libunityvoice1 [ i386 ] < none -> 0.1+14.04.20140304-0ubuntu1 > ( libs ) FU=0
+      Installing unity-voice-service as Depends of libunityvoice1
+        MarkInstall unity-voice-service [ i386 ] < none -> 0.1+14.04.20140304-0ubuntu1 > ( gnome ) FU=0
+        Installing sphinx-voxforge-hmm-en as Depends of unity-voice-service
+          MarkInstall sphinx-voxforge-hmm-en [ i386 ] < none -> 0.1.1~daily20130301-0ubuntu1 > ( sound ) FU=0
+        Installing sphinx-voxforge-lm-en as Depends of unity-voice-service
+          MarkInstall sphinx-voxforge-lm-en [ i386 ] < none -> 0.1.1~daily20130301-0ubuntu1 > ( sound ) FU=0
+        Installing libpocketsphinx1 as Depends of unity-voice-service
+          MarkInstall libpocketsphinx1 [ i386 ] < none -> 0.8.0+real-0ubuntu6 > ( libs ) FU=0
+          Installing libsphinxbase1 as Depends of libpocketsphinx1
+            MarkInstall libsphinxbase1 [ i386 ] < none -> 0.8-0ubuntu10 > ( libs ) FU=0
+  MarkInstall libstdc++6 [ i386 ] < 4.6.3-1ubuntu5 -> 4.8.2-19ubuntu1 > ( libs ) FU=0
+  Installing gcc-4.8-base as Depends of libstdc++6
+    MarkInstall gcc-4.8-base [ i386 ] < none -> 4.8.2-19ubuntu1 > ( libs ) FU=0
+  MarkInstall iproute [ i386 ] < 20111117-1ubuntu2 -> 1:3.12.0-2 > ( net ) FU=0
+  Installing iproute2 as Depends of iproute
+    MarkInstall iproute2 [ i386 ] < none -> 3.12.0-2 > ( net ) FU=0
+    Installing libatm1 as Recommends of iproute2
+      MarkInstall libatm1 [ i386 ] < none -> 1:2.5.1-1.5 > ( libs ) FU=0
+    Installing libxtables10 as Recommends of iproute2
+      MarkInstall libxtables10 [ i386 ] < none -> 1.4.21-1ubuntu1 > ( net ) FU=0
+  MarkInstall libpolkit-gobject-1-0 [ i386 ] < 0.104-1ubuntu1 -> 0.105-4ubuntu2 > ( libs ) FU=0
+  Installing libsystemd-login0 as Depends of libpolkit-gobject-1-0
+    MarkInstall libsystemd-login0 [ i386 ] < none -> 204-5ubuntu20.10 > ( libs ) FU=0
+  MarkInstall libcompizconfig0 [ i386 ] < 0.9.7.0~bzr428-0ubuntu6 -> 1:0.9.11.3+14.04.20150122-0ubuntu1 > ( libs ) FU=0
+  Installing libprotobuf8 as Depends of libcompizconfig0
+    MarkInstall libprotobuf8 [ i386 ] < none -> 2.5.0-9ubuntu1 > ( libs ) FU=0
+  MarkInstall update-manager [ i386 ] < 1:0.156.14.9 -> 1:0.196.12 > ( gnome ) FU=0
+  Installing python3-aptdaemon.gtk3widgets as Depends of update-manager
+    MarkInstall python3-aptdaemon.gtk3widgets [ i386 ] < none -> 1.1.1-1ubuntu5.1 > ( python ) FU=0
+    Installing python3-aptdaemon as Depends of python3-aptdaemon.gtk3widgets
+      MarkInstall python3-aptdaemon [ i386 ] < none -> 1.1.1-1ubuntu5.1 > ( python ) FU=0
+      Installing python3-defer as Depends of python3-aptdaemon
+        MarkInstall python3-defer [ i386 ] < none -> 1.0.6-2build1 > ( python ) FU=0
+  Installing ubuntu-release-upgrader-gtk as Depends of update-manager
+    MarkInstall ubuntu-release-upgrader-gtk [ i386 ] < none -> 1:0.220.7 > ( admin ) FU=0
+    Installing ubuntu-release-upgrader-core as Depends of ubuntu-release-upgrader-gtk
+      MarkInstall ubuntu-release-upgrader-core [ i386 ] < none -> 1:0.220.7 > ( admin ) FU=0
+  MarkInstall xz-lzma [ i386 ] < 5.1.1alpha+20110809-3 > ( utils ) FU=0
+    MarkDelete xz-utils [ i386 ] < 5.1.1alpha+20110809-3 -> 5.1.1alpha+20120614-2ubuntu2 > ( utils ) FU=0
+  MarkInstall gnome-nettool [ i386 ] < 3.2.0-0ubuntu1 -> 3.8.1-1 > ( universe/gnome ) FU=0
+  Installing finger as Depends of gnome-nettool
+    MarkInstall finger [ i386 ] < none -> 0.17-15 > ( universe/net ) FU=0
+  Installing nmap as Depends of gnome-nettool
+    MarkInstall nmap [ i386 ] < none -> 6.40-0.2ubuntu1 > ( net ) FU=0
+    Installing liblinear1 as Depends of nmap
+      MarkInstall liblinear1 [ i386 ] < none -> 1.8+dfsg-1ubuntu1 > ( libs ) FU=0
+      Installing libblas3 as Depends of liblinear1
+        MarkInstall libblas3 [ i386 ] < none -> 1.2.20110419-7 > ( libs ) FU=0
+      Installing liblinear-tools as Recommends of liblinear1
+        MarkInstall liblinear-tools [ i386 ] < none -> 1.8+dfsg-1ubuntu1 > ( science ) FU=0
+    Installing liblua5.2-0 as Depends of nmap
+      MarkInstall liblua5.2-0 [ i386 ] < none -> 5.2.3-1 > ( libs ) FU=0
+  MarkInstall metacity [ i386 ] < 1:2.34.1-1ubuntu11 -> 1:2.34.13-0ubuntu4 > ( x11 ) FU=0
+  Installing libmetacity-private0a as Depends of metacity
+    MarkInstall libmetacity-private0a [ i386 ] < none -> 1:2.34.13-0ubuntu4 > ( libs ) FU=0
+      MarkDelete libmetacity-private0 [ i386 ] < 1:2.34.1-1ubuntu11 > ( libs ) FU=0
+  MarkInstall libraptor2-0 [ i386 ] < 2.0.6-1 -> 2.0.13-1 > ( libs ) FU=0
+  Installing libyajl2 as Depends of libraptor2-0
+    MarkInstall libyajl2 [ i386 ] < none -> 2.0.4-4 > ( libs ) FU=0
+  MarkInstall libunity9 [ i386 ] < 5.12.0-0ubuntu1.1 -> 7.1.4+14.04.20140210-0ubuntu1 > ( libs ) FU=0
+  Installing libunity-scopes-json-def-desktop as Depends of libunity9
+    MarkInstall libunity-scopes-json-def-desktop [ i386 ] < none -> 7.1.4+14.04.20140210-0ubuntu1 > ( gnome ) FU=0
+  MarkInstall aisleriot [ i386 ] < 1:3.2.3.2-0ubuntu1 -> 1:3.10.2-1 > ( games ) FU=0
+  Installing guile-2.0-libs as Depends of aisleriot
+    MarkInstall guile-2.0-libs [ i386 ] < none -> 2.0.9+1-1ubuntu1 > ( lisp ) FU=0
+    Installing libgc1c2 as Depends of guile-2.0-libs
+      MarkInstall libgc1c2 [ i386 ] < none -> 1:7.2d-5ubuntu2 > ( libs ) FU=0
+    Installing libunistring0 as Depends of guile-2.0-libs
+      MarkInstall libunistring0 [ i386 ] < none -> 0.9.3-5ubuntu3 > ( libs ) FU=0
+  MarkInstall bind9-host [ i386 ] < 1:9.8.1.dfsg.P1-4ubuntu0.2 -> 1:9.9.5.dfsg-3ubuntu0.2 > ( net ) FU=0
+  Installing libbind9-90 as Depends of bind9-host
+    MarkInstall libbind9-90 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+    Installing libdns100 as Depends of libbind9-90
+      MarkInstall libdns100 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+      Installing libisc95 as Depends of libdns100
+        MarkInstall libisc95 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+    Installing libisccfg90 as Depends of libbind9-90
+      MarkInstall libisccfg90 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+      Installing libisccc90 as Depends of libisccfg90
+        MarkInstall libisccc90 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+  Installing liblwres90 as Depends of bind9-host
+    MarkInstall liblwres90 [ i386 ] < none -> 1:9.9.5.dfsg-3ubuntu0.2 > ( libs ) FU=0
+  MarkInstall irqbalance [ i386 ] < 0.56-1ubuntu4 -> 1.0.6-2ubuntu0.14.04.1 > ( utils ) FU=0
+  Installing libnuma1 as Depends of irqbalance
+    MarkInstall libnuma1 [ i386 ] < none -> 2.0.9~rc5-1ubuntu3 > ( libs ) FU=0
+  MarkInstall procps [ i386 ] < 1:3.2.8-11ubuntu6 -> 1:3.3.9-1ubuntu2.2 > ( admin ) FU=0
+  Installing libprocps3 as Depends of procps
+    MarkInstall libprocps3 [ i386 ] < none -> 1:3.3.9-1ubuntu2.2 > ( libs ) FU=0
+  MarkInstall python-aptdaemon.pkcompat [ i386 ] < 0.43+bzr805-0ubuntu4 > ( python ) FU=0
+  python-aptdaemon.pkcompat:i386 Depends on python-aptdaemon [ i386 ] < 0.43+bzr805-0ubuntu4 -> 1.1.1-1ubuntu5.1 > ( python ) (= 0.43+bzr805-0ubuntu4) can't be satisfied!
+    MarkDelete python-aptdaemon.pkcompat [ i386 ] < 0.43+bzr805-0ubuntu4 > ( python ) FU=0
+  MarkInstall libgtksourceview-3.0-0 [ i386 ] < 3.4.2-0ubuntu1 > ( libs ) FU=0
+  libgtksourceview-3.0-0:i386 Depends on libgtksourceview-3.0-common [ i386 ] < 3.4.2-0ubuntu1 -> 3.10.2-0ubuntu1 > ( libs ) (< 3.5) can't be satisfied!
+    MarkDelete libgtksourceview-3.0-0 [ i386 ] < 3.4.2-0ubuntu1 > ( libs ) FU=0
+  MarkInstall libnss3 [ i386 ] < 3.13.1.with.ckbi.1.88-1ubuntu6 -> 2:3.17.4-0ubuntu0.14.04.1 > ( libs ) FU=0
+  Installing libnss3-nssdb as Depends of libnss3
+    MarkInstall libnss3-nssdb [ i386 ] < none -> 2:3.17.4-0ubuntu0.14.04.1 > ( admin ) FU=0
+  MarkInstall usbmuxd [ i386 ] < 1.0.7-2 -> 1.0.8-2ubuntu1 > ( utils ) FU=0
+  Installing libusbmuxd2 as Depends of usbmuxd
+    MarkInstall libusbmuxd2 [ i386 ] < none -> 1.0.8-2ubuntu1 > ( libs ) FU=0
+  MarkInstall xserver-xorg-video-all [ i386 ] < 1:7.6+12ubuntu1 -> 1:7.7+1ubuntu8.1 > ( x11 ) FU=0
+  Installing xserver-xorg-video-modesetting as Depends of xserver-xorg-video-all
+    MarkInstall xserver-xorg-video-modesetting [ i386 ] < none -> 0.8.1-1build1 > ( x11 ) FU=0
+  MarkInstall libglib2.0-bin [ i386 ] < 2.32.3-0ubuntu1 -> 2.40.2-0ubuntu1 > ( misc ) FU=0
+  Installing libelfg0 as Depends of libglib2.0-bin
+    MarkInstall libelfg0 [ i386 ] < none -> 0.8.13-5 > ( libs ) FU=0
+  MarkInstall python-debian [ i386 ] < 0.1.21ubuntu1 -> 0.1.21+nmu2ubuntu2 > ( devel ) FU=0
+  Installing python-six as Depends of python-debian
+    MarkInstall python-six [ i386 ] < none -> 1.5.2-1 > ( python ) FU=0
+  MarkInstall xserver-xorg-video-ati [ i386 ] < 1:6.14.99~git20111219.aacbd629-0ubuntu2 -> 1:7.3.0-1ubuntu3.1 > ( x11 ) FU=0
+  Installing xserver-xorg-video-glamoregl as Depends of xserver-xorg-video-ati
+    MarkInstall xserver-xorg-video-glamoregl [ i386 ] < none -> 0.6.0-0ubuntu4 > ( x11 ) FU=0
+    Installing libglamor0 as Depends of xserver-xorg-video-glamoregl
+      MarkInstall libglamor0 [ i386 ] < none -> 0.6.0-0ubuntu4 > ( libs ) FU=0
+  MarkInstall oneconf [ i386 ] < 0.2.8.1 -> 0.3.7 > ( python ) FU=0
+  Installing oneconf-common as Depends of oneconf
+    MarkInstall oneconf-common [ i386 ] < none -> 0.3.7 > ( python ) FU=0
+    Installing python-oauthlib as Depends of oneconf-common
+      MarkInstall python-oauthlib [ i386 ] < none -> 0.6.1-1 > ( python ) FU=0
+  Installing python3-oneconf as Depends of oneconf
+    MarkInstall python3-oneconf [ i386 ] < none -> 0.3.7 > ( python ) FU=0
+    Installing python3-piston-mini-client as Depends of python3-oneconf
+      MarkInstall python3-piston-mini-client [ i386 ] < none -> 0.7.5-0ubuntu2 > ( python ) FU=0
+    Installing python3-xdg as Depends of python3-oneconf
+      MarkInstall python3-xdg [ i386 ] < none -> 0.25-4 > ( python ) FU=0
+  MarkInstall smbclient [ i386 ] < 2:3.6.3-2ubuntu2.3 -> 2:4.1.6+dfsg-1ubuntu2.14.04.7 > ( net ) FU=0
+  Installing libtevent0 as Depends of smbclient
+    MarkInstall libtevent0 [ i386 ] < none -> 0.9.19-1 > ( libs ) FU=0
+  Installing samba-libs as Depends of smbclient
+    MarkInstall samba-libs [ i386 ] < none -> 2:4.1.6+dfsg-1ubuntu2.14.04.7 > ( libs ) FU=0
+    Installing libldb1 as Depends of samba-libs
+      MarkInstall libldb1 [ i386 ] < none -> 1:1.1.16-1 > ( libs ) FU=0
+    Installing libntdb1 as Depends of samba-libs
+      MarkInstall libntdb1 [ i386 ] < none -> 1.0-2ubuntu1 > ( libs ) FU=0
+    Installing python-talloc as Depends of samba-libs
+      MarkInstall python-talloc [ i386 ] < none -> 2.1.0-1 > ( python ) FU=0
+  MarkInstall libreoffice-calc [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) FU=0
+  Installing liborcus-0.6-0 as Depends of libreoffice-calc
+    MarkInstall liborcus-0.6-0 [ i386 ] < none -> 0.5.1-7 > ( libs ) FU=0
+    Installing libboost-system1.54.0 as Depends of liborcus-0.6-0
+      MarkInstall libboost-system1.54.0 [ i386 ] < none -> 1.54.0-4ubuntu3.1 > ( libs ) FU=0
+  MarkInstall network-manager [ i386 ] < 0.9.4.0-0ubuntu4.1 -> 0.9.8.8-0ubuntu7 > ( net ) FU=0
+  Installing libmm-glib0 as Depends of network-manager
+    MarkInstall libmm-glib0 [ i386 ] < none -> 1.0.0-2ubuntu1 > ( libs ) FU=0
+  MarkInstall printer-driver-c2esp [ i386 ] < 23-1 -> 27~rc1-1 > ( text ) FU=0
+  Installing libjbig0 as Depends of printer-driver-c2esp
+    MarkInstall libjbig0 [ i386 ] < none -> 2.0-2ubuntu4.1 > ( libs ) FU=0
+  MarkInstall avahi-daemon [ i386 ] < 0.6.30-5ubuntu2 -> 0.6.31-4ubuntu1 > ( net ) FU=0
+  Installing init-system-helpers as Depends of avahi-daemon
+    MarkInstall init-system-helpers [ i386 ] < none -> 1.14 > ( admin ) FU=0
+  MarkInstall qdbus [ i386 ] < 4:4.8.1-0ubuntu4.2 -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+  Installing qtchooser as Depends of qdbus
+    MarkInstall qtchooser [ i386 ] < none -> 39-g4717841-3 > ( libdevel ) FU=0
+  Installing libqtdbus4 as Depends of qdbus
+    MarkInstall libqtdbus4 [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+  MarkInstall upower [ i386 ] < 0.9.15-3git1 -> 0.9.23-2ubuntu1 > ( admin ) FU=0
+  Installing libimobiledevice4 as Depends of upower
+    MarkInstall libimobiledevice4 [ i386 ] < none -> 1.1.5+git20140313.bafe6a9e-0ubuntu1 > ( libs ) FU=0
+  MarkInstall pulseaudio [ i386 ] < 1:1.1-0ubuntu15.1 -> 1:4.0-0ubuntu11.1 > ( sound ) FU=0
+  Installing libfftw3-single3 as Depends of pulseaudio
+    MarkInstall libfftw3-single3 [ i386 ] < none -> 3.3.3-7ubuntu3 > ( libs ) FU=0
+  Installing libpam-systemd as Depends of pulseaudio
+    MarkInstall libpam-systemd [ i386 ] < none -> 204-5ubuntu20.10 > ( admin ) FU=0
+  MarkInstall linux-image-generic-lts-saucy [ i386 ] < 3.11.0.26.23 -> 3.13.0.48.55 > ( metapackages ) FU=0
+  Installing linux-image-generic as Depends of linux-image-generic-lts-saucy
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall linux-image-generic [ i386 ] < none -> 3.13.0.48.55 > ( kernel ) FU=1
+    Installing linux-image-3.13.0-48-generic as Depends of linux-image-generic
+      MarkInstall linux-image-3.13.0-48-generic [ i386 ] < none -> 3.13.0-48.80 > ( kernel ) FU=0
+    Installing linux-image-extra-3.13.0-48-generic as Depends of linux-image-generic
+      MarkInstall linux-image-extra-3.13.0-48-generic [ i386 ] < none -> 3.13.0-48.80 > ( kernel ) FU=0
+  MarkInstall command-not-found [ i386 ] < 0.2.46ubuntu6 -> 0.3ubuntu12 > ( admin ) FU=0
+  Installing python3-commandnotfound as Depends of command-not-found
+    MarkInstall python3-commandnotfound [ i386 ] < none -> 0.3ubuntu12 > ( python ) FU=0
+    Installing python3-gdbm as Depends of python3-commandnotfound
+      MarkInstall python3-gdbm [ i386 ] < none -> 3.4.0-0ubuntu1 > ( python ) FU=0
+  MarkInstall libsane [ i386 ] < 1.0.22-7ubuntu1 -> 1.0.23-3ubuntu3.1 > ( libs ) FU=0
+  Installing libgphoto2-6 as Depends of libsane
+    MarkInstall libgphoto2-6 [ i386 ] < none -> 2.5.3.1-1ubuntu2.2 > ( libs ) FU=0
+    Installing libgd3 as Depends of libgphoto2-6
+      MarkInstall libgd3 [ i386 ] < none -> 2.1.0-3 > ( libs ) FU=0
+      Installing libtiff5 as Depends of libgd3
+        MarkInstall libtiff5 [ i386 ] < none -> 4.0.3-7ubuntu0.1 > ( libs ) FU=0
+    Installing libgphoto2-port10 as Depends of libgphoto2-6
+      MarkInstall libgphoto2-port10 [ i386 ] < none -> 2.5.3.1-1ubuntu2.2 > ( libs ) FU=0
+  MarkInstall iputils-ping [ i386 ] < 3:20101006-1ubuntu1 -> 3:20121221-4ubuntu1.1 > ( net ) FU=0
+  Installing libgnutls-openssl27 as Depends of iputils-ping
+    MarkInstall libgnutls-openssl27 [ i386 ] < none -> 2.12.23-12ubuntu2.2 > ( libs ) FU=0
+  MarkInstall rhythmbox [ i386 ] < 2.96-0ubuntu4.1 -> 3.0.2-0ubuntu2 > ( gnome ) FU=0
+  Installing librhythmbox-core8 as Depends of rhythmbox
+    MarkInstall librhythmbox-core8 [ i386 ] < none -> 3.0.2-0ubuntu2 > ( libs ) FU=0
+    Installing libtotem-plparser18 as Depends of librhythmbox-core8
+      MarkInstall libtotem-plparser18 [ i386 ] < none -> 3.10.2-0ubuntu1 > ( libs ) FU=0
+      Installing libarchive13 as Depends of libtotem-plparser18
+        MarkInstall libarchive13 [ i386 ] < none -> 3.1.2-7ubuntu2.1 > ( libs ) FU=0
+        Installing liblzo2-2 as Depends of libarchive13
+          MarkInstall liblzo2-2 [ i386 ] < none -> 2.06-1.2ubuntu1.1 > ( libs ) FU=0
+  new important dependency: gstreamer1.0-pulseaudio:i386
+  Installing gstreamer1.0-pulseaudio as Recommends of rhythmbox
+    MarkInstall gstreamer1.0-pulseaudio [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( sound ) FU=0
+  MarkInstall system-config-printer-gnome [ i386 ] < 1.3.8+20120201-0ubuntu8.1 -> 1.4.3+20140219-0ubuntu2.6 > ( python ) FU=0
+  Installing python-requests as Depends of system-config-printer-gnome
+    MarkInstall python-requests [ i386 ] < none -> 2.2.1-1ubuntu0.2 > ( python ) FU=0
+    Installing python-urllib3 as Depends of python-requests
+      MarkInstall python-urllib3 [ i386 ] < none -> 1.7.1-1ubuntu0.1 > ( python ) FU=0
+  Installing gir1.2-packagekitglib-1.0 as Depends of system-config-printer-gnome
+    MarkInstall gir1.2-packagekitglib-1.0 [ i386 ] < none -> 0.8.12-1ubuntu5 > ( libs ) FU=0
+    Installing libpackagekit-glib2-16 as Depends of gir1.2-packagekitglib-1.0
+      MarkInstall libpackagekit-glib2-16 [ i386 ] < none -> 0.8.12-1ubuntu5 > ( libs ) FU=0
+      Installing python3-aptdaemon.pkcompat as Recommends of libpackagekit-glib2-16
+        MarkInstall python3-aptdaemon.pkcompat [ i386 ] < none -> 1.1.1-1ubuntu5.1 > ( python ) FU=0
+          MarkDelete libpackagekit-glib2-14 [ i386 ] < 0.7.2-4ubuntu3 > ( libs ) FU=0
+  MarkInstall gedit [ i386 ] < 3.4.1-0ubuntu1 -> 3.10.4-0ubuntu4 > ( gnome ) FU=0
+  Installing libgtksourceview-3.0-1 as Depends of gedit
+    MarkInstall libgtksourceview-3.0-1 [ i386 ] < none -> 3.10.2-0ubuntu1 > ( libs ) FU=0
+  MarkInstall foomatic-db-compressed-ppds [ i386 ] < 20120322-0ubuntu1 -> 20140410-0ubuntu1 > ( text ) FU=0
+  Installing xz-utils as Depends of foomatic-db-compressed-ppds
+    MarkInstall xz-utils [ i386 ] < 5.1.1alpha+20110809-3 -> 5.1.1alpha+20120614-2ubuntu2 > ( utils ) FU=0
+      MarkDelete xz-lzma [ i386 ] < 5.1.1alpha+20110809-3 > ( utils ) FU=0
+  MarkInstall protobuf-compiler [ i386 ] < 2.4.1-1ubuntu2 -> 2.5.0-9ubuntu1 > ( devel ) FU=0
+  Installing libprotoc8 as Depends of protobuf-compiler
+    MarkInstall libprotoc8 [ i386 ] < none -> 2.5.0-9ubuntu1 > ( libs ) FU=0
+  MarkInstall apache2.2-bin [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( httpd ) FU=0
+  Installing apache2-bin as Depends of apache2.2-bin
+    MarkInstall apache2-bin [ i386 ] < none -> 2.4.7-1ubuntu4.4 > ( httpd ) FU=0
+      MarkDelete apache2.2-common [ i386 ] < 2.2.22-1ubuntu1.3 > ( httpd ) FU=0
+    MarkDelete gnome-user-share [ i386 ] < 3.0.2-0ubuntu1 -> 3.0.4-0ubuntu1 > ( gnome ) FU=0
+  MarkInstall brltty [ i386 ] < 4.3-1ubuntu5 -> 5.0-2ubuntu2 > ( admin ) FU=0
+  Installing libbrlapi0.6 as Depends of brltty
+    MarkInstall libbrlapi0.6 [ i386 ] < none -> 5.0-2ubuntu2 > ( libs ) FU=0
+  MarkInstall gnome-control-center [ i386 ] < 1:3.4.2-0ubuntu0.4 -> 1:3.6.3-0ubuntu56.1 > ( gnome ) FU=0
+  Installing libgoa-backend-1.0-1 as Depends of gnome-control-center
+    MarkInstall libgoa-backend-1.0-1 [ i386 ] < none -> 3.10.3-0ubuntu1 > ( libs ) FU=0
+  MarkInstall ibus-pinyin [ i386 ] < 1.4.0-1 -> 1.5.0-1ubuntu1 > ( utils ) FU=0
+  Installing libpyzy-1.0-0 as Depends of ibus-pinyin
+    MarkInstall libpyzy-1.0-0 [ i386 ] < none -> 1.0.1-4 > ( libs ) FU=0
+  MarkInstall ubuntu-desktop [ i386 ] < 1.267 -> 1.325 > ( metapackages ) FU=0
+  Installing checkbox-gui as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall checkbox-gui [ i386 ] < none -> 0.17.6-0ubuntu6 > ( utils ) FU=1
+    Installing checkbox-ng-service as Depends of checkbox-gui
+      MarkInstall checkbox-ng-service [ i386 ] < none -> 0.3-2 > ( utils ) FU=0
+      Installing checkbox-ng as Depends of checkbox-ng-service
+        MarkInstall checkbox-ng [ i386 ] < none -> 0.3-2 > ( utils ) FU=0
+        Installing python3-checkbox-ng as Depends of checkbox-ng
+          MarkInstall python3-checkbox-ng [ i386 ] < none -> 0.3-2 > ( utils ) FU=0
+          Installing python3-plainbox as Depends of python3-checkbox-ng
+            MarkInstall python3-plainbox [ i386 ] < none -> 0.5.3-2 > ( python ) FU=0
+            Installing plainbox-secure-policy as Depends of python3-plainbox
+              MarkInstall plainbox-secure-policy [ i386 ] < none -> 0.5.3-2 > ( utils ) FU=0
+          Installing python3-requests as Depends of python3-checkbox-ng
+            MarkInstall python3-requests [ i386 ] < none -> 2.2.1-1ubuntu0.2 > ( python ) FU=0
+            Installing python3-chardet as Depends of python3-requests
+              MarkInstall python3-chardet [ i386 ] < none -> 2.0.1-1 > ( python ) FU=0
+            Installing python3-urllib3 as Depends of python3-requests
+              MarkInstall python3-urllib3 [ i386 ] < none -> 1.7.1-1ubuntu0.1 > ( python ) FU=0
+              Installing python3-six as Depends of python3-urllib3
+                MarkInstall python3-six [ i386 ] < none -> 1.5.2-1 > ( python ) FU=0
+          Installing python3-checkbox-support as Depends of python3-checkbox-ng
+            MarkInstall python3-checkbox-support [ i386 ] < none -> 0.2-1 > ( python ) FU=0
+            Installing python3-pyparsing as Depends of python3-checkbox-support
+              MarkInstall python3-pyparsing [ i386 ] < none -> 2.0.1+dfsg1-1build1 > ( python ) FU=0
+    Installing plainbox-provider-checkbox as Depends of checkbox-gui
+      MarkInstall plainbox-provider-checkbox [ i386 ] < none -> 0.4-1 > ( utils ) FU=0
+      Installing plainbox-provider-resource-generic as Depends of plainbox-provider-checkbox
+        MarkInstall plainbox-provider-resource-generic [ i386 ] < none -> 0.3-1 > ( utils ) FU=0
+      Installing gir1.2-gst-plugins-base-1.0 as Recommends of plainbox-provider-checkbox
+        MarkInstall gir1.2-gst-plugins-base-1.0 [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( introspection ) FU=0
+        Installing gir1.2-gstreamer-1.0 as Depends of gir1.2-gst-plugins-base-1.0
+          MarkInstall gir1.2-gstreamer-1.0 [ i386 ] < none -> 1.2.4-0ubuntu1 > ( introspection ) FU=0
+    Installing qtdeclarative5-localstorage-plugin as Depends of checkbox-gui
+      MarkInstall qtdeclarative5-localstorage-plugin [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+    Installing qtdeclarative5-qtquick2-plugin as Depends of checkbox-gui
+      MarkInstall qtdeclarative5-qtquick2-plugin [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+    Installing qtdeclarative5-ubuntu-ui-toolkit-plugin as Depends of checkbox-gui
+      MarkInstall qtdeclarative5-ubuntu-ui-toolkit-plugin [ i386 ] < none -> 0.1.46+14.04.20140408.1-0ubuntu1 > ( libs ) FU=0
+      Installing libqt5qml-graphicaleffects as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall libqt5qml-graphicaleffects [ i386 ] < none -> 5.2.1-1 > ( libs ) FU=0
+      Installing libqt5svg5 as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall libqt5svg5 [ i386 ] < none -> 5.2.1-1 > ( libs ) FU=0
+      Installing qtdeclarative5-window-plugin as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall qtdeclarative5-window-plugin [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+      Installing qtdeclarative5-qtfeedback-plugin as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall qtdeclarative5-qtfeedback-plugin [ i386 ] < none -> 5.0~git20130529-0ubuntu3 > ( libs ) FU=0
+        Installing libqt5feedback5 as Depends of qtdeclarative5-qtfeedback-plugin
+          MarkInstall libqt5feedback5 [ i386 ] < none -> 5.0~git20130529-0ubuntu3 > ( libs ) FU=0
+          Installing libqt5multimedia5 as Depends of libqt5feedback5
+            MarkInstall libqt5multimedia5 [ i386 ] < none -> 5.2.1-0ubuntu5 > ( libs ) FU=0
+      Installing qtdeclarative5-unity-action-plugin as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall qtdeclarative5-unity-action-plugin [ i386 ] < none -> 1.1.0+14.04.20140304-0ubuntu1 > ( libs ) FU=0
+        Installing libunity-action-qt1 as Depends of qtdeclarative5-unity-action-plugin
+          MarkInstall libunity-action-qt1 [ i386 ] < none -> 1.1.0+14.04.20140304-0ubuntu1 > ( libs ) FU=0
+          Installing libhud2 as Depends of libunity-action-qt1
+            MarkInstall libhud2 [ i386 ] < none -> 14.04+14.04.20140604-0ubuntu1 > ( libs ) FU=0
+      Installing ubuntu-ui-toolkit-theme as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall ubuntu-ui-toolkit-theme [ i386 ] < none -> 0.1.46+14.04.20140408.1-0ubuntu1 > ( libs ) FU=0
+      Installing libqt5organizer5 as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall libqt5organizer5 [ i386 ] < none -> 5.0~git20140203~e0c5eebe-0ubuntu2 > ( libs ) FU=0
+      Installing libthumbnailer0 as Depends of qtdeclarative5-ubuntu-ui-toolkit-plugin
+        MarkInstall libthumbnailer0 [ i386 ] < none -> 1.1+14.04.20150205-0ubuntu1 > ( libdevel ) FU=0
+  Installing gstreamer1.0-alsa as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall gstreamer1.0-alsa [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( libs ) FU=1
+  Installing gstreamer1.0-plugins-base-apps as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall gstreamer1.0-plugins-base-apps [ i386 ] < none -> 1.2.4-1~ubuntu1 > ( utils ) FU=1
+    Installing gstreamer1.0-tools as Depends of gstreamer1.0-plugins-base-apps
+      MarkInstall gstreamer1.0-tools [ i386 ] < none -> 1.2.4-0ubuntu1 > ( utils ) FU=0
+  Installing ubuntu-drivers-common as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-drivers-common [ i386 ] < none -> 1:0.2.91.7 > ( admin ) FU=1
+    Installing python3-xkit as Depends of ubuntu-drivers-common
+      MarkInstall python3-xkit [ i386 ] < none -> 0.5.0ubuntu2 > ( python ) FU=0
+      MarkDelete jockey-common [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=0
+      MarkDelete jockey-gtk [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=0
+  Installing ubuntu-session as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-session [ i386 ] < none -> 3.9.90-0ubuntu12 > ( gnome ) FU=1
+  Installing ubuntu-settings as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-settings [ i386 ] < none -> 14.04.5 > ( x11 ) FU=1
+  Installing ubuntu-sso-client-qt as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-sso-client-qt [ i386 ] < none -> 13.10-0ubuntu6 > ( python ) FU=1
+    Installing python-qt4 as Depends of ubuntu-sso-client-qt
+      MarkInstall python-qt4 [ i386 ] < none -> 4.10.4+dfsg-1ubuntu1 > ( python ) FU=0
+      Installing libqt4-designer as Depends of python-qt4
+        MarkInstall libqt4-designer [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+      Installing libqt4-help as Depends of python-qt4
+        MarkInstall libqt4-help [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+      Installing libqt4-scripttools as Depends of python-qt4
+        MarkInstall libqt4-scripttools [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+      Installing libqt4-test as Depends of python-qt4
+        MarkInstall libqt4-test [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+      Installing libqtassistantclient4 as Depends of python-qt4
+        MarkInstall libqtassistantclient4 [ i386 ] < none -> 4.6.3-6 > ( libs ) FU=0
+      Installing libqtwebkit4 as Depends of python-qt4
+        MarkInstall libqtwebkit4 [ i386 ] < none -> 2.3.2-0ubuntu7 > ( libs ) FU=0
+      Installing python-sip as Depends of python-qt4
+        MarkInstall python-sip [ i386 ] < none -> 4.15.5-1build1 > ( python ) FU=0
+    Installing python-qt4-dbus as Depends of ubuntu-sso-client-qt
+      MarkInstall python-qt4-dbus [ i386 ] < none -> 4.10.4+dfsg-1ubuntu1 > ( python ) FU=0
+    Installing ubuntuone-client-data as Depends of ubuntu-sso-client-qt
+      MarkInstall ubuntuone-client-data [ i386 ] < none -> 13.05-0ubuntu1 > ( libs ) FU=0
+        MarkDelete ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) FU=0
+        MarkDelete ubuntuone-installer [ i386 ] < 3.0.2-0ubuntu1.1 > ( python ) FU=0
+  new important dependency: cheese:i386
+  Installing cheese as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall cheese [ i386 ] < none -> 3.10.2-0ubuntu2 > ( gnome ) FU=1
+    Installing gnome-video-effects as Depends of cheese
+      MarkInstall gnome-video-effects [ i386 ] < none -> 0.4.1-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: fonts-droid:i386
+  Installing fonts-droid as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall fonts-droid [ i386 ] < none -> 1:4.3-3ubuntu1.1 > ( fonts ) FU=1
+  new important dependency: fonts-lklug-sinhala:i386
+  Installing fonts-lklug-sinhala as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall fonts-lklug-sinhala [ i386 ] < none -> 0.6-3 > ( fonts ) FU=1
+  new important dependency: fonts-sil-abyssinica:i386
+  Installing fonts-sil-abyssinica as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall fonts-sil-abyssinica [ i386 ] < none -> 1.200-6 > ( fonts ) FU=1
+  new important dependency: fonts-sil-padauk:i386
+  Installing fonts-sil-padauk as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall fonts-sil-padauk [ i386 ] < none -> 2.80-2 > ( fonts ) FU=1
+  new important dependency: fonts-tibetan-machine:i386
+  Installing fonts-tibetan-machine as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall fonts-tibetan-machine [ i386 ] < none -> 1.901b-5 > ( fonts ) FU=1
+  new important dependency: gnome-mahjongg:i386
+  Installing gnome-mahjongg as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall gnome-mahjongg [ i386 ] < none -> 1:3.10.2-0ubuntu1 > ( games ) FU=1
+  new important dependency: im-config:i386
+  Installing im-config as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall im-config [ i386 ] < none -> 0.24-1ubuntu4.1 > ( x11 ) FU=1
+    Installing dialog as Recommends of im-config
+      MarkInstall dialog [ i386 ] < none -> 1.2-20130928-1 > ( misc ) FU=0
+      MarkDelete im-switch [ i386 ] < 1.20ubuntu5 -> 1.23ubuntu1 > ( universe/x11 ) FU=0
+  new important dependency: libreoffice-ogltrans:i386
+  Installing libreoffice-ogltrans as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall libreoffice-ogltrans [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( graphics ) FU=1
+  new important dependency: libreoffice-pdfimport:i386
+  Installing libreoffice-pdfimport as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall libreoffice-pdfimport [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( misc ) FU=1
+    Installing libpoppler44 as Depends of libreoffice-pdfimport
+      MarkInstall libpoppler44 [ i386 ] < none -> 0.24.5-2ubuntu4.2 > ( libs ) FU=0
+  new important dependency: libreoffice-presentation-minimizer:i386
+  Installing libreoffice-presentation-minimizer as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall libreoffice-presentation-minimizer [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( misc ) FU=1
+  new important dependency: unity-webapps-common:i386
+  Installing unity-webapps-common as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall unity-webapps-common [ i386 ] < none -> 2.4.17+14.04.20140416-0ubuntu1 > ( gnome ) FU=1
+    Installing unity-webapps-service as Depends of unity-webapps-common
+      MarkInstall unity-webapps-service [ i386 ] < none -> 2.5.0~+14.04.20140409-0ubuntu1 > ( gnome ) FU=0
+      Installing webapp-container as Depends of unity-webapps-service
+        MarkInstall webapp-container [ i386 ] < none -> 0.23+14.04.20140428-0ubuntu1 > ( x11 ) FU=0
+        Installing unity-webapps-qml as Depends of webapp-container
+          MarkInstall unity-webapps-qml [ i386 ] < none -> 0.1+14.04.20140408-0ubuntu1 > ( gnome ) FU=0
+          Installing libqt5webkit5-qmlwebkitplugin as Depends of unity-webapps-qml
+            MarkInstall libqt5webkit5-qmlwebkitplugin [ i386 ] < none -> 5.1.1-1ubuntu8 > ( libs ) FU=0
+          Installing liboxideqt-qmlplugin as Depends of unity-webapps-qml
+            MarkInstall liboxideqt-qmlplugin [ i386 ] < none -> 1.5.5-0ubuntu0.14.04.3 > ( libs ) FU=0
+            Installing liboxideqtcore0 as Depends of liboxideqt-qmlplugin
+              MarkInstall liboxideqtcore0 [ i386 ] < none -> 1.5.5-0ubuntu0.14.04.3 > ( libs ) FU=0
+              Installing oxideqt-codecs as Depends of liboxideqtcore0
+                MarkInstall oxideqt-codecs [ i386 ] < none -> 1.5.5-0ubuntu0.14.04.3 > ( libs ) FU=0
+            Installing liboxideqtquick0 as Depends of liboxideqt-qmlplugin
+              MarkInstall liboxideqtquick0 [ i386 ] < none -> 1.5.5-0ubuntu0.14.04.3 > ( libs ) FU=0
+          Installing qtdeclarative5-accounts-plugin as Depends of unity-webapps-qml
+            MarkInstall qtdeclarative5-accounts-plugin [ i386 ] < none -> 0.4+14.04.20140317-0ubuntu1 > ( libs ) FU=0
+        Installing webbrowser-app as Depends of webapp-container
+          MarkInstall webbrowser-app [ i386 ] < none -> 0.23+14.04.20140428-0ubuntu1 > ( x11 ) FU=0
+          Installing qtdeclarative5-dialogs-plugin as Depends of webbrowser-app
+            MarkInstall qtdeclarative5-dialogs-plugin [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+            Installing qtdeclarative5-privatewidgets-plugin as Depends of qtdeclarative5-dialogs-plugin
+              MarkInstall qtdeclarative5-privatewidgets-plugin [ i386 ] < none -> 5.2.1-3ubuntu15.1 > ( libs ) FU=0
+          Installing qtdeclarative5-ubuntu-ui-extras-browser-plugin as Depends of webbrowser-app
+            MarkInstall qtdeclarative5-ubuntu-ui-extras-browser-plugin [ i386 ] < none -> 0.23+14.04.20140428-0ubuntu1 > ( x11 ) FU=0
+            Installing qtdeclarative5-ubuntu-ui-extras-browser-plugin-assets as Depends of qtdeclarative5-ubuntu-ui-extras-browser-plugin
+              MarkInstall qtdeclarative5-ubuntu-ui-extras-browser-plugin-assets [ i386 ] < none -> 0.23+14.04.20140428-0ubuntu1 > ( x11 ) FU=0
+      Installing libunity-webapps0 as Depends of unity-webapps-service
+        MarkInstall libunity-webapps0 [ i386 ] < none -> 2.5.0~+14.04.20140409-0ubuntu1 > ( libs ) FU=0
+  new important dependency: xul-ext-unity:i386
+  Installing xul-ext-unity as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall xul-ext-unity [ i386 ] < none -> 3.0.0+14.04.20140416-0ubuntu1 > ( web ) FU=1
+    Installing libufe-xidgetter0 as Depends of xul-ext-unity
+      MarkInstall libufe-xidgetter0 [ i386 ] < none -> 3.0.0+14.04.20140416-0ubuntu1 > ( libs ) FU=0
+    Installing xul-ext-websites-integration as Depends of xul-ext-unity
+      MarkInstall xul-ext-websites-integration [ i386 ] < none -> 2.3.6+13.10.20130920.1-0ubuntu1.1 > ( web ) FU=0
+  new important dependency: xul-ext-webaccounts:i386
+  Installing xul-ext-webaccounts as Recommends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Recommends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall xul-ext-webaccounts [ i386 ] < none -> 0.5-0ubuntu2 > ( web ) FU=1
+    Installing webaccounts-extension-common as Depends of xul-ext-webaccounts
+      MarkInstall webaccounts-extension-common [ i386 ] < none -> 0.5-0ubuntu2 > ( web ) FU=0
+  MarkInstall python-keyring [ i386 ] < 0.7.1-1fakesync1 -> 3.5-1 > ( python ) FU=0
+  new important dependency: python-secretstorage:i386
+  Installing python-secretstorage as Recommends of python-keyring
+    MarkInstall python-secretstorage [ i386 ] < none -> 2.0.0-1ubuntu1.1 > ( python ) FU=0
+  MarkInstall empathy [ i386 ] < 3.4.2.3-0ubuntu1 -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+  Installing libfarstream-0.2-2 as Depends of empathy
+    MarkInstall libfarstream-0.2-2 [ i386 ] < none -> 0.2.3-1ubuntu2 > ( libs ) FU=0
+    Installing gstreamer1.0-nice as Depends of libfarstream-0.2-2
+      MarkInstall gstreamer1.0-nice [ i386 ] < none -> 0.1.4-1 > ( net ) FU=0
+  Installing libtelepathy-farstream3 as Depends of empathy
+    MarkInstall libtelepathy-farstream3 [ i386 ] < none -> 0.6.1-0ubuntu1 > ( libs ) FU=0
+  Installing libtelepathy-logger3 as Depends of empathy
+    MarkInstall libtelepathy-logger3 [ i386 ] < none -> 0.8.0-3 > ( libs ) FU=0
+  new important dependency: gnome-contacts:i386
+  Installing gnome-contacts as Recommends of empathy
+    MarkInstall gnome-contacts [ i386 ] < none -> 3.8.3-1ubuntu1 > ( gnome ) FU=0
+  new important dependency: mcp-account-manager-uoa:i386
+  Installing mcp-account-manager-uoa as Recommends of empathy
+    MarkInstall mcp-account-manager-uoa [ i386 ] < none -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+    Installing signon-plugin-password as Depends of mcp-account-manager-uoa
+      MarkInstall signon-plugin-password [ i386 ] < none -> 8.56+14.04.20140307-0ubuntu2 > ( libs ) FU=0
+    mcp-account-manager-uoa:i386 Recommends on ubuntu-control-center-signon [ i386 ] < none > ( none ) can't be satisfied!
+    Installing account-plugin-aim as Recommends of mcp-account-manager-uoa
+      MarkInstall account-plugin-aim [ i386 ] < none -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+    Installing account-plugin-jabber as Recommends of mcp-account-manager-uoa
+      MarkInstall account-plugin-jabber [ i386 ] < none -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+    Installing account-plugin-windows-live as Recommends of mcp-account-manager-uoa
+      MarkInstall account-plugin-windows-live [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( gnome ) FU=0
+    Installing account-plugin-yahoo as Recommends of mcp-account-manager-uoa
+      MarkInstall account-plugin-yahoo [ i386 ] < none -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+    Installing account-plugin-salut as Recommends of mcp-account-manager-uoa
+      MarkInstall account-plugin-salut [ i386 ] < none -> 3.8.6-0ubuntu9.1 > ( gnome ) FU=0
+  MarkInstall ubuntu-wallpapers [ i386 ] < 0.34.1 -> 14.04.0.1-0ubuntu1 > ( metapackages ) FU=0
+  Installing ubuntu-wallpapers-trusty as Depends of ubuntu-wallpapers
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-wallpapers-trusty [ i386 ] < none -> 14.04.0.1-0ubuntu1 > ( x11 ) FU=1
+  MarkInstall mysql-client-5.5 [ i386 ] < 5.5.29-0ubuntu0.12.04.2 -> 5.5.41-0ubuntu0.14.04.1 > ( database ) FU=0
+  Installing libterm-readkey-perl as Depends of mysql-client-5.5
+    MarkInstall libterm-readkey-perl [ i386 ] < none -> 2.31-1 > ( perl ) FU=0
+  MarkInstall printer-driver-foo2zjs [ i386 ] < 20111202dfsg0-1ubuntu1 -> 20140209dfsg0-1ubuntu1 > ( text ) FU=0
+  Installing printer-driver-foo2zjs-common as Depends of printer-driver-foo2zjs
+    MarkInstall printer-driver-foo2zjs-common [ i386 ] < none -> 20140209dfsg0-1ubuntu1 > ( text ) FU=0
+    Installing tk as Recommends of printer-driver-foo2zjs-common
+      MarkInstall tk [ i386 ] < none -> 8.6.0+6ubuntu3 > ( libs ) FU=0
+      Installing tk8.6 as Depends of tk
+        MarkInstall tk8.6 [ i386 ] < none -> 8.6.1-3ubuntu2 > ( libs ) FU=0
+        Installing libtcl8.6 as Depends of tk8.6
+          MarkInstall libtcl8.6 [ i386 ] < none -> 8.6.1-4ubuntu1 > ( libs ) FU=0
+        Installing libtk8.6 as Depends of tk8.6
+          MarkInstall libtk8.6 [ i386 ] < none -> 8.6.1-3ubuntu2 > ( libs ) FU=0
+          Installing libxss1 as Depends of libtk8.6
+            MarkInstall libxss1 [ i386 ] < none -> 1:1.2.2-1 > ( libs ) FU=0
+      Installing tcl as Depends of tk
+        MarkInstall tcl [ i386 ] < none -> 8.6.0+6ubuntu3 > ( interpreters ) FU=0
+        Installing tcl8.6 as Depends of tcl
+          MarkInstall tcl8.6 [ i386 ] < none -> 8.6.1-4ubuntu1 > ( interpreters ) FU=0
+  MarkInstall cups-filters [ i386 ] < 1.0.18-0ubuntu0.1 -> 1.0.52-0ubuntu1.4 > ( net ) FU=0
+  Installing libfontembed1 as Depends of cups-filters
+    MarkInstall libfontembed1 [ i386 ] < none -> 1.0.52-0ubuntu1.4 > ( libs ) FU=0
+  Installing libqpdf13 as Depends of cups-filters
+    MarkInstall libqpdf13 [ i386 ] < none -> 5.1.1-1 > ( libs ) FU=0
+    Installing qpdf as Recommends of libqpdf13
+      MarkInstall qpdf [ i386 ] < none -> 5.1.1-1 > ( text ) FU=0
+  Installing cups-filters-core-drivers as Depends of cups-filters
+    MarkInstall cups-filters-core-drivers [ i386 ] < none -> 1.0.52-0ubuntu1.4 > ( net ) FU=0
+    MarkDelete foomatic-filters [ i386 ] < 4.0.16-0ubuntu0.2 -> 4.0.17-1ubuntu1 > ( universe/text ) FU=0
+    MarkDelete ghostscript-cups [ i386 ] < 9.05~dfsg-0ubuntu4.1 > ( text ) FU=0
+  MarkInstall unity-services [ i386 ] < 5.14.0-0ubuntu1 -> 7.2.4+14.04.20141217-0ubuntu1 > ( gnome ) FU=0
+  Installing libupstart1 as Depends of unity-services
+    MarkInstall libupstart1 [ i386 ] < none -> 1.12.1-0ubuntu4.2 > ( admin ) FU=0
+  MarkInstall libnetfilter-conntrack3 [ i386 ] < 0.9.1-1ubuntu1 -> 1.0.4-1 > ( libs ) FU=0
+  Installing libmnl0 as Depends of libnetfilter-conntrack3
+    MarkInstall libmnl0 [ i386 ] < none -> 1.0.3-3ubuntu1 > ( libs ) FU=0
+  MarkInstall checkbox [ i386 ] < 0.13.7 -> 0.17.6-0ubuntu6 > ( universe/python ) FU=0
+  Installing python3-checkbox as Depends of checkbox
+    MarkInstall python3-checkbox [ i386 ] < none -> 0.17.6-0ubuntu6 > ( universe/python ) FU=0
+  MarkInstall libreoffice-core [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) FU=0
+  Installing lp-solve as Depends of libreoffice-core
+    MarkInstall lp-solve [ i386 ] < none -> 5.5.0.13-7build1 > ( math ) FU=0
+    Installing libcolamd2.8.0 as Depends of lp-solve
+      MarkInstall libcolamd2.8.0 [ i386 ] < none -> 1:4.2.1-3ubuntu1 > ( libs ) FU=0
+  Installing libboost-date-time1.54.0 as Depends of libreoffice-core
+    MarkInstall libboost-date-time1.54.0 [ i386 ] < none -> 1.54.0-4ubuntu3.1 > ( libs ) FU=0
+  Installing libclucene-contribs1 as Depends of libreoffice-core
+    MarkInstall libclucene-contribs1 [ i386 ] < none -> 2.3.3.4-4build1 > ( libs ) FU=0
+    Installing libclucene-core1 as Depends of libclucene-contribs1
+      MarkInstall libclucene-core1 [ i386 ] < none -> 2.3.3.4-4build1 > ( libs ) FU=0
+  Installing libcmis-0.4-4 as Depends of libreoffice-core
+    MarkInstall libcmis-0.4-4 [ i386 ] < none -> 0.4.1-3ubuntu4 > ( libs ) FU=0
+  Installing libexttextcat-2.0-0 as Depends of libreoffice-core
+    MarkInstall libexttextcat-2.0-0 [ i386 ] < none -> 3.4.3-1ubuntu1 > ( libs ) FU=0
+  Installing libharfbuzz-icu0 as Depends of libreoffice-core
+    MarkInstall libharfbuzz-icu0 [ i386 ] < none -> 0.9.27-1ubuntu1 > ( libs ) FU=0
+  Installing liblangtag1 as Depends of libreoffice-core
+    MarkInstall liblangtag1 [ i386 ] < none -> 0.5.1-2 > ( libs ) FU=0
+    Installing liblangtag-common as Depends of liblangtag1
+      MarkInstall liblangtag-common [ i386 ] < none -> 0.5.1-2 > ( libs ) FU=0
+  MarkInstall module-init-tools [ i386 ] < 3.16-1ubuntu2 -> 15-0ubuntu6 > ( admin ) FU=0
+  Installing libkmod2 as Depends of module-init-tools
+    MarkInstall libkmod2 [ i386 ] < none -> 15-0ubuntu6 > ( libs ) FU=0
+  Installing kmod as Depends of module-init-tools
+    MarkInstall kmod [ i386 ] < none -> 15-0ubuntu6 > ( admin ) FU=0
+  MarkInstall overlay-scrollbar [ i386 ] < 0.2.16-0ubuntu1 -> 0.2.16+r359+14.04.20131129-0ubuntu1 > ( libs ) FU=0
+  Installing overlay-scrollbar-gtk2 as Depends of overlay-scrollbar
+    MarkInstall overlay-scrollbar-gtk2 [ i386 ] < none -> 0.2.16+r359+14.04.20131129-0ubuntu1 > ( libs ) FU=0
+      MarkDelete liboverlay-scrollbar-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=0
+  Installing overlay-scrollbar-gtk3 as Depends of overlay-scrollbar
+    MarkInstall overlay-scrollbar-gtk3 [ i386 ] < none -> 0.2.16+r359+14.04.20131129-0ubuntu1 > ( libs ) FU=0
+      MarkDelete liboverlay-scrollbar3-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=0
+  MarkInstall apport [ i386 ] < 2.0.1-0ubuntu12 -> 2.14.1-0ubuntu3.8 > ( utils ) FU=0
+  Installing python3-apport as Depends of apport
+    MarkInstall python3-apport [ i386 ] < none -> 2.14.1-0ubuntu3.8 > ( python ) FU=0
+    Installing python3-problem-report as Depends of python3-apport
+      MarkInstall python3-problem-report [ i386 ] < none -> 2.14.1-0ubuntu3.8 > ( python ) FU=0
+  MarkInstall linux-headers-generic-lts-saucy [ i386 ] < 3.11.0.26.23 -> 3.13.0.48.55 > ( devel ) FU=0
+  Installing linux-headers-generic as Depends of linux-headers-generic-lts-saucy
+    MarkInstall linux-headers-generic [ i386 ] < none -> 3.13.0.48.55 > ( devel ) FU=0
+    Installing linux-headers-3.13.0-48-generic as Depends of linux-headers-generic
+      MarkInstall linux-headers-3.13.0-48-generic [ i386 ] < none -> 3.13.0-48.80 > ( devel ) FU=0
+      Installing linux-headers-3.13.0-48 as Depends of linux-headers-3.13.0-48-generic
+        MarkInstall linux-headers-3.13.0-48 [ i386 ] < none -> 3.13.0-48.80 > ( devel ) FU=0
+  MarkInstall gvfs-daemons [ i386 ] < 1.12.1-0ubuntu1 -> 1.20.1-1ubuntu1 > ( libs ) FU=0
+  Installing libudisks2-0 as Depends of gvfs-daemons
+    MarkInstall libudisks2-0 [ i386 ] < none -> 2.1.3-1 > ( libs ) FU=0
+  Installing udisks2 as Depends of gvfs-daemons
+    MarkInstall udisks2 [ i386 ] < none -> 2.1.3-1 > ( admin ) FU=0
+    Installing gdisk as Recommends of udisks2
+      MarkInstall gdisk [ i386 ] < none -> 0.8.8-1build1 > ( admin ) FU=0
+  MarkInstall ubuntuone-client-gnome [ i386 ] < 3.0.1-0ubuntu1 > ( gnome ) FU=0
+  Installing ubuntuone-client as Depends of ubuntuone-client-gnome
+      MarkKeep ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) FU=0
+  MarkInstall python2.7 [ i386 ] < 2.7.3-0ubuntu3.1 -> 2.7.6-8 > ( python ) FU=0
+  Installing libpython2.7-stdlib as Depends of python2.7
+    MarkInstall libpython2.7-stdlib [ i386 ] < none -> 2.7.6-8 > ( python ) FU=0
+    Installing libpython2.7-minimal as Depends of libpython2.7-stdlib
+      MarkInstall libpython2.7-minimal [ i386 ] < none -> 2.7.6-8 > ( python ) FU=0
+  MarkInstall xserver-xorg-core [ i386 ] < 2:1.11.4-0ubuntu10.7 -> 2:1.15.1-0ubuntu2.7 > ( x11 ) FU=0
+  Installing libxshmfence1 as Depends of xserver-xorg-core
+    MarkInstall libxshmfence1 [ i386 ] < none -> 1.1-2 > ( libs ) FU=0
+  MarkInstall gnome-user-share [ i386 ] < 3.0.2-0ubuntu1 -> 3.0.4-0ubuntu1 > ( gnome ) FU=0
+  MarkInstall gcc-4.6 [ i386 ] < 4.6.3-1ubuntu5 -> 4.6.4-6ubuntu2 > ( universe/devel ) FU=0
+  Installing libmpc3 as Depends of gcc-4.6
+    MarkInstall libmpc3 [ i386 ] < none -> 1.0.1-1ubuntu1 > ( libs ) FU=0
+  MarkInstall libreoffice-draw [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) FU=0
+  Installing libcdr-0.0-0 as Depends of libreoffice-draw
+    MarkInstall libcdr-0.0-0 [ i386 ] < none -> 0.0.15-1ubuntu1 > ( libs ) FU=0
+  Installing libmspub-0.0-0 as Depends of libreoffice-draw
+    MarkInstall libmspub-0.0-0 [ i386 ] < none -> 0.0.6-1ubuntu2 > ( libs ) FU=0
+  Installing libvisio-0.0-0 as Depends of libreoffice-draw
+    MarkInstall libvisio-0.0-0 [ i386 ] < none -> 0.0.31-1ubuntu2 > ( libs ) FU=0
+  MarkInstall shotwell [ i386 ] < 0.12.3-0ubuntu0.1 -> 0.18.0-0ubuntu4.3 > ( gnome ) FU=0
+  Installing libgexiv2-2 as Depends of shotwell
+    MarkInstall libgexiv2-2 [ i386 ] < none -> 0.10.0-1ubuntu2 > ( libs ) FU=0
+    Installing libexiv2-12 as Depends of libgexiv2-2
+      MarkInstall libexiv2-12 [ i386 ] < none -> 0.23-1ubuntu2 > ( libs ) FU=0
+  Installing libraw9 as Depends of shotwell
+    MarkInstall libraw9 [ i386 ] < none -> 0.15.4-1 > ( libs ) FU=0
+  Installing shotwell-common as Depends of shotwell
+    MarkInstall shotwell-common [ i386 ] < none -> 0.18.0-0ubuntu4.3 > ( gnome ) FU=0
+  MarkInstall duplicity [ i386 ] < 0.6.18-0ubuntu3 -> 0.6.23-1ubuntu4.1 > ( utils ) FU=0
+  Installing python-lockfile as Depends of duplicity
+    MarkInstall python-lockfile [ i386 ] < none -> 1:0.8-2ubuntu2 > ( python ) FU=0
+  MarkInstall apache2 [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( web ) FU=0
+  Installing apache2-data as Depends of apache2
+    MarkInstall apache2-data [ i386 ] < none -> 2.4.7-1ubuntu4.4 > ( httpd ) FU=0
+  MarkInstall libgnome-desktop-3-2 [ i386 ] < 3.4.2-0ubuntu0.1 > ( libs ) FU=0
+  libgnome-desktop-3-2:i386 Depends on gnome-desktop3-data [ i386 ] < 3.4.2-0ubuntu0.1 -> 3.8.4-0ubuntu3 > ( gnome ) (= 3.4.2-0ubuntu0.1) can't be satisfied!
+    MarkDelete libgnome-desktop-3-2 [ i386 ] < 3.4.2-0ubuntu0.1 > ( libs ) FU=0
+    MarkKeep jockey-common [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=0
+  MarkInstall deja-dup [ i386 ] < 22.0-0ubuntu2 -> 30.0-0ubuntu4 > ( utils ) FU=0
+  new important dependency: deja-dup-backend-gvfs:i386
+  Installing deja-dup-backend-gvfs as Recommends of deja-dup
+    MarkInstall deja-dup-backend-gvfs [ i386 ] < none -> 30.0-0ubuntu4 > ( utils ) FU=0
+  MarkInstall software-center [ i386 ] < 5.2.5 -> 13.10-0ubuntu4.1 > ( gnome ) FU=0
+  Installing python-lxml as Depends of software-center
+    MarkInstall python-lxml [ i386 ] < none -> 3.3.3-1ubuntu0.1 > ( python ) FU=0
+  Installing python-oneconf as Depends of software-center
+    MarkInstall python-oneconf [ i386 ] < none -> 0.3.7 > ( python ) FU=0
+  MarkInstall mysql-server-core-5.5 [ i386 ] < 5.5.29-0ubuntu0.12.04.2 -> 5.5.41-0ubuntu0.14.04.1 > ( database ) FU=0
+  Installing libaio1 as Depends of mysql-server-core-5.5
+    MarkInstall libaio1 [ i386 ] < none -> 0.3.109-4 > ( libs ) FU=0
+  MarkInstall libjson0 [ i386 ] < 0.9-1ubuntu1 -> 0.11-3ubuntu1.2 > ( libs ) FU=0
+  Installing libjson-c2 as Depends of libjson0
+    MarkInstall libjson-c2 [ i386 ] < none -> 0.11-3ubuntu1.2 > ( libs ) FU=0
+  MarkInstall libgcc1 [ i386 ] < 1:4.6.3-1ubuntu5 -> 1:4.9.1-0ubuntu1 > ( libs ) FU=0
+  Installing gcc-4.9-base as Depends of libgcc1
+    MarkInstall gcc-4.9-base [ i386 ] < none -> 4.9.1-0ubuntu1 > ( libs ) FU=0
+  MarkInstall libwebkitgtk-3.0-0 [ i386 ] < 1.8.1-0ubuntu0.12.04.1 -> 2.4.7-1~ubuntu1 > ( libs ) FU=0
+  Installing libwebp5 as Depends of libwebkitgtk-3.0-0
+    MarkInstall libwebp5 [ i386 ] < none -> 0.4.0-4 > ( libs ) FU=0
+  MarkInstall dbus [ i386 ] < 1.4.18-1ubuntu1 -> 1.6.18-0ubuntu4.3 > ( devel ) FU=0
+  Installing libapparmor1 as Depends of dbus
+    MarkInstall libapparmor1 [ i386 ] < none -> 2.8.95~2430-0ubuntu5.1 > ( libs ) FU=0
+  MarkInstall libpeas-1.0-0 [ i386 ] < 1.2.0-1ubuntu1 -> 1.8.1-2ubuntu2 > ( libs ) FU=0
+  Installing libpython3.4 as Depends of libpeas-1.0-0
+    MarkInstall libpython3.4 [ i386 ] < none -> 3.4.0-2ubuntu1 > ( libs ) FU=0
+  MarkInstall passwd [ i386 ] < 1:4.1.4.2+svn3283-3ubuntu5 -> 1:4.1.5.1-1ubuntu9 > ( admin ) FU=0
+  Installing libsemanage1 as Depends of passwd
+    MarkInstall libsemanage1 [ i386 ] < none -> 2.2-1 > ( libs ) FU=0
+    Installing libsemanage-common as Depends of libsemanage1
+      MarkInstall libsemanage-common [ i386 ] < none -> 2.2-1 > ( libs ) FU=0
+    Installing libsepol1 as Depends of libsemanage1
+      MarkInstall libsepol1 [ i386 ] < none -> 2.2-1ubuntu0.1 > ( libs ) FU=0
+    Installing libustr-1.0-1 as Depends of libsemanage1
+      MarkInstall libustr-1.0-1 [ i386 ] < none -> 1.0.4-3ubuntu2 > ( libs ) FU=0
+  MarkInstall indicator-messages [ i386 ] < 0.6.0-0ubuntu1 -> 13.10.1+14.04.20140410-0ubuntu1 > ( gnome ) FU=0
+    MarkDelete indicator-status-provider-mc5 [ i386 ] < 0.6.0-0ubuntu1 > ( gnome ) FU=0
+    MarkDelete libindicator-messages-status-provider1 [ i386 ] < 0.6.0-0ubuntu1 > ( libs ) FU=0
+  MarkInstall ubuntu-sso-client-gtk [ i386 ] < 3.0.2-0ubuntu2 > ( python ) FU=0
+  ubuntu-sso-client-gtk:i386 Depends on python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python ) (= 3.0.2-0ubuntu2) can't be satisfied!
+    MarkDelete ubuntu-sso-client-gtk [ i386 ] < 3.0.2-0ubuntu2 > ( python ) FU=0
+  MarkInstall gnome-orca [ i386 ] < 3.4.2-0ubuntu0.1 -> 3.10.3-0ubuntu1 > ( gnome ) FU=0
+  Installing python3-speechd as Depends of gnome-orca
+    MarkInstall python3-speechd [ i386 ] < none -> 0.8-5ubuntu1 > ( python ) FU=0
+      MarkDelete python-speechd [ i386 ] < 0.7.1-6ubuntu3 > ( python ) FU=0
+  Installing python3-pyatspi as Depends of gnome-orca
+    MarkInstall python3-pyatspi [ i386 ] < none -> 2.10.0+dfsg-1 > ( python ) FU=0
+  Installing python3-brlapi as Depends of gnome-orca
+    MarkInstall python3-brlapi [ i386 ] < none -> 5.0-2ubuntu2 > ( python ) FU=0
+  Installing python3-louis as Depends of gnome-orca
+    MarkInstall python3-louis [ i386 ] < none -> 2.5.3-2ubuntu1 > ( python ) FU=0
+  MarkInstall samba-common-bin [ i386 ] < 2:3.6.3-2ubuntu2.3 -> 2:4.1.6+dfsg-1ubuntu2.14.04.7 > ( net ) FU=0
+  Installing python-samba as Depends of samba-common-bin
+    MarkInstall python-samba [ i386 ] < none -> 2:4.1.6+dfsg-1ubuntu2.14.04.7 > ( python ) FU=0
+    Installing python-ldb as Depends of python-samba
+      MarkInstall python-ldb [ i386 ] < none -> 1:1.1.16-1 > ( python ) FU=0
+    Installing python-tdb as Depends of python-samba
+      MarkInstall python-tdb [ i386 ] < none -> 1.2.12-1 > ( python ) FU=0
+    Installing python-ntdb as Depends of python-samba
+      MarkInstall python-ntdb [ i386 ] < none -> 1.0-2ubuntu1 > ( python ) FU=0
+  MarkInstall libhpmud0 [ i386 ] < 3.12.2-1ubuntu3.1 -> 3.14.3-0ubuntu3.2 > ( libs ) FU=0
+  Installing libsnmp30 as Depends of libhpmud0
+    MarkInstall libsnmp30 [ i386 ] < none -> 5.7.2~dfsg-8.1ubuntu3 > ( libs ) FU=0
+      MarkDelete libsnmp15 [ i386 ] < 5.4.3~dfsg-2.4ubuntu1.1 > ( libs ) FU=0
+    MarkKeep apache2.2-common [ i386 ] < 2.2.22-1ubuntu1.3 > ( httpd ) FU=0
+  MarkInstall cpp [ i386 ] < 4:4.6.3-1ubuntu5 -> 4:4.8.2-1ubuntu6 > ( interpreters ) FU=0
+  Installing cpp-4.8 as Depends of cpp
+    MarkInstall cpp-4.8 [ i386 ] < none -> 4.8.2-19ubuntu1 > ( interpreters ) FU=0
+    Installing libcloog-isl4 as Depends of cpp-4.8
+      MarkInstall libcloog-isl4 [ i386 ] < none -> 0.18.2-1 > ( libs ) FU=0
+      Installing libisl10 as Depends of libcloog-isl4
+        MarkInstall libisl10 [ i386 ] < none -> 0.12.2-1 > ( libs ) FU=0
+  MarkInstall libpango1.0-0 [ i386 ] < 1.30.0-0ubuntu3.1 -> 1.36.3-1ubuntu1.1 > ( libs ) FU=0
+  Installing libpangoxft-1.0-0 as Depends of libpango1.0-0
+    MarkInstall libpangoxft-1.0-0 [ i386 ] < none -> 1.36.3-1ubuntu1.1 > ( libs ) FU=0
+  Installing libpangox-1.0-0 as Depends of libpango1.0-0
+    MarkInstall libpangox-1.0-0 [ i386 ] < none -> 0.0.2-4ubuntu1 > ( oldlibs ) FU=0
+  MarkInstall python-imaging [ i386 ] < 1.1.7-4 -> 2.3.0-1ubuntu3 > ( python ) FU=0
+  Installing python-pil as Depends of python-imaging
+    MarkInstall python-pil [ i386 ] < none -> 2.3.0-1ubuntu3 > ( python ) FU=0
+    Installing libwebpmux1 as Depends of python-pil
+      MarkInstall libwebpmux1 [ i386 ] < none -> 0.4.0-4 > ( libs ) FU=0
+    MarkKeep python-speechd [ i386 ] < 0.7.1-6ubuntu3 > ( python ) FU=0
+  MarkInstall gcc [ i386 ] < 4:4.6.3-1ubuntu5 -> 4:4.8.2-1ubuntu6 > ( devel ) FU=0
+  Installing gcc-4.8 as Depends of gcc
+    MarkInstall gcc-4.8 [ i386 ] < none -> 4.8.2-19ubuntu1 > ( devel ) FU=0
+    Installing libgcc-4.8-dev as Depends of gcc-4.8
+      MarkInstall libgcc-4.8-dev [ i386 ] < none -> 4.8.2-19ubuntu1 > ( libdevel ) FU=0
+      Installing libitm1 as Depends of libgcc-4.8-dev
+        MarkInstall libitm1 [ i386 ] < none -> 4.8.2-19ubuntu1 > ( libs ) FU=0
+      Installing libatomic1 as Depends of libgcc-4.8-dev
+        MarkInstall libatomic1 [ i386 ] < none -> 4.8.2-19ubuntu1 > ( libs ) FU=0
+      Installing libasan0 as Depends of libgcc-4.8-dev
+        MarkInstall libasan0 [ i386 ] < none -> 4.8.2-19ubuntu1 > ( libs ) FU=0
+  MarkInstall gdb [ i386 ] < 7.4-2012.04-0ubuntu2 -> 7.7.1-0ubuntu5~14.04.2 > ( devel ) FU=0
+  new important dependency: libc-dbg:i386
+  Installing libc6-dbg as Recommends of gdb
+    MarkInstall libc6-dbg [ i386 ] < none -> 2.19-0ubuntu6.6 > ( debug ) FU=0
+  MarkInstall libqtcore4 [ i386 ] < 4:4.8.1-0ubuntu4.2 -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+  Installing qtcore4-l10n as Depends of libqtcore4
+    MarkInstall qtcore4-l10n [ i386 ] < none -> 4:4.8.5+git192-g085f851+dfsg-2ubuntu4 > ( libs ) FU=0
+  MarkInstall python-uno [ i386 ] < 1:3.5.7-0ubuntu4 > ( python ) FU=0
+  python-uno:i386 Depends on libreoffice-core [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) (= 1:3.5.7-0ubuntu4) can't be satisfied!
+    MarkDelete python-uno [ i386 ] < 1:3.5.7-0ubuntu4 > ( python ) FU=0
+  MarkInstall python [ i386 ] < 2.7.3-0ubuntu2 -> 2.7.5-5ubuntu3 > ( python ) FU=0
+  Installing libpython-stdlib as Depends of python
+    MarkInstall libpython-stdlib [ i386 ] < none -> 2.7.5-5ubuntu3 > ( python ) FU=0
+  MarkInstall libgtk-3-0 [ i386 ] < 3.4.2-0ubuntu0.4 -> 3.10.8-0ubuntu1.4 > ( libs ) FU=0
+  Installing libwayland-cursor0 as Depends of libgtk-3-0
+    MarkInstall libwayland-cursor0 [ i386 ] < none -> 1.4.0-1ubuntu1 > ( libs ) FU=0
+  MarkInstall sessioninstaller [ i386 ] < 0.20+bzr128-0ubuntu1.1 -> 0.20+bzr141-0ubuntu4 > ( gnome ) FU=0
+  Installing python-commandnotfound as Depends of sessioninstaller
+    MarkInstall python-commandnotfound [ i386 ] < none -> 0.3ubuntu12 > ( python ) FU=0
+  MarkInstall base-passwd [ i386 ] < 3.5.24 -> 3.5.33 > ( admin ) FU=0
+  Installing libdebconfclient0 as Depends of base-passwd
+    MarkInstall libdebconfclient0 [ i386 ] < none -> 0.187ubuntu1 > ( libs ) FU=0
+  MarkInstall pulseaudio-module-bluetooth [ i386 ] < 1:1.1-0ubuntu15.1 -> 1:4.0-0ubuntu11.1 > ( sound ) FU=0
+  Installing libsbc1 as Depends of pulseaudio-module-bluetooth
+    MarkInstall libsbc1 [ i386 ] < none -> 1.1-2ubuntu2 > ( libs ) FU=0
+  MarkInstall usb-creator-common [ i386 ] < 0.2.38 -> 0.2.56.3 > ( admin ) FU=0
+  Installing gir1.2-udisks-2.0 as Depends of usb-creator-common
+    MarkInstall gir1.2-udisks-2.0 [ i386 ] < none -> 2.1.3-1 > ( introspection ) FU=0
+  Installing python3-debian as Depends of usb-creator-common
+    MarkInstall python3-debian [ i386 ] < none -> 0.1.21+nmu2ubuntu2 > ( python ) FU=0
+  MarkInstall gnome-session-bin [ i386 ] < 3.2.1-0ubuntu8 -> 3.9.90-0ubuntu12 > ( gnome ) FU=0
+  Installing libsystemd-journal0 as Depends of gnome-session-bin
+    MarkInstall libsystemd-journal0 [ i386 ] < none -> 204-5ubuntu20.10 > ( libs ) FU=0
+    MarkKeep activity-log-manager-common [ i386 ] < 0.9.4-0ubuntu3 > ( utils ) FU=0
+  MarkInstall xserver-xorg-video-vmware [ i386 ] < 1:12.0.1-1ubuntu1.1 -> 1:13.0.2-2ubuntu1 > ( x11 ) FU=0
+  Installing libxatracker2 as Depends of xserver-xorg-video-vmware
+    MarkInstall libxatracker2 [ i386 ] < none -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+    MarkKeep indicator-status-provider-mc5 [ i386 ] < 0.6.0-0ubuntu1 > ( gnome ) FU=0
+  MarkInstall aptdaemon [ i386 ] < 0.43+bzr805-0ubuntu4 -> 1.1.1-1ubuntu5.1 > ( admin ) FU=0
+  new important dependency: lintian:i386
+  Installing lintian as Recommends of aptdaemon
+    MarkInstall lintian [ i386 ] < none -> 2.5.22ubuntu1 > ( devel ) FU=0
+    Installing diffstat as Depends of lintian
+      MarkInstall diffstat [ i386 ] < none -> 1.58-1 > ( devel ) FU=0
+    Installing gettext as Depends of lintian
+      MarkInstall gettext [ i386 ] < none -> 0.18.3.1-1ubuntu3 > ( devel ) FU=0
+      Installing libasprintf-dev as Recommends of gettext
+        MarkInstall libasprintf-dev [ i386 ] < none -> 0.18.3.1-1ubuntu3 > ( libdevel ) FU=0
+        Installing libasprintf0c2 as Depends of libasprintf-dev
+          MarkInstall libasprintf0c2 [ i386 ] < none -> 0.18.3.1-1ubuntu3 > ( libs ) FU=0
+      Installing libgettextpo-dev as Recommends of gettext
+        MarkInstall libgettextpo-dev [ i386 ] < none -> 0.18.3.1-1ubuntu3 > ( libdevel ) FU=0
+        Installing libgettextpo0 as Depends of libgettextpo-dev
+          MarkInstall libgettextpo0 [ i386 ] < none -> 0.18.3.1-1ubuntu3 > ( devel ) FU=0
+    Installing hardening-includes as Depends of lintian
+      MarkInstall hardening-includes [ i386 ] < none -> 2.5ubuntu2.1 > ( devel ) FU=0
+    Installing intltool-debian as Depends of lintian
+      MarkInstall intltool-debian [ i386 ] < none -> 0.35.0+20060710.1 > ( devel ) FU=0
+    Installing libapt-pkg-perl as Depends of lintian
+      MarkInstall libapt-pkg-perl [ i386 ] < none -> 0.1.29build1 > ( perl ) FU=0
+    Installing libarchive-zip-perl as Depends of lintian
+      MarkInstall libarchive-zip-perl [ i386 ] < none -> 1.30-7 > ( perl ) FU=0
+    Installing libclass-accessor-perl as Depends of lintian
+      MarkInstall libclass-accessor-perl [ i386 ] < none -> 0.34-1 > ( perl ) FU=0
+      Installing libsub-name-perl as Depends of libclass-accessor-perl
+        MarkInstall libsub-name-perl [ i386 ] < none -> 0.05-1build4 > ( perl ) FU=0
+    Installing libclone-perl as Depends of lintian
+      MarkInstall libclone-perl [ i386 ] < none -> 0.36-1 > ( perl ) FU=0
+    Installing libdpkg-perl as Depends of lintian
+      MarkInstall libdpkg-perl [ i386 ] < none -> 1.17.5ubuntu5.3 > ( perl ) FU=0
+      Installing libtimedate-perl as Depends of libdpkg-perl
+        MarkInstall libtimedate-perl [ i386 ] < none -> 2.3000-1 > ( perl ) FU=0
+      Installing libfile-fcntllock-perl as Recommends of libdpkg-perl
+        MarkInstall libfile-fcntllock-perl [ i386 ] < none -> 0.14-2build1 > ( perl ) FU=0
+    Installing libemail-valid-perl as Depends of lintian
+      MarkInstall libemail-valid-perl [ i386 ] < none -> 1.192-1 > ( perl ) FU=0
+      Installing libmailtools-perl as Depends of libemail-valid-perl
+        MarkInstall libmailtools-perl [ i386 ] < none -> 2.12-1 > ( perl ) FU=0
+        Installing libnet-smtp-ssl-perl as Depends of libmailtools-perl
+          MarkInstall libnet-smtp-ssl-perl [ i386 ] < none -> 1.01-3 > ( perl ) FU=0
+          Installing libio-socket-ssl-perl as Depends of libnet-smtp-ssl-perl
+            MarkInstall libio-socket-ssl-perl [ i386 ] < none -> 1.965-1ubuntu1 > ( perl ) FU=0
+            Installing libnet-ssleay-perl as Depends of libio-socket-ssl-perl
+              MarkInstall libnet-ssleay-perl [ i386 ] < none -> 1.58-1 > ( perl ) FU=0
+            Installing libio-socket-inet6-perl as Recommends of libio-socket-ssl-perl
+              MarkInstall libio-socket-inet6-perl [ i386 ] < none -> 2.71-1 > ( perl ) FU=0
+              Installing libsocket6-perl as Depends of libio-socket-inet6-perl
+                MarkInstall libsocket6-perl [ i386 ] < none -> 0.25-1 > ( perl ) FU=0
+            Installing libnet-libidn-perl as Recommends of libio-socket-ssl-perl
+              MarkInstall libnet-libidn-perl [ i386 ] < none -> 0.12.ds-1build4 > ( perl ) FU=0
+          Installing libauthen-sasl-perl as Recommends of libnet-smtp-ssl-perl
+            MarkInstall libauthen-sasl-perl [ i386 ] < none -> 2.1500-1 > ( perl ) FU=0
+      Installing libnet-dns-perl as Depends of libemail-valid-perl
+        MarkInstall libnet-dns-perl [ i386 ] < none -> 0.68-1.2build1 > ( perl ) FU=0
+        Installing libdigest-hmac-perl as Depends of libnet-dns-perl
+          MarkInstall libdigest-hmac-perl [ i386 ] < none -> 1.03+dfsg-1 > ( perl ) FU=0
+        Installing libnet-ip-perl as Depends of libnet-dns-perl
+          MarkInstall libnet-ip-perl [ i386 ] < none -> 1.26-1 > ( perl ) FU=0
+      Installing libnet-domain-tld-perl as Depends of libemail-valid-perl
+        MarkInstall libnet-domain-tld-perl [ i386 ] < none -> 1.70-1 > ( perl ) FU=0
+    Installing libipc-run-perl as Depends of lintian
+      MarkInstall libipc-run-perl [ i386 ] < none -> 0.92-1 > ( perl ) FU=0
+      Installing libio-pty-perl as Depends of libipc-run-perl
+        MarkInstall libio-pty-perl [ i386 ] < none -> 1:1.08-1build4 > ( perl ) FU=0
+    Installing liblist-moreutils-perl as Depends of lintian
+      MarkInstall liblist-moreutils-perl [ i386 ] < none -> 0.33-1build3 > ( perl ) FU=0
+    Installing libparse-debianchangelog-perl as Depends of lintian
+      MarkInstall libparse-debianchangelog-perl [ i386 ] < none -> 1.2.0-1ubuntu1 > ( perl ) FU=0
+      Installing libio-string-perl as Depends of libparse-debianchangelog-perl
+        MarkInstall libio-string-perl [ i386 ] < none -> 1.08-3 > ( perl ) FU=0
+    Installing libtext-levenshtein-perl as Depends of lintian
+      MarkInstall libtext-levenshtein-perl [ i386 ] < none -> 0.06~01-2 > ( perl ) FU=0
+    Installing liburi-perl as Depends of lintian
+      MarkInstall liburi-perl [ i386 ] < none -> 1.60-1 > ( perl ) FU=0
+    Installing patchutils as Depends of lintian
+      MarkInstall patchutils [ i386 ] < none -> 0.3.2-3 > ( text ) FU=0
+    Installing t1utils as Depends of lintian
+      MarkInstall t1utils [ i386 ] < none -> 1.37-2ubuntu1 > ( text ) FU=0
+    Installing libautodie-perl as Recommends of lintian
+      MarkInstall libautodie-perl [ i386 ] < none -> 2.23-1 > ( perl ) FU=0
+      Installing libsub-identify-perl as Depends of libautodie-perl
+        MarkInstall libsub-identify-perl [ i386 ] < none -> 0.04-1build3 > ( perl ) FU=0
+      Installing libipc-system-simple-perl as Recommends of libautodie-perl
+        MarkInstall libipc-system-simple-perl [ i386 ] < none -> 1.25-2 > ( perl ) FU=0
+    Installing libperlio-gzip-perl as Recommends of lintian
+      MarkInstall libperlio-gzip-perl [ i386 ] < none -> 0.18-1build3 > ( perl ) FU=0
+    MarkKeep unity-common [ i386 ] < 5.14.0-0ubuntu1 > ( gnome ) FU=0
+  MarkInstall cups [ i386 ] < 1.5.3-0ubuntu3 -> 1.7.2-0ubuntu1.5 > ( net ) FU=0
+  Installing cups-core-drivers as Depends of cups
+    MarkInstall cups-core-drivers [ i386 ] < none -> 1.7.2-0ubuntu1.5 > ( net ) FU=0
+    Installing cups-daemon as Depends of cups-core-drivers
+      MarkInstall cups-daemon [ i386 ] < none -> 1.7.2-0ubuntu1.5 > ( net ) FU=0
+      Installing cups-browsed as Recommends of cups-daemon
+        MarkInstall cups-browsed [ i386 ] < none -> 1.0.52-0ubuntu1.4 > ( net ) FU=0
+  Installing cups-server-common as Depends of cups
+    MarkInstall cups-server-common [ i386 ] < none -> 1.7.2-0ubuntu1.5 > ( net ) FU=0
+  MarkInstall evince [ i386 ] < 3.4.0-0ubuntu1.3 -> 3.10.3-0ubuntu10.2 > ( gnome ) FU=0
+  Installing libevdocument3-4 as Depends of evince
+    MarkInstall libevdocument3-4 [ i386 ] < none -> 3.10.3-0ubuntu10.2 > ( libs ) FU=0
+    Installing libgxps2 as Depends of libevdocument3-4
+      MarkInstall libgxps2 [ i386 ] < none -> 0.2.2-2ubuntu2 > ( libs ) FU=0
+    Installing libkpathsea6 as Depends of libevdocument3-4
+      MarkInstall libkpathsea6 [ i386 ] < none -> 2013.20130729.30972-2build3 > ( libs ) FU=0
+      MarkDelete libevince3-3 [ i386 ] < 3.4.0-0ubuntu1.3 > ( libs ) FU=0
+  Installing libevview3-3 as Depends of evince
+    MarkInstall libevview3-3 [ i386 ] < none -> 3.10.3-0ubuntu10.2 > ( libs ) FU=0
+    MarkKeep libgoa-1.0-0 [ i386 ] < 3.4.0-0ubuntu1 > ( libs ) FU=0
+  MarkInstall pm-utils [ i386 ] < 1.4.1-9 -> 1.4.1-13ubuntu0.1 > ( admin ) FU=0
+  new important dependency: ethtool:i386
+  Installing ethtool as Recommends of pm-utils
+    MarkInstall ethtool [ i386 ] < none -> 1:3.13-1 > ( utils ) FU=0
+  MarkInstall libasound2 [ i386 ] < 1.0.25-1ubuntu10.1 -> 1.0.27.2-3ubuntu7 > ( libs ) FU=0
+  Installing libasound2-data as Depends of libasound2
+    MarkInstall libasound2-data [ i386 ] < none -> 1.0.27.2-3ubuntu7 > ( libs ) FU=0
+  MarkInstall libjson-glib-1.0-0 [ i386 ] < 0.14.2-1 -> 0.16.2-1ubuntu1 > ( libs ) FU=0
+  Installing libjson-glib-1.0-common as Depends of libjson-glib-1.0-0
+    MarkInstall libjson-glib-1.0-common [ i386 ] < none -> 0.16.2-1ubuntu1 > ( libs ) FU=0
+  MarkInstall im-switch [ i386 ] < 1.20ubuntu5 -> 1.23ubuntu1 > ( universe/x11 ) FU=0
+  MarkInstall gnome-sudoku [ i386 ] < 1:3.4.1-0ubuntu2.1 -> 1:3.10.2-0ubuntu3.1 > ( games ) FU=0
+  Installing python3-gi-cairo as Depends of gnome-sudoku
+    MarkInstall python3-gi-cairo [ i386 ] < none -> 3.12.0-1ubuntu1 > ( python ) FU=0
+    Installing python3-cairo as Depends of python3-gi-cairo
+      MarkInstall python3-cairo [ i386 ] < none -> 1.10.0+dfsg-3ubuntu2 > ( python ) FU=0
+  MarkInstall libreoffice-impress [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) FU=0
+  new important dependency: libreoffice-avmedia-backend-gstreamer:i386
+  Installing libreoffice-avmedia-backend-gstreamer as Recommends of libreoffice-impress
+    MarkInstall libreoffice-avmedia-backend-gstreamer [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( misc ) FU=0
+    MarkKeep liboverlay-scrollbar3-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=0
+  MarkInstall gwibber-service-identica [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc ) FU=0
+  Installing friends-identica as Depends of gwibber-service-identica
+    MarkInstall friends-identica [ i386 ] < none -> 0.2.0+14.04.20140217.1-0ubuntu1 > ( universe/misc ) FU=0
+    Installing account-plugin-identica as Depends of friends-identica
+      MarkInstall account-plugin-identica [ i386 ] < none -> 0.11+14.04.20140409.1-0ubuntu1 > ( universe/gnome ) FU=0
+  MarkInstall python-packagekit [ i386 ] < 0.7.2-4ubuntu3 > ( python ) FU=0
+  previously satisfied important dependency on python-aptdaemon.pkcompat:i386
+  Installing python-aptdaemon.pkcompat as Recommends of python-packagekit
+      MarkKeep python-aptdaemon.pkcompat [ i386 ] < 0.43+bzr805-0ubuntu4 > ( python ) FU=0
+  MarkInstall indicator-datetime [ i386 ] < 0.3.94-0ubuntu2 -> 13.10.0+14.04.20140415.3-0ubuntu1 > ( misc ) FU=0
+  Installing libecal-1.2-16 as Depends of indicator-datetime
+    MarkInstall libecal-1.2-16 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+    Installing libical1 as Depends of libecal-1.2-16
+      MarkInstall libical1 [ i386 ] < none -> 1.0-0ubuntu1 > ( libs ) FU=0
+  MarkInstall software-properties-common [ i386 ] < 0.82.7.2 -> 0.92.37.3 > ( admin ) FU=0
+  Installing python3-software-properties as Depends of software-properties-common
+    MarkInstall python3-software-properties [ i386 ] < none -> 0.92.37.3 > ( python ) FU=0
+    Installing python3-pycurl as Depends of python3-software-properties
+      MarkInstall python3-pycurl [ i386 ] < none -> 7.19.3-0ubuntu3 > ( python ) FU=0
+    MarkKeep liboverlay-scrollbar-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=0
+  MarkInstall evolution-data-server [ i386 ] < 3.2.3-0ubuntu7 -> 3.10.4-0ubuntu1.5 > ( gnome ) FU=0
+  Installing libedata-cal-1.2-23 as Depends of evolution-data-server
+    MarkInstall libedata-cal-1.2-23 [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( libs ) FU=0
+  Installing libgweather-3-6 as Depends of evolution-data-server
+    MarkInstall libgweather-3-6 [ i386 ] < none -> 3.10.2-0ubuntu2 > ( libs ) FU=0
+  new important dependency: evolution-data-server-online-accounts:i386
+  Installing evolution-data-server-online-accounts as Recommends of evolution-data-server
+    MarkInstall evolution-data-server-online-accounts [ i386 ] < none -> 3.10.4-0ubuntu1.5 > ( gnome ) FU=0
+    MarkDelete libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) FU=0
+  MarkInstall rhythmbox-plugins [ i386 ] < 2.96-0ubuntu4.1 -> 3.0.2-0ubuntu2 > ( gnome ) FU=0
+  Installing python3-mako as Depends of rhythmbox-plugins
+    MarkInstall python3-mako [ i386 ] < none -> 0.9.1-1 > ( python ) FU=0
+    Installing python3-markupsafe as Depends of python3-mako
+      MarkInstall python3-markupsafe [ i386 ] < none -> 0.18-1build2 > ( python ) FU=0
+  MarkInstall libunity-core-5.0-5 [ i386 ] < 5.14.0-0ubuntu1 > ( libs ) FU=0
+  libunity-core-5.0-5:i386 Depends on unity-services [ i386 ] < 5.14.0-0ubuntu1 -> 7.2.4+14.04.20141217-0ubuntu1 > ( gnome ) (= 5.14.0-0ubuntu1) can't be satisfied!
+    MarkDelete libunity-core-5.0-5 [ i386 ] < 5.14.0-0ubuntu1 > ( libs ) FU=0
+  MarkInstall python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python ) FU=0
+    MarkDelete python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=0
+  MarkInstall perl-modules [ i386 ] < 5.14.2-6ubuntu2.1 -> 5.18.2-2ubuntu1 > ( perl ) FU=0
+  new important dependency: libarchive-extract-perl:i386
+  Installing libarchive-extract-perl as Recommends of perl-modules
+    MarkInstall libarchive-extract-perl [ i386 ] < none -> 0.70-1 > ( perl ) FU=0
+  new important dependency: libmodule-pluggable-perl:i386
+  Installing libmodule-pluggable-perl as Recommends of perl-modules
+    MarkInstall libmodule-pluggable-perl [ i386 ] < none -> 5.1-1 > ( perl ) FU=0
+  new important dependency: libpod-latex-perl:i386
+  Installing libpod-latex-perl as Recommends of perl-modules
+    MarkInstall libpod-latex-perl [ i386 ] < none -> 0.61-1 > ( perl ) FU=0
+  new important dependency: libterm-ui-perl:i386
+  Installing libterm-ui-perl as Recommends of perl-modules
+    MarkInstall libterm-ui-perl [ i386 ] < none -> 0.42-1 > ( perl ) FU=0
+    Installing liblog-message-simple-perl as Depends of libterm-ui-perl
+      MarkInstall liblog-message-simple-perl [ i386 ] < none -> 0.10-1 > ( perl ) FU=0
+  new important dependency: libtext-soundex-perl:i386
+  Installing libtext-soundex-perl as Recommends of perl-modules
+    MarkInstall libtext-soundex-perl [ i386 ] < none -> 3.4-1build1 > ( perl ) FU=0
+  MarkInstall libperl5.14 [ i386 ] < 5.14.2-6ubuntu2.1 > ( libs ) FU=0
+  libperl5.14:i386 Depends on perl-base [ i386 ] < 5.14.2-6ubuntu2.1 -> 5.18.2-2ubuntu1 > ( perl ) (= 5.14.2-6ubuntu2.1) can't be satisfied!
+    MarkDelete libperl5.14 [ i386 ] < 5.14.2-6ubuntu2.1 > ( libs ) FU=0
+  MarkInstall libexttextcat0 [ i386 ] < 3.2.0-1ubuntu1 > ( libs ) FU=0
+  libexttextcat0:i386 Depends on libexttextcat-data [ i386 ] < 3.2.0-1ubuntu1 -> 3.4.3-1ubuntu1 > ( text ) (= 3.2.0-1ubuntu1) can't be satisfied!
+    MarkDelete libexttextcat0 [ i386 ] < 3.2.0-1ubuntu1 > ( libs ) FU=0
+  MarkInstall wpasupplicant [ i386 ] < 0.7.3-6ubuntu2 -> 2.1-0ubuntu1.1 > ( net ) FU=0
+  Installing libreadline5 as Depends of wpasupplicant
+    MarkInstall libreadline5 [ i386 ] < none -> 5.2+dfsg-2 > ( libs ) FU=0
+  MarkInstall indicator-appmenu [ i386 ] < 0.3.97-0ubuntu1 -> 13.01.0+14.04.20140404-0ubuntu1 > ( gnome ) FU=0
+  new important dependency: unity-gtk2-module:i386
+  Installing unity-gtk2-module as Recommends of indicator-appmenu
+    MarkInstall unity-gtk2-module [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs ) FU=0
+    Installing libunity-gtk2-parser0 as Depends of unity-gtk2-module
+      MarkInstall libunity-gtk2-parser0 [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs ) FU=0
+    Installing unity-gtk-module-common as Depends of unity-gtk2-module
+      MarkInstall unity-gtk-module-common [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs ) FU=0
+      MarkDelete appmenu-gtk [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=0
+  new important dependency: unity-gtk3-module:i386
+  Installing unity-gtk3-module as Recommends of indicator-appmenu
+    MarkInstall unity-gtk3-module [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs ) FU=0
+    Installing libunity-gtk3-parser0 as Depends of unity-gtk3-module
+      MarkInstall libunity-gtk3-parser0 [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs ) FU=0
+      MarkDelete appmenu-gtk3 [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=0
+  new important dependency: appmenu-qt5:i386
+  Installing appmenu-qt5 as Recommends of indicator-appmenu
+    MarkInstall appmenu-qt5 [ i386 ] < none -> 0.3.0+14.04.20140415-0ubuntu1 > ( kde ) FU=0
+  MarkInstall libgl1-mesa-dri [ i386 ] < 8.0.3+8.0.2-0ubuntu3.2 -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+  new important dependency: libtxc-dxtn-s2tc0:i386
+  Installing libtxc-dxtn-s2tc0 as Recommends of libgl1-mesa-dri
+    MarkInstall libtxc-dxtn-s2tc0 [ i386 ] < none -> 0~git20131104-1.1 > ( libs ) FU=0
+  MarkInstall ibus [ i386 ] < 1.4.1-3ubuntu1 -> 1.5.5-1ubuntu3 > ( utils ) FU=0
+  Installing gir1.2-ibus-1.0 as Depends of ibus
+    MarkInstall gir1.2-ibus-1.0 [ i386 ] < none -> 1.5.5-1ubuntu3 > ( introspection ) FU=0
+  MarkInstall linux-generic-pae [ i386 ] < 3.2.0.29.31 -> 3.13.0.48.55 > ( kernel ) FU=0
+  Installing linux-generic as Depends of linux-generic-pae
+    MarkInstall linux-generic [ i386 ] < none -> 3.13.0.48.55 > ( kernel ) FU=0
+  MarkInstall apparmor [ i386 ] < 2.7.102-0ubuntu3.1 -> 2.8.95~2430-0ubuntu5.1 > ( admin ) FU=0
+  Installing libapparmor-perl as Depends of apparmor
+    MarkInstall libapparmor-perl [ i386 ] < none -> 2.8.95~2430-0ubuntu5.1 > ( perl ) FU=0
+  MarkInstall liborbit2 [ i386 ] < 1:2.14.19-0.1ubuntu1 -> 1:2.14.19-0.3 > ( libs ) FU=0
+  Installing liborbit-2-0 as Depends of liborbit2
+    MarkInstall liborbit-2-0 [ i386 ] < none -> 1:2.14.19-0.3 > ( libs ) FU=0
+  MarkInstall poppler-data [ i386 ] < 0.4.5-2 -> 0.4.6-4 > ( misc ) FU=0
+    MarkDelete cmap-adobe-japan2 [ i386 ] < 0+20090930-2 > ( fonts ) FU=0
+    MarkDelete cmap-adobe-korea1 [ i386 ] < 0+20090930-2 > ( fonts ) FU=0
+    MarkDelete gs-cjk-resource [ i386 ] < 1.20100103-3 > ( text ) FU=0
+    MarkKeep cmap-adobe-japan2 [ i386 ] < 0+20090930-2 > ( fonts ) FU=0
+  MarkInstall colord [ i386 ] < 0.1.16-2 -> 1.0.6-1 > ( graphics ) FU=0
+  Installing libcolorhug1 as Depends of colord
+    MarkInstall libcolorhug1 [ i386 ] < none -> 1.0.6-1 > ( graphics ) FU=0
+    Installing libgusb2 as Depends of libcolorhug1
+      MarkInstall libgusb2 [ i386 ] < none -> 0.1.6-5 > ( libs ) FU=0
+  MarkInstall foomatic-filters [ i386 ] < 4.0.16-0ubuntu0.2 -> 4.0.17-1ubuntu1 > ( universe/text ) FU=0
+  MarkInstall libgl1-mesa-glx [ i386 ] < 8.0.3+8.0.2-0ubuntu3.2 -> 10.1.3-0ubuntu0.4 > ( libs ) FU=0
+  Installing libxcb-dri3-0 as Depends of libgl1-mesa-glx
+    MarkInstall libxcb-dri3-0 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+  Installing libxcb-present0 as Depends of libgl1-mesa-glx
+    MarkInstall libxcb-present0 [ i386 ] < none -> 1.10-2ubuntu1 > ( libs ) FU=0
+  MarkInstall onboard [ i386 ] < 0.97.0-0ubuntu3 -> 1.0.0-0ubuntu4 > ( gnome ) FU=0
+  new important dependency: onboard-data:i386
+  Installing onboard-data as Recommends of onboard
+    MarkInstall onboard-data [ i386 ] < none -> 1.0.0-0ubuntu4 > ( gnome ) FU=0
+  MarkInstall ttf-wqy-microhei [ i386 ] < 0.2.0-beta-1ubuntu1 -> 0.2.0-beta-2 > ( x11 ) FU=0
+  Installing fonts-wqy-microhei as Depends of ttf-wqy-microhei
+    MarkInstall fonts-wqy-microhei [ i386 ] < none -> 0.2.0-beta-2 > ( fonts ) FU=0
+    MarkKeep jockey-gtk [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=0
+  MarkInstall python-pyatspi2 [ i386 ] < 2.4.0+dfsg-0ubuntu3 -> 2.10.0+dfsg-1 > ( universe/python ) FU=0
+  Installing python-pyatspi as Depends of python-pyatspi2
+    MarkInstall python-pyatspi [ i386 ] < none -> 2.10.0+dfsg-1 > ( universe/python ) FU=0
+  MarkInstall libsasl2-2 [ i386 ] < 2.1.25.dfsg1-3ubuntu0.1 -> 2.1.25.dfsg1-17build1 > ( libs ) FU=0
+  Installing libsasl2-modules-db as Depends of libsasl2-2
+    MarkInstall libsasl2-modules-db [ i386 ] < none -> 2.1.25.dfsg1-17build1 > ( libs ) FU=0
+  MarkInstall libgpgme11 [ i386 ] < 1.2.0-1.4ubuntu2 -> 1.4.3-0.1ubuntu5.1 > ( libs ) FU=0
+  Installing libassuan0 as Depends of libgpgme11
+    MarkInstall libassuan0 [ i386 ] < none -> 2.1.1-1ubuntu1 > ( libs ) FU=0
+    MarkKeep ubuntuone-installer [ i386 ] < 3.0.2-0ubuntu1.1 > ( python ) FU=0
+  MarkInstall rsyslog [ i386 ] < 5.8.6-1ubuntu8 -> 7.4.4-1ubuntu2.5 > ( admin ) FU=0
+  Installing libestr0 as Depends of rsyslog
+    MarkInstall libestr0 [ i386 ] < none -> 0.1.9-0ubuntu2 > ( libs ) FU=0
+  MarkInstall speech-dispatcher [ i386 ] < 0.7.1-6ubuntu3 -> 0.8-5ubuntu1 > ( sound ) FU=0
+  Installing speech-dispatcher-audio-plugins as Depends of speech-dispatcher
+    MarkInstall speech-dispatcher-audio-plugins [ i386 ] < none -> 0.8-5ubuntu1 > ( sound ) FU=0
+  Installing libdotconf0 as Depends of speech-dispatcher
+    MarkInstall libdotconf0 [ i386 ] < none -> 1.3-0ubuntu2 > ( libs ) FU=0
+  MarkInstall python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=0
+  Installing python-ubuntuone-storageprotocol as Depends of python-ubuntuone-client
+      MarkKeep python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=0
+  MarkInstall libreoffice-common [ i386 ] < 1:3.5.7-0ubuntu4 -> 1:4.2.7-0ubuntu2 > ( editors ) FU=0
+  new important dependency: python3-uno:i386
+  Installing python3-uno as Recommends of libreoffice-common
+    MarkInstall python3-uno [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( python ) FU=0
+  MarkInstall php5-cli [ i386 ] < 5.3.10-1ubuntu3.6 -> 5.5.9+dfsg-1ubuntu4.7 > ( php ) FU=0
+  new important dependency: php5-readline:i386
+  Installing php5-readline as Recommends of php5-cli
+    MarkInstall php5-readline [ i386 ] < none -> 5.5.9+dfsg-1ubuntu4.7 > ( php ) FU=0
+  MarkInstall gwibber [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc ) FU=0
+  Installing friends-app as Depends of gwibber
+    MarkInstall friends-app [ i386 ] < none -> 0.92.0+14.04.20140306.1-0ubuntu2 > ( universe/gnome ) FU=0
+    Installing qtdeclarative5-friends0.2 as Depends of friends-app
+      MarkInstall qtdeclarative5-friends0.2 [ i386 ] < none -> 0.2.0+14.04.20140317-0ubuntu1 > ( universe/libs ) FU=0
+      Installing libdee-qt5-3 as Depends of qtdeclarative5-friends0.2
+        MarkInstall libdee-qt5-3 [ i386 ] < none -> 3.3+14.04.20140317-0ubuntu1 > ( libs ) FU=0
+    Installing qtdeclarative5-u1db1.0 as Depends of friends-app
+      MarkInstall qtdeclarative5-u1db1.0 [ i386 ] < none -> 0.1.5+14.04.20140313-0ubuntu2 > ( universe/libs ) FU=0
+      Installing libu1db-qt5-3 as Depends of qtdeclarative5-u1db1.0
+        MarkInstall libu1db-qt5-3 [ i386 ] < none -> 0.1.5+14.04.20140313-0ubuntu2 > ( universe/libs ) FU=0
+    Installing qtdeclarative5-ubuntu-settings-components as Depends of friends-app
+      MarkInstall qtdeclarative5-ubuntu-settings-components [ i386 ] < none -> 0.1+14.04.20140306-0ubuntu1 > ( universe/misc ) FU=0
+      Installing qtdeclarative5-ubuntu-settings-components-assets as Depends of qtdeclarative5-ubuntu-settings-components
+        MarkInstall qtdeclarative5-ubuntu-settings-components-assets [ i386 ] < none -> 0.1+14.04.20140306-0ubuntu1 > ( universe/misc ) FU=0
+      MarkDelete gwibber-service [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc ) FU=0
+  MarkInstall php5-common [ i386 ] < 5.3.10-1ubuntu3.6 -> 5.5.9+dfsg-1ubuntu4.7 > ( php ) FU=0
+  Installing php5-json as Depends of php5-common
+    MarkInstall php5-json [ i386 ] < none -> 1.3.2-2build1 > ( php ) FU=0
+  MarkInstall libbamf3-0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+  libbamf3-0:i386 Depends on bamfdaemon [ i386 ] < 0.2.118-0ubuntu0.2 -> 0.5.1+14.04.20140409-0ubuntu1 > ( libs ) (= 0.2.118-0ubuntu0.2) can't be satisfied!
+    MarkDelete libbamf3-0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+    MarkKeep appmenu-gtk3 [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=0
+  MarkInstall libbamf0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+  libbamf0:i386 Depends on bamfdaemon [ i386 ] < 0.2.118-0ubuntu0.2 -> 0.5.1+14.04.20140409-0ubuntu1 > ( libs ) (= 0.2.118-0ubuntu0.2) can't be satisfied!
+    MarkDelete libbamf0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+  MarkInstall modemmanager [ i386 ] < 0.5.2.0-0ubuntu2 -> 1.0.0-2ubuntu1 > ( net ) FU=0
+  Installing libmbim-glib0 as Depends of modemmanager
+    MarkInstall libmbim-glib0 [ i386 ] < none -> 1.6.0-2 > ( libs ) FU=0
+  Installing libqmi-glib0 as Depends of modemmanager
+    MarkInstall libqmi-glib0 [ i386 ] < none -> 1.4.0-1 > ( libs ) FU=0
+  MarkInstall rhythmbox-plugin-magnatune [ i386 ] < 2.96-0ubuntu4.1 -> 3.0.2-0ubuntu2 > ( gnome ) FU=0
+  Installing gir1.2-secret-1 as Depends of rhythmbox-plugin-magnatune
+    MarkInstall gir1.2-secret-1 [ i386 ] < none -> 0.16-0ubuntu1 > ( introspection ) FU=0
+  MarkInstall transmission-gtk [ i386 ] < 2.51-0ubuntu1 -> 2.82-1.1ubuntu3.1 > ( net ) FU=0
+  Installing libnatpmp1 as Depends of transmission-gtk
+    MarkInstall libnatpmp1 [ i386 ] < none -> 20110808-3ubuntu2 > ( net ) FU=0
+    MarkKeep libindicator-messages-status-provider1 [ i386 ] < 0.6.0-0ubuntu1 > ( libs ) FU=0
+    MarkKeep ghostscript-cups [ i386 ] < 9.05~dfsg-0ubuntu4.1 > ( text ) FU=0
+    MarkKeep libmetacity-private0 [ i386 ] < 1:2.34.1-1ubuntu11 > ( libs ) FU=0
+  MarkInstall gnomine [ i386 ] < 1:3.4.1-0ubuntu2.1 -> 1:3.10.1-0ubuntu1 > ( games ) FU=0
+  Installing gnome-mines as Depends of gnomine
+    MarkInstall gnome-mines [ i386 ] < none -> 1:3.10.1-0ubuntu1 > ( games ) FU=0
+    MarkKeep xz-lzma [ i386 ] < 5.1.1alpha+20110809-3 > ( utils ) FU=0
+    MarkKeep libpackagekit-glib2-14 [ i386 ] < 0.7.2-4ubuntu3 > ( libs ) FU=0
+    MarkKeep libgtksourceview-3.0-0 [ i386 ] < 3.4.2-0ubuntu1 > ( libs ) FU=0
+    MarkKeep appmenu-gtk [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=0
+    MarkKeep libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) FU=0
+    MarkKeep libsnmp15 [ i386 ] < 5.4.3~dfsg-2.4ubuntu1.1 > ( libs ) FU=0
+    MarkKeep libgnome-desktop-3-2 [ i386 ] < 3.4.2-0ubuntu0.1 > ( libs ) FU=0
+    MarkKeep ubuntu-sso-client-gtk [ i386 ] < 3.0.2-0ubuntu2 > ( python ) FU=0
+    MarkKeep gs-cjk-resource [ i386 ] < 1.20100103-3 > ( text ) FU=0
+    MarkKeep python-uno [ i386 ] < 1:3.5.7-0ubuntu4 > ( python ) FU=0
+    MarkKeep cmap-adobe-korea1 [ i386 ] < 0+20090930-2 > ( fonts ) FU=0
+    MarkKeep libevince3-3 [ i386 ] < 3.4.0-0ubuntu1.3 > ( libs ) FU=0
+    MarkKeep libunity-core-5.0-5 [ i386 ] < 5.14.0-0ubuntu1 > ( libs ) FU=0
+    MarkKeep libperl5.14 [ i386 ] < 5.14.2-6ubuntu2.1 > ( libs ) FU=0
+    MarkKeep libexttextcat0 [ i386 ] < 3.2.0-1ubuntu1 > ( libs ) FU=0
+    MarkKeep libbamf3-0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+    MarkKeep libbamf0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=0
+Starting
+Starting 2
+Investigating (0) libglib2.0-0 [ i386 ] < 2.32.3-0ubuntu1 -> 2.40.2-0ubuntu1 > ( libs )
+Broken libglib2.0-0:i386 Breaks on libgnome-desktop-3-2 [ i386 ] < 3.4.2-0ubuntu0.1 > ( libs ) (< 3.4.2-2)
+  Considering libgnome-desktop-3-2:i386 -1 as a solution to libglib2.0-0:i386 2899
+  Added libgnome-desktop-3-2:i386 to the remove list
+  Fixing libglib2.0-0:i386 via remove of libgnome-desktop-3-2:i386
+  MarkDelete libgnome-desktop-3-2 [ i386 ] < 3.4.2-0ubuntu0.1 > ( libs ) FU=1
+Investigating (0) cups-filters [ i386 ] < 1.0.18-0ubuntu0.1 -> 1.0.52-0ubuntu1.4 > ( net )
+Broken cups-filters:i386 Conflicts on foomatic-filters [ i386 ] < 4.0.16-0ubuntu0.2 -> 4.0.17-1ubuntu1 > ( universe/text )
+  Considering foomatic-filters:i386 34 as a solution to cups-filters:i386 116
+  Added foomatic-filters:i386 to the remove list
+  Conflicts//Breaks against version 4.0.16-0ubuntu0.2 for foomatic-filters but that is not InstVer, ignoring
+Broken cups-filters:i386 Conflicts on ghostscript-cups [ i386 ] < 9.05~dfsg-0ubuntu4.1 > ( text )
+  Considering ghostscript-cups:i386 23 as a solution to cups-filters:i386 116
+  Added ghostscript-cups:i386 to the remove list
+  Fixing cups-filters:i386 via remove of foomatic-filters:i386
+  MarkDelete foomatic-filters [ i386 ] < 4.0.16-0ubuntu0.2 -> 4.0.17-1ubuntu1 > ( universe/text ) FU=1
+  Fixing cups-filters:i386 via remove of ghostscript-cups:i386
+  MarkDelete ghostscript-cups [ i386 ] < 9.05~dfsg-0ubuntu4.1 > ( text ) FU=1
+Investigating (0) libunity9 [ i386 ] < 5.12.0-0ubuntu1.1 -> 7.1.4+14.04.20140210-0ubuntu1 > ( libs )
+Broken libunity9:i386 Breaks on unity-common [ i386 ] < 5.14.0-0ubuntu1 > ( gnome ) (< 7.1.2)
+  Considering unity-common:i386 1 as a solution to libunity9:i386 70
+  Added unity-common:i386 to the remove list
+  Fixing libunity9:i386 via remove of unity-common:i386
+  MarkDelete unity-common [ i386 ] < 5.14.0-0ubuntu1 > ( gnome ) FU=1
+Investigating (0) xz-utils [ i386 ] < 5.1.1alpha+20110809-3 -> 5.1.1alpha+20120614-2ubuntu2 > ( utils )
+Broken xz-utils:i386 Conflicts on xz-lzma [ i386 ] < 5.1.1alpha+20110809-3 > ( utils )
+  Considering xz-lzma:i386 -2 as a solution to xz-utils:i386 40
+  Added xz-lzma:i386 to the remove list
+  Fixing xz-utils:i386 via remove of xz-lzma:i386
+  MarkDelete xz-lzma [ i386 ] < 5.1.1alpha+20110809-3 > ( utils ) FU=1
+Investigating (0) libgoa-1.0-0b [ i386 ] < none -> 3.10.3-0ubuntu1 > ( libs )
+Broken libgoa-1.0-0b:i386 Conflicts on libgoa-1.0-0 [ i386 ] < 3.4.0-0ubuntu1 > ( libs )
+  Considering libgoa-1.0-0:i386 -1 as a solution to libgoa-1.0-0b:i386 24
+  Added libgoa-1.0-0:i386 to the remove list
+  Fixing libgoa-1.0-0b:i386 via remove of libgoa-1.0-0:i386
+  MarkDelete libgoa-1.0-0 [ i386 ] < 3.4.0-0ubuntu1 > ( libs ) FU=1
+Investigating (0) im-config [ i386 ] < none -> 0.24-1ubuntu4.1 > ( x11 )
+Broken im-config:i386 Conflicts on im-switch [ i386 ] < 1.20ubuntu5 -> 1.23ubuntu1 > ( universe/x11 )
+  Considering im-switch:i386 0 as a solution to im-config:i386 12
+  Added im-switch:i386 to the remove list
+  Conflicts//Breaks against version 1.20ubuntu5 for im-switch but that is not InstVer, ignoring
+  Fixing im-config:i386 via remove of im-switch:i386
+  MarkDelete im-switch [ i386 ] < 1.20ubuntu5 -> 1.23ubuntu1 > ( universe/x11 ) FU=1
+Investigating (0) python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python )
+Broken python-ubuntu-sso-client:i386 Breaks on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (< 13.05)
+  Considering python-ubuntuone-storageprotocol:i386 2 as a solution to python-ubuntu-sso-client:i386 12
+  Added python-ubuntuone-storageprotocol:i386 to the remove list
+  Fixing python-ubuntu-sso-client:i386 via remove of python-ubuntuone-storageprotocol:i386
+  MarkDelete python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=1
+Investigating (0) indicator-messages [ i386 ] < 0.6.0-0ubuntu1 -> 13.10.1+14.04.20140410-0ubuntu1 > ( gnome )
+Broken indicator-messages:i386 Conflicts on indicator-status-provider-mc5 [ i386 ] < 0.6.0-0ubuntu1 > ( gnome )
+  Considering indicator-status-provider-mc5:i386 -1 as a solution to indicator-messages:i386 10
+  Added indicator-status-provider-mc5:i386 to the remove list
+Broken indicator-messages:i386 Conflicts on libindicator-messages-status-provider1 [ i386 ] < 0.6.0-0ubuntu1 > ( libs )
+  Considering libindicator-messages-status-provider1:i386 1 as a solution to indicator-messages:i386 10
+  Added libindicator-messages-status-provider1:i386 to the remove list
+  Fixing indicator-messages:i386 via remove of indicator-status-provider-mc5:i386
+  MarkDelete indicator-status-provider-mc5 [ i386 ] < 0.6.0-0ubuntu1 > ( gnome ) FU=1
+  Fixing indicator-messages:i386 via remove of libindicator-messages-status-provider1:i386
+  MarkDelete libindicator-messages-status-provider1 [ i386 ] < 0.6.0-0ubuntu1 > ( libs ) FU=1
+Investigating (0) ubuntu-drivers-common [ i386 ] < none -> 1:0.2.91.7 > ( admin )
+Broken ubuntu-drivers-common:i386 Conflicts on jockey-common [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin )
+  Considering jockey-common:i386 1 as a solution to ubuntu-drivers-common:i386 9
+  Added jockey-common:i386 to the remove list
+Broken ubuntu-drivers-common:i386 Conflicts on jockey-gtk [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin )
+  Considering jockey-gtk:i386 -1 as a solution to ubuntu-drivers-common:i386 9
+  Added jockey-gtk:i386 to the remove list
+  Fixing ubuntu-drivers-common:i386 via remove of jockey-common:i386
+  MarkDelete jockey-common [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=1
+  Fixing ubuntu-drivers-common:i386 via remove of jockey-gtk:i386
+  MarkDelete jockey-gtk [ i386 ] < 0.9.7-0ubuntu7.1 > ( admin ) FU=1
+Investigating (0) evolution-data-server [ i386 ] < 3.2.3-0ubuntu7 -> 3.10.4-0ubuntu1.5 > ( gnome )
+Broken evolution-data-server:i386 Breaks on libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) (< 3.4)
+  Considering libebook-1.2-12:i386 5 as a solution to evolution-data-server:i386 7
+  Added libebook-1.2-12:i386 to the remove list
+  Fixing evolution-data-server:i386 via remove of libebook-1.2-12:i386
+  MarkDelete libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) FU=1
+Investigating (0) python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python )
+Broken python-ubuntuone-client:i386 Depends on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (>= 3.0.0-0ubuntu1.1)
+  Considering python-ubuntuone-storageprotocol:i386 2 as a solution to python-ubuntuone-client:i386 7
+  Added python-ubuntuone-storageprotocol:i386 to the remove list
+  Fixing python-ubuntuone-client:i386 via keep of python-ubuntuone-storageprotocol:i386
+  MarkKeep python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=0
+Investigating (0) libgtksourceview-3.0-common [ i386 ] < 3.4.2-0ubuntu1 -> 3.10.2-0ubuntu1 > ( libs )
+Broken libgtksourceview-3.0-common:i386 Conflicts on libgtksourceview-3.0-0 [ i386 ] < 3.4.2-0ubuntu1 > ( libs )
+  Considering libgtksourceview-3.0-0:i386 -1 as a solution to libgtksourceview-3.0-common:i386 6
+  Added libgtksourceview-3.0-0:i386 to the remove list
+  Fixing libgtksourceview-3.0-common:i386 via remove of libgtksourceview-3.0-0:i386
+  MarkDelete libgtksourceview-3.0-0 [ i386 ] < 3.4.2-0ubuntu1 > ( libs ) FU=1
+Investigating (0) poppler-data [ i386 ] < 0.4.5-2 -> 0.4.6-4 > ( misc )
+Broken poppler-data:i386 Breaks on cmap-adobe-japan2 [ i386 ] < 0+20090930-2 > ( fonts ) (<= 0+20090930-2)
+  Considering cmap-adobe-japan2:i386 0 as a solution to poppler-data:i386 5
+  Added cmap-adobe-japan2:i386 to the remove list
+Broken poppler-data:i386 Breaks on cmap-adobe-korea1 [ i386 ] < 0+20090930-2 > ( fonts ) (<= 1.20100103-3)
+  Considering cmap-adobe-korea1:i386 0 as a solution to poppler-data:i386 5
+  Added cmap-adobe-korea1:i386 to the remove list
+Broken poppler-data:i386 Breaks on gs-cjk-resource [ i386 ] < 1.20100103-3 > ( text ) (<= 1.20100103-3)
+  Considering gs-cjk-resource:i386 2 as a solution to poppler-data:i386 5
+  Added gs-cjk-resource:i386 to the remove list
+  Fixing poppler-data:i386 via remove of cmap-adobe-japan2:i386
+  MarkDelete cmap-adobe-japan2 [ i386 ] < 0+20090930-2 > ( fonts ) FU=1
+  Fixing poppler-data:i386 via remove of cmap-adobe-korea1:i386
+  MarkDelete cmap-adobe-korea1 [ i386 ] < 0+20090930-2 > ( fonts ) FU=1
+  Fixing poppler-data:i386 via remove of gs-cjk-resource:i386
+  MarkDelete gs-cjk-resource [ i386 ] < 1.20100103-3 > ( text ) FU=1
+Investigating (0) libsnmp30 [ i386 ] < none -> 5.7.2~dfsg-8.1ubuntu3 > ( libs )
+Broken libsnmp30:i386 Breaks on libsnmp15 [ i386 ] < 5.4.3~dfsg-2.4ubuntu1.1 > ( libs )
+  Considering libsnmp15:i386 -1 as a solution to libsnmp30:i386 4
+  Added libsnmp15:i386 to the remove list
+  Fixing libsnmp30:i386 via remove of libsnmp15:i386
+  MarkDelete libsnmp15 [ i386 ] < 5.4.3~dfsg-2.4ubuntu1.1 > ( libs ) FU=1
+Investigating (0) python3-uno [ i386 ] < none -> 1:4.2.7-0ubuntu2 > ( python )
+Broken python3-uno:i386 Conflicts on python-uno [ i386 ] < 1:3.5.7-0ubuntu4 > ( python )
+  Considering python-uno:i386 -1 as a solution to python3-uno:i386 4
+  Added python-uno:i386 to the remove list
+  Fixing python3-uno:i386 via remove of python-uno:i386
+  MarkDelete python-uno [ i386 ] < 1:3.5.7-0ubuntu4 > ( python ) FU=1
+Investigating (0) apache2-bin [ i386 ] < none -> 2.4.7-1ubuntu4.4 > ( httpd )
+Broken apache2-bin:i386 Conflicts on apache2.2-common [ i386 ] < 2.2.22-1ubuntu1.3 > ( httpd )
+  Considering apache2.2-common:i386 -1 as a solution to apache2-bin:i386 4
+  Added apache2.2-common:i386 to the remove list
+  Fixing apache2-bin:i386 via remove of apache2.2-common:i386
+  MarkDelete apache2.2-common [ i386 ] < 2.2.22-1ubuntu1.3 > ( httpd ) FU=1
+Investigating (0) libmetacity-private0a [ i386 ] < none -> 1:2.34.13-0ubuntu4 > ( libs )
+Broken libmetacity-private0a:i386 Breaks on libmetacity-private0 [ i386 ] < 1:2.34.1-1ubuntu11 > ( libs )
+  Considering libmetacity-private0:i386 -1 as a solution to libmetacity-private0a:i386 3
+  Added libmetacity-private0:i386 to the remove list
+  Fixing libmetacity-private0a:i386 via remove of libmetacity-private0:i386
+  MarkDelete libmetacity-private0 [ i386 ] < 1:2.34.1-1ubuntu11 > ( libs ) FU=1
+Investigating (0) overlay-scrollbar-gtk2 [ i386 ] < none -> 0.2.16+r359+14.04.20131129-0ubuntu1 > ( libs )
+Broken overlay-scrollbar-gtk2:i386 Conflicts on liboverlay-scrollbar-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) (< 0.2.16+r348)
+  Considering liboverlay-scrollbar-0.2-0:i386 -1 as a solution to overlay-scrollbar-gtk2:i386 3
+  Added liboverlay-scrollbar-0.2-0:i386 to the remove list
+  Fixing overlay-scrollbar-gtk2:i386 via remove of liboverlay-scrollbar-0.2-0:i386
+  MarkDelete liboverlay-scrollbar-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=1
+Investigating (0) overlay-scrollbar-gtk3 [ i386 ] < none -> 0.2.16+r359+14.04.20131129-0ubuntu1 > ( libs )
+Broken overlay-scrollbar-gtk3:i386 Conflicts on liboverlay-scrollbar3-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) (< 0.2.16+r348)
+  Considering liboverlay-scrollbar3-0.2-0:i386 -1 as a solution to overlay-scrollbar-gtk3:i386 3
+  Added liboverlay-scrollbar3-0.2-0:i386 to the remove list
+  Fixing overlay-scrollbar-gtk3:i386 via remove of liboverlay-scrollbar3-0.2-0:i386
+  MarkDelete liboverlay-scrollbar3-0.2-0 [ i386 ] < 0.2.16-0ubuntu1 > ( libs ) FU=1
+Investigating (0) apache2.2-bin [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( httpd )
+Broken apache2.2-bin:i386 Breaks on gnome-user-share [ i386 ] < 3.0.2-0ubuntu1 -> 3.0.4-0ubuntu1 > ( gnome ) (< 3.8.0-2~)
+  Considering gnome-user-share:i386 4 as a solution to apache2.2-bin:i386 2
+  MarkKeep apache2.2-bin [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( httpd ) FU=0
+  Holding Back apache2.2-bin:i386 rather than change gnome-user-share:i386
+Investigating (0) libevdocument3-4 [ i386 ] < none -> 3.10.3-0ubuntu10.2 > ( libs )
+Broken libevdocument3-4:i386 Breaks on libevince3-3 [ i386 ] < 3.4.0-0ubuntu1.3 > ( libs )
+  Considering libevince3-3:i386 -1 as a solution to libevdocument3-4:i386 2
+  Added libevince3-3:i386 to the remove list
+  Fixing libevdocument3-4:i386 via remove of libevince3-3:i386
+  MarkDelete libevince3-3 [ i386 ] < 3.4.0-0ubuntu1.3 > ( libs ) FU=1
+Investigating (0) python-aptdaemon.pkcompat [ i386 ] < 0.43+bzr805-0ubuntu4 > ( python )
+Broken python-aptdaemon.pkcompat:i386 Depends on python-aptdaemon [ i386 ] < 0.43+bzr805-0ubuntu4 -> 1.1.1-1ubuntu5.1 > ( python ) (= 0.43+bzr805-0ubuntu4)
+  Considering python-aptdaemon:i386 16 as a solution to python-aptdaemon.pkcompat:i386 1
+  Removing python-aptdaemon.pkcompat:i386 rather than change python-aptdaemon:i386
+  MarkDelete python-aptdaemon.pkcompat [ i386 ] < 0.43+bzr805-0ubuntu4 > ( python ) FU=1
+Investigating (0) python3-aptdaemon.pkcompat [ i386 ] < none -> 1.1.1-1ubuntu5.1 > ( python )
+Broken python3-aptdaemon.pkcompat:i386 Breaks on libpackagekit-glib2-14 [ i386 ] < 0.7.2-4ubuntu3 > ( libs )
+  Considering libpackagekit-glib2-14:i386 -1 as a solution to python3-aptdaemon.pkcompat:i386 1
+  Added libpackagekit-glib2-14:i386 to the remove list
+  Fixing python3-aptdaemon.pkcompat:i386 via remove of libpackagekit-glib2-14:i386
+  MarkDelete libpackagekit-glib2-14 [ i386 ] < 0.7.2-4ubuntu3 > ( libs ) FU=1
+Investigating (0) activity-log-manager [ i386 ] < none -> 0.9.7-0ubuntu14.1 > ( utils )
+Broken activity-log-manager:i386 Conflicts on activity-log-manager-common [ i386 ] < 0.9.4-0ubuntu3 > ( utils )
+  Considering activity-log-manager-common:i386 -1 as a solution to activity-log-manager:i386 1
+  Added activity-log-manager-common:i386 to the remove list
+  Fixing activity-log-manager:i386 via remove of activity-log-manager-common:i386
+  MarkDelete activity-log-manager-common [ i386 ] < 0.9.4-0ubuntu3 > ( utils ) FU=1
+Investigating (0) unity-gtk2-module [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs )
+Broken unity-gtk2-module:i386 Conflicts on appmenu-gtk [ i386 ] < 0.3.92-0ubuntu1 > ( libs )
+  Considering appmenu-gtk:i386 -1 as a solution to unity-gtk2-module:i386 1
+  Added appmenu-gtk:i386 to the remove list
+  Fixing unity-gtk2-module:i386 via remove of appmenu-gtk:i386
+  MarkDelete appmenu-gtk [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=1
+Investigating (0) ubuntuone-client-data [ i386 ] < none -> 13.05-0ubuntu1 > ( libs )
+Broken ubuntuone-client-data:i386 Breaks on ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) (< 4.1.90-0ubuntu3)
+  Considering ubuntuone-client:i386 6 as a solution to ubuntuone-client-data:i386 1
+  MarkKeep ubuntuone-client-data [ i386 ] < none -> 13.05-0ubuntu1 > ( libs ) FU=0
+  Holding Back ubuntuone-client-data:i386 rather than change ubuntuone-client:i386
+Investigating (0) libperl5.14 [ i386 ] < 5.14.2-6ubuntu2.1 > ( libs )
+Broken libperl5.14:i386 Depends on perl-base [ i386 ] < 5.14.2-6ubuntu2.1 -> 5.18.2-2ubuntu1 > ( perl ) (= 5.14.2-6ubuntu2.1)
+  Considering perl-base:i386 5300 as a solution to libperl5.14:i386 1
+  Removing libperl5.14:i386 rather than change perl-base:i386
+  MarkDelete libperl5.14 [ i386 ] < 5.14.2-6ubuntu2.1 > ( libs ) FU=1
+Investigating (0) unity-gtk3-module [ i386 ] < none -> 0.0.0+14.04.20141212-0ubuntu1 > ( libs )
+Broken unity-gtk3-module:i386 Conflicts on appmenu-gtk3 [ i386 ] < 0.3.92-0ubuntu1 > ( libs )
+  Considering appmenu-gtk3:i386 -1 as a solution to unity-gtk3-module:i386 1
+  Added appmenu-gtk3:i386 to the remove list
+  Fixing unity-gtk3-module:i386 via remove of appmenu-gtk3:i386
+  MarkDelete appmenu-gtk3 [ i386 ] < 0.3.92-0ubuntu1 > ( libs ) FU=1
+Investigating (0) friends-app [ i386 ] < none -> 0.92.0+14.04.20140306.1-0ubuntu2 > ( universe/gnome )
+Broken friends-app:i386 Conflicts on gwibber-service [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc )
+  Considering gwibber-service:i386 1 as a solution to friends-app:i386 0
+  MarkKeep friends-app [ i386 ] < none -> 0.92.0+14.04.20140306.1-0ubuntu2 > ( universe/gnome ) FU=0
+  Holding Back friends-app:i386 rather than change gwibber-service:i386
+Investigating (0) gwibber [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc )
+Broken gwibber:i386 Depends on friends-app [ i386 ] < none -> 0.92.0+14.04.20140306.1-0ubuntu2 > ( universe/gnome )
+  Considering friends-app:i386 0 as a solution to gwibber:i386 0
+  MarkKeep gwibber [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc ) FU=0
+  Removing gwibber:i386 rather than change friends-app:i386
+  MarkDelete gwibber [ i386 ] < 3.4.2-0ubuntu2 -> 3.7.0bzr13.04.05-0ubuntu1 > ( universe/misc ) FU=1
+Investigating (0) python3-speechd [ i386 ] < none -> 0.8-5ubuntu1 > ( python )
+Broken python3-speechd:i386 Breaks on python-speechd [ i386 ] < 0.7.1-6ubuntu3 > ( python )
+  Considering python-speechd:i386 -2 as a solution to python3-speechd:i386 0
+  Added python-speechd:i386 to the remove list
+  Fixing python3-speechd:i386 via remove of python-speechd:i386
+  MarkDelete python-speechd [ i386 ] < 0.7.1-6ubuntu3 > ( python ) FU=1
+Investigating (0) ubuntu-sso-client-qt [ i386 ] < none -> 13.10-0ubuntu6 > ( python )
+Broken ubuntu-sso-client-qt:i386 Depends on ubuntuone-client-data [ i386 ] < none -> 13.05-0ubuntu1 > ( libs )
+  Considering ubuntuone-client-data:i386 1 as a solution to ubuntu-sso-client-qt:i386 -1
+  MarkKeep ubuntu-sso-client-qt [ i386 ] < none -> 13.10-0ubuntu6 > ( python ) FU=0
+  Holding Back ubuntu-sso-client-qt:i386 rather than change ubuntuone-client-data:i386
+Investigating (0) ubuntuone-client-gnome [ i386 ] < 3.0.1-0ubuntu1 > ( gnome )
+Broken ubuntuone-client-gnome:i386 Depends on libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) (>= 3.2.3)
+  Considering libebook-1.2-12:i386 5 as a solution to ubuntuone-client-gnome:i386 -1
+  Removing ubuntuone-client-gnome:i386 rather than change libebook-1.2-12:i386
+  MarkDelete ubuntuone-client-gnome [ i386 ] < 3.0.1-0ubuntu1 > ( gnome ) FU=1
+Investigating (0) libedataserverui-3.0-1 [ i386 ] < 3.2.3-0ubuntu7 > ( libs )
+Broken libedataserverui-3.0-1:i386 Depends on libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) (>= 3.2.3)
+  Considering libebook-1.2-12:i386 5 as a solution to libedataserverui-3.0-1:i386 -1
+  Removing libedataserverui-3.0-1:i386 rather than change libebook-1.2-12:i386
+  MarkDelete libedataserverui-3.0-1 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) FU=1
+Investigating (0) libedata-book-1.2-11 [ i386 ] < 3.2.3-0ubuntu7 > ( libs )
+Broken libedata-book-1.2-11:i386 Depends on libebook-1.2-12 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) (>= 3.2.3)
+  Considering libebook-1.2-12:i386 5 as a solution to libedata-book-1.2-11:i386 -1
+  Removing libedata-book-1.2-11:i386 rather than change libebook-1.2-12:i386
+  MarkDelete libedata-book-1.2-11 [ i386 ] < 3.2.3-0ubuntu7 > ( libs ) FU=1
+Investigating (0) libunity-core-5.0-5 [ i386 ] < 5.14.0-0ubuntu1 > ( libs )
+Broken libunity-core-5.0-5:i386 Depends on unity-services [ i386 ] < 5.14.0-0ubuntu1 -> 7.2.4+14.04.20141217-0ubuntu1 > ( gnome ) (= 5.14.0-0ubuntu1)
+  Considering unity-services:i386 3 as a solution to libunity-core-5.0-5:i386 -1
+  Removing libunity-core-5.0-5:i386 rather than change unity-services:i386
+  MarkDelete libunity-core-5.0-5 [ i386 ] < 5.14.0-0ubuntu1 > ( libs ) FU=1
+Investigating (0) libexttextcat0 [ i386 ] < 3.2.0-1ubuntu1 > ( libs )
+Broken libexttextcat0:i386 Depends on libexttextcat-data [ i386 ] < 3.2.0-1ubuntu1 -> 3.4.3-1ubuntu1 > ( text ) (= 3.2.0-1ubuntu1)
+  Considering libexttextcat-data:i386 8 as a solution to libexttextcat0:i386 -1
+  Removing libexttextcat0:i386 rather than change libexttextcat-data:i386
+  MarkDelete libexttextcat0 [ i386 ] < 3.2.0-1ubuntu1 > ( libs ) FU=1
+Investigating (0) libbamf3-0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs )
+Broken libbamf3-0:i386 Depends on bamfdaemon [ i386 ] < 0.2.118-0ubuntu0.2 -> 0.5.1+14.04.20140409-0ubuntu1 > ( libs ) (= 0.2.118-0ubuntu0.2)
+  Considering bamfdaemon:i386 13 as a solution to libbamf3-0:i386 -1
+  Removing libbamf3-0:i386 rather than change bamfdaemon:i386
+  MarkDelete libbamf3-0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=1
+Investigating (0) libbamf0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs )
+Broken libbamf0:i386 Depends on bamfdaemon [ i386 ] < 0.2.118-0ubuntu0.2 -> 0.5.1+14.04.20140409-0ubuntu1 > ( libs ) (= 0.2.118-0ubuntu0.2)
+  Considering bamfdaemon:i386 13 as a solution to libbamf0:i386 -1
+  Removing libbamf0:i386 rather than change bamfdaemon:i386
+  MarkDelete libbamf0 [ i386 ] < 0.2.118-0ubuntu0.2 > ( libs ) FU=1
+Investigating (0) ubuntu-sso-client-gtk [ i386 ] < 3.0.2-0ubuntu2 > ( python )
+Broken ubuntu-sso-client-gtk:i386 Depends on python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python ) (= 3.0.2-0ubuntu2)
+  Considering python-ubuntu-sso-client:i386 12 as a solution to ubuntu-sso-client-gtk:i386 -2
+  Removing ubuntu-sso-client-gtk:i386 rather than change python-ubuntu-sso-client:i386
+  MarkDelete ubuntu-sso-client-gtk [ i386 ] < 3.0.2-0ubuntu2 > ( python ) FU=1
+Investigating (1) python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python )
+Broken python-ubuntu-sso-client:i386 Breaks on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (< 13.05)
+  Considering python-ubuntuone-storageprotocol:i386 2 as a solution to python-ubuntu-sso-client:i386 12
+  Added python-ubuntuone-storageprotocol:i386 to the remove list
+  Fixing python-ubuntu-sso-client:i386 via remove of python-ubuntuone-storageprotocol:i386
+  MarkDelete python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=1
+Investigating (1) python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python )
+Broken python-ubuntuone-client:i386 Depends on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (>= 3.0.0-0ubuntu1.1)
+  Considering python-ubuntuone-storageprotocol:i386 2 as a solution to python-ubuntuone-client:i386 7
+  Added python-ubuntuone-storageprotocol:i386 to the remove list
+  Fixing python-ubuntuone-client:i386 via keep of python-ubuntuone-storageprotocol:i386
+  MarkKeep python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=0
+Investigating (1) apache2-bin [ i386 ] < none -> 2.4.7-1ubuntu4.4 > ( httpd )
+Broken apache2-bin:i386 Conflicts on apache2.2-bin [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( httpd ) (< 2.3~)
+  Considering apache2.2-bin:i386 2 as a solution to apache2-bin:i386 4
+  Added apache2.2-bin:i386 to the remove list
+  Fixing apache2-bin:i386 via remove of apache2.2-bin:i386
+  MarkDelete apache2.2-bin [ i386 ] < 2.2.22-1ubuntu1.3 -> 2.4.7-1ubuntu4.4 > ( httpd ) FU=1
+Investigating (1) ubuntu-desktop [ i386 ] < 1.267 -> 1.325 > ( metapackages )
+Broken ubuntu-desktop:i386 Depends on ubuntu-sso-client-qt [ i386 ] < none -> 13.10-0ubuntu6 > ( python )
+  Considering ubuntu-sso-client-qt:i386 -1 as a solution to ubuntu-desktop:i386 0
+  MarkKeep ubuntu-desktop [ i386 ] < 1.267 -> 1.325 > ( metapackages ) FU=0
+  Holding Back ubuntu-desktop:i386 rather than change ubuntu-sso-client-qt:i386
+Investigating (2) python-ubuntu-sso-client [ i386 ] < 3.0.2-0ubuntu2 -> 13.10-0ubuntu6 > ( python )
+Broken python-ubuntu-sso-client:i386 Breaks on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (< 13.05)
+  Considering python-ubuntuone-storageprotocol:i386 2 as a solution to python-ubuntu-sso-client:i386 12
+  Added python-ubuntuone-storageprotocol:i386 to the remove list
+  Fixing python-ubuntu-sso-client:i386 via remove of python-ubuntuone-storageprotocol:i386
+  MarkDelete python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=1
+Investigating (2) python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python )
+Broken python-ubuntuone-client:i386 Depends on python-ubuntuone-storageprotocol [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (>= 3.0.0-0ubuntu1.1)
+  Considering python-ubuntuone-storageprotocol:i386 12 as a solution to python-ubuntuone-client:i386 7
+  Removing python-ubuntuone-client:i386 rather than change python-ubuntuone-storageprotocol:i386
+  MarkDelete python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python ) FU=1
+Investigating (2) ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net )
+Broken ubuntuone-client:i386 Depends on python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (= 3.0.2-0ubuntu1)
+  Considering python-ubuntuone-client:i386 12 as a solution to ubuntuone-client:i386 6
+  Removing ubuntuone-client:i386 rather than change python-ubuntuone-client:i386
+  MarkDelete ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) FU=1
+Investigating (2) libsyncdaemon-1.0-1 [ i386 ] < 3.0.2-0ubuntu1 > ( libs )
+Broken libsyncdaemon-1.0-1:i386 Depends on ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( net ) (>= 3.0.2-0ubuntu1)
+  Considering ubuntuone-client:i386 12 as a solution to libsyncdaemon-1.0-1:i386 2
+  Removing libsyncdaemon-1.0-1:i386 rather than change ubuntuone-client:i386
+  MarkDelete libsyncdaemon-1.0-1 [ i386 ] < 3.0.2-0ubuntu1 > ( libs ) FU=1
+Investigating (2) python-ubuntuone-control-panel [ i386 ] < 3.0.1-0ubuntu1 > ( python )
+Broken python-ubuntuone-control-panel:i386 Depends on python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python ) (>= 2.99.92)
+  Considering python-ubuntuone-client:i386 12 as a solution to python-ubuntuone-control-panel:i386 1
+  Removing python-ubuntuone-control-panel:i386 rather than change python-ubuntuone-client:i386
+  MarkDelete python-ubuntuone-control-panel [ i386 ] < 3.0.1-0ubuntu1 > ( python ) FU=1
+ Try to Re-Instate (2) ubuntu-desktop:i386
+  MarkKeep ubuntu-desktop [ i386 ] < 1.267 -> 1.325 > ( metapackages ) FU=0
+Investigating (2) libubuntuoneui-3.0-1 [ i386 ] < 3.0.1-0ubuntu1 > ( libs )
+Broken libubuntuoneui-3.0-1:i386 Depends on libsyncdaemon-1.0-1 [ i386 ] < 3.0.2-0ubuntu1 > ( libs )
+  Considering libsyncdaemon-1.0-1:i386 12 as a solution to libubuntuoneui-3.0-1:i386 0
+  Removing libubuntuoneui-3.0-1:i386 rather than change libsyncdaemon-1.0-1:i386
+  MarkDelete libubuntuoneui-3.0-1 [ i386 ] < 3.0.1-0ubuntu1 > ( libs ) FU=1
+Investigating (2) ubuntuone-control-panel [ i386 ] < 3.0.1-0ubuntu1 > ( python )
+Broken ubuntuone-control-panel:i386 Depends on python-ubuntuone-control-panel [ i386 ] < 3.0.1-0ubuntu1 > ( python ) (= 3.0.1-0ubuntu1)
+  Considering python-ubuntuone-control-panel:i386 12 as a solution to ubuntuone-control-panel:i386 -2
+  Removing ubuntuone-control-panel:i386 rather than change python-ubuntuone-control-panel:i386
+  MarkDelete ubuntuone-control-panel [ i386 ] < 3.0.1-0ubuntu1 > ( python ) FU=1
+Investigating (2) ubuntuone-couch [ i386 ] < 0.3.0-0ubuntu4 > ( python )
+Broken ubuntuone-couch:i386 Depends on python-ubuntuone-client [ i386 ] < 3.0.2-0ubuntu1 > ( python )
+  Considering python-ubuntuone-client:i386 12 as a solution to ubuntuone-couch:i386 -2
+  Removing ubuntuone-couch:i386 rather than change python-ubuntuone-client:i386
+  MarkDelete ubuntuone-couch [ i386 ] < 0.3.0-0ubuntu4 > ( python ) FU=1
+Investigating (3) gir1.2-ubuntuoneui-3.0 [ i386 ] < 3.0.1-0ubuntu1 > ( introspection )
+Broken gir1.2-ubuntuoneui-3.0:i386 Depends on libubuntuoneui-3.0-1 [ i386 ] < 3.0.1-0ubuntu1 > ( libs ) (>= 2.99.3)
+  Considering libubuntuoneui-3.0-1:i386 12 as a solution to gir1.2-ubuntuoneui-3.0:i386 2
+  Removing gir1.2-ubuntuoneui-3.0:i386 rather than change libubuntuoneui-3.0-1:i386
+  MarkDelete gir1.2-ubuntuoneui-3.0 [ i386 ] < 3.0.1-0ubuntu1 > ( introspection ) FU=1
+Investigating (3) rhythmbox-ubuntuone [ i386 ] < 3.0.0-0ubuntu1 > ( gnome )
+Broken rhythmbox-ubuntuone:i386 Depends on gir1.2-ubuntuoneui-3.0 [ i386 ] < 3.0.1-0ubuntu1 > ( introspection ) (>= 3.0.0)
+  Considering gir1.2-ubuntuoneui-3.0:i386 12 as a solution to rhythmbox-ubuntuone:i386 -2
+  Removing rhythmbox-ubuntuone:i386 rather than change gir1.2-ubuntuoneui-3.0:i386
+  MarkDelete rhythmbox-ubuntuone [ i386 ] < 3.0.0-0ubuntu1 > ( gnome ) FU=1
+Done
+  MarkInstall ubuntu-desktop [ i386 ] < 1.267 -> 1.325 > ( metapackages ) FU=1
+  Installing ubuntu-sso-client-qt as Depends of ubuntu-desktop
+  Setting NOT as auto-installed (direct Depends of pkg in APT::Never-MarkAuto-Sections)
+    MarkInstall ubuntu-sso-client-qt [ i386 ] < none -> 13.10-0ubuntu6 > ( python ) FU=1
+    Installing ubuntuone-client-data as Depends of ubuntu-sso-client-qt
+      MarkInstall ubuntuone-client-data [ i386 ] < none -> 13.05-0ubuntu1 > ( libs ) FU=0
+        MarkDelete ubuntuone-installer [ i386 ] < 3.0.2-0ubuntu1.1 > ( python ) FU=0

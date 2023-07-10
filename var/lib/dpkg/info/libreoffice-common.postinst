@@ -1,0 +1,36 @@
+#!/bin/sh
+
+set -e
+
+
+
+if [ "$1" = "configure" ]; then
+	dpkg-maintscript-helper rm_conffile "/etc/bash_completion.d/ooffice.sh" 1:3.3.0~rc4-2 libreoffice-common -- "$@"
+ 
+	dpkg-maintscript-helper mv_conffile \
+		"/etc/openoffice/psprint.conf" "/etc/libreoffice/psprint.conf" "" libreoffice-common -- "$@"
+	dpkg-maintscript-helper mv_conffile \
+		"/etc/openoffice/sofficerc" "/etc/libreoffice/sofficerc" "" libreoffice-common -- "$@"
+	dpkg-maintscript-helper mv_conffile \
+		"/etc/openoffice/soffice.sh" "/etc/libreoffice/soffice.sh" "" libreoffice-common -- "$@"
+
+	# try to remove, hopefully empty now
+	rmdir /etc/openoffice 2>/dev/null || true
+
+	if dpkg --compare-versions "$2" lt "1:3.3.0-3"; then
+		dpkg-trigger /usr/lib/libreoffice/share/extensions || (echo "failed to trigger extension registration" && true)
+	fi
+fi
+
+# Automatically added by dh_installmime
+if [ "$1" = "configure" ] && [ -x "`which update-mime-database 2>/dev/null`" ]; then
+	update-mime-database /usr/share/mime
+fi
+# End automatically added section
+# Automatically added by dh_icons
+if which update-icon-caches >/dev/null 2>&1 ; then
+	update-icon-caches /usr/share/icons/locolor
+fi
+# End automatically added section
+
+

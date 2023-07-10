@@ -1,0 +1,17 @@
+2f7221892b514a072cfb8a97d91b8c31  usr/lib/telepathy/gabble-0/lib/libgabble-plugins-0.16.0.so
+8cb5457df8dd5644ed1a0f4b23e66e8d  usr/lib/telepathy/gabble-0/lib/libwocky-telepathy-gabble-0.16.0.so
+cd5503bc11325371be7c22af9fe90bf6  usr/lib/telepathy/gabble-0/plugins/libconsole.so
+c6691f01a769e5307f648bfe0ccd8723  usr/lib/telepathy/gabble-0/plugins/libgateways.so
+9795b2fc2ed4bfb821424ac8b8acb80f  usr/lib/telepathy/telepathy-gabble
+d2951299bbe8a9c9867ff93a25aec795  usr/share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.gabble.service
+044a53f759b11fa9dd5286d38b2227bf  usr/share/doc/telepathy-gabble/AUTHORS
+8add5c4c8d6bdfeb83a28ede842ccbfe  usr/share/doc/telepathy-gabble/NEWS.gz
+16570bc9438cb7f92741ee8be08ec411  usr/share/doc/telepathy-gabble/README
+f3b3283a6be9a5cf4b21f85272966d5f  usr/share/doc/telepathy-gabble/changelog.Debian.gz
+aabf13a7485cd5dfc9b26311f1bc6da5  usr/share/doc/telepathy-gabble/copyright
+2d9042919e4832ff21eb679ab866bd31  usr/share/doc/telepathy-gabble/muc-bytestream.html
+00fedf1d5c785e57d251ef3aff0f6ec4  usr/share/doc/telepathy-gabble/olpc.html
+3e34cfb63d7ce5e80612ebb27cd1a6b5  usr/share/doc/telepathy-gabble/si-multiple.html
+b67f92cd0700c5c8491c60c896cac720  usr/share/doc/telepathy-gabble/tubes.html
+1846ebed83237aa8eaca5e64495386f4  usr/share/man/man8/telepathy-gabble.8.gz
+c044b4a2c9d4e01b050ca21815e3aff4  usr/share/telepathy/managers/gabble.manager

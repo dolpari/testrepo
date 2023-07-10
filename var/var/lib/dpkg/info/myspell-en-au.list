@@ -1,0 +1,16 @@
+/.
+/usr
+/usr/share
+/usr/share/hunspell
+/usr/share/hunspell/en_AU.aff
+/usr/share/hunspell/en_AU.dic
+/usr/share/doc
+/usr/share/doc/myspell-en-au
+/usr/share/doc/myspell-en-au/copyright
+/usr/share/doc/myspell-en-au/changelog.Debian.gz
+/usr/share/doc/myspell-en-au/README_en_AU.txt.gz
+/var
+/var/lib
+/var/lib/dictionaries-common
+/var/lib/dictionaries-common/hunspell
+/var/lib/dictionaries-common/hunspell/myspell-en-au

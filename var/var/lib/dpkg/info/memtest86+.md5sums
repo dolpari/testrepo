@@ -1,0 +1,11 @@
+e8ddd2897e15d799a2420c8ccae23faa  boot/memtest86+.bin
+86a889f6766c22e622cdcedbb7c3f8cc  boot/memtest86+_multiboot.bin
+09ae537771ba0675c7b52ae9e05da6a8  usr/lib/memtest86+/memtest86+.elf
+1188544b02c6871dc3f1dadfa3fcb763  usr/lib/memtest86+/memtest86+.iso
+71d6b28146242559b175156126603a20  usr/share/doc/memtest86+/README.Debian
+5cfcc409a4e1b4431d37bb4b596c5197  usr/share/doc/memtest86+/README.gz
+c84487879e7bac9753086b69a8a0ac2d  usr/share/doc/memtest86+/changelog.Debian.gz
+778c20ff7899086177e7187c37272f01  usr/share/doc/memtest86+/copyright
+1847771bcc506674a44a0c035c93f8ef  usr/share/doc/memtest86+/examples/grub-menu.lst
+e7b7c0d7230cbaae0941681efc137f15  usr/share/doc/memtest86+/examples/lilo.conf
+4994289bef2ac5d076a218d9db8c57cc  usr/share/lintian/overrides/memtest86+

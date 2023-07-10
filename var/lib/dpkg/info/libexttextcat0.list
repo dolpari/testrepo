@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libexttextcat0
+/usr/share/doc/libexttextcat0/README
+/usr/share/doc/libexttextcat0/TODO
+/usr/share/doc/libexttextcat0/copyright
+/usr/share/doc/libexttextcat0/changelog.Debian.gz
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libexttextcat0
+/usr/lib
+/usr/lib/libexttextcat.so.0.0.0
+/usr/lib/libexttextcat.so.0

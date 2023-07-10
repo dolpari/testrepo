@@ -1,0 +1,8 @@
+47b148b665d47517fbd09387e2a1bf71  usr/lib/xorg/modules/drivers/radeon_drv.so
+b8b8a732fa65087b9f6a8256875109f4  usr/lib/xorg/modules/multimedia/theatre200_drv.so
+09f1a0f83b89876ae7c71a9f36b47e24  usr/lib/xorg/modules/multimedia/theatre_detect_drv.so
+f731c469f9323a27d472fd2826489a3d  usr/lib/xorg/modules/multimedia/theatre_drv.so
+ce4572826e8f66ed20528164036ecd6f  usr/share/doc/xserver-xorg-video-radeon/NEWS.Debian.gz
+6ccdb16482059886e41e125b1f8889ea  usr/share/doc/xserver-xorg-video-radeon/changelog.Debian.gz
+75da66945980a43adf1e1856271b9d4a  usr/share/doc/xserver-xorg-video-radeon/copyright
+a00ae9b9f6187e289d309b36b42c4dcd  usr/share/man/man4/radeon.4.gz

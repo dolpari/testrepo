@@ -1,0 +1,13 @@
+/.
+/usr
+/usr/share
+/usr/share/php5-ssh2
+/usr/share/php5-ssh2/ssh2.ini-dist
+/usr/share/doc
+/usr/share/doc/libssh2-php
+/usr/share/doc/libssh2-php/copyright
+/usr/share/doc/libssh2-php/changelog.Debian.gz
+/usr/lib
+/usr/lib/php5
+/usr/lib/php5/20121212+lfs
+/usr/lib/php5/20121212+lfs/ssh2.so

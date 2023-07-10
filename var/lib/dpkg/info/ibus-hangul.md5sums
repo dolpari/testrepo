@@ -1,0 +1,16 @@
+c2779b25d9c34c6c189c0545b82d48ee  usr/lib/ibus-hangul/hangul_keyboard_list
+9782234448b63cf6df528b83f7741209  usr/lib/ibus-hangul/ibus-engine-hangul
+a85f545b5ccc20080c43d801dc4b6f23  usr/lib/ibus-hangul/ibus-setup-hangul
+ca2f80e9d5835ac01bc9fbb209e90831  usr/share/doc/ibus-hangul/AUTHORS
+4a32e7124c71c79d8cec67b596b44bf5  usr/share/doc/ibus-hangul/README
+cb02d9b98e051537b5e945aa5512524d  usr/share/doc/ibus-hangul/changelog.Debian.gz
+10c9fbc9d4a648970d3cf0c7df48508d  usr/share/doc/ibus-hangul/copyright
+2ece481f3ed369897e8249923facc030  usr/share/ibus-hangul/data/symbol.txt
+83424edd7dbd5472c7e0c10ab434f3e8  usr/share/ibus-hangul/icons/ibus-hangul.png
+adb2c5d71c0f84e131eeff4f6e52c6ae  usr/share/ibus-hangul/icons/ibus-hangul.svg
+73f5ec771b0696108be04fef572f3e3e  usr/share/ibus-hangul/setup/config.py
+90b1d6281e03611cecce324073085dbc  usr/share/ibus-hangul/setup/keycapturedialog.py
+73ff1b1c0510e90ee77038da054c6938  usr/share/ibus-hangul/setup/main.py
+2894635a169b72043660d6b220175409  usr/share/ibus-hangul/setup/setup.ui
+3270ae369ca5b92a787ac0aeb7d929b7  usr/share/ibus/component/hangul.xml
+fd66508dc20876bbcdf090189e3a69e1  usr/share/python/runtime.d/ibus-hangul.rtupdate

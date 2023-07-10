@@ -1,0 +1,4 @@
+libreg 3 ure (>= 3.5.7~)
+libstore 3 ure (>= 3.5.7~)
+libjvmaccessgcc3 3 ure (>= 3.5.7~)
+libjvmfwk 3 ure (>= 3.5.7~)

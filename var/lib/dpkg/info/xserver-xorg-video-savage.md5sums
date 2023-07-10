@@ -1,0 +1,4 @@
+5f40deb25dd25fd296fdd8e834aa730e  usr/lib/xorg/modules/drivers/savage_drv.so
+79f44da5b06f0c0a565452cb60f4c8fd  usr/share/doc/xserver-xorg-video-savage/changelog.Debian.gz
+01676b298d9122698c05682f65f35e34  usr/share/doc/xserver-xorg-video-savage/copyright
+066c43309cb48de38df8f7fbb85ee5e4  usr/share/man/man4/savage.4.gz

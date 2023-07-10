@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/share
+/usr/share/libhangul
+/usr/share/libhangul/hanja
+/usr/share/libhangul/hanja/hanja.txt
+/usr/share/doc
+/usr/share/doc/libhangul-data
+/usr/share/doc/libhangul-data/copyright
+/usr/share/doc/libhangul-data/changelog.Debian.gz

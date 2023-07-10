@@ -1,0 +1,489 @@
+[ 35166.863] 
+X.Org X Server 1.11.3
+Release Date: 2011-12-16
+[ 35166.865] X Protocol Version 11, Revision 0
+[ 35166.866] Build Operating System: Linux 2.6.42-26-generic i686 Ubuntu
+[ 35166.868] Current Operating System: Linux ubuntu 3.11.0-26-generic #45~precise1-Ubuntu SMP Tue Jul 15 04:04:35 UTC 2014 i686
+[ 35166.868] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.11.0-26-generic root=UUID=5cea81df-a890-4174-a67b-d5e26293dbb8 ro quiet splash
+[ 35166.871] Build Date: 04 August 2012  01:51:24AM
+[ 35166.873] xorg-server 2:1.11.4-0ubuntu10.7 (For technical support please see http://www.ubuntu.com/support) 
+[ 35166.874] Current version of pixman: 0.24.4
+[ 35166.876] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 35166.876] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 35166.881] (==) Log file: "/var/log/Xorg.0.log", Time: Mon Jul  6 22:41:27 2015
+[ 35166.912] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 35166.919] (==) No Layout section.  Using the first Screen section.
+[ 35166.919] (==) No screen section available. Using defaults.
+[ 35166.919] (**) |-->Screen "Default Screen Section" (0)
+[ 35166.919] (**) |   |-->Monitor "<default monitor>"
+[ 35166.920] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 35166.920] (==) Automatically adding devices
+[ 35166.920] (==) Automatically enabling devices
+[ 35166.923] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 35166.923] 	Entry deleted from font path.
+[ 35166.923] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[ 35166.923] 	Entry deleted from font path.
+[ 35166.923] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 35166.923] 	Entry deleted from font path.
+[ 35166.931] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[ 35166.931] 	Entry deleted from font path.
+[ 35166.931] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 35166.931] 	Entry deleted from font path.
+[ 35166.931] (WW) The directory "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType" does not exist.
+[ 35166.931] 	Entry deleted from font path.
+[ 35166.931] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[ 35166.931] (==) ModulePath set to "/usr/lib/i386-linux-gnu/xorg/extra-modules,/usr/lib/xorg/extra-modules,/usr/lib/xorg/modules"
+[ 35166.931] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 35166.932] (II) Loader magic: 0xb771c5a0
+[ 35166.932] (II) Module ABI versions:
+[ 35166.932] 	X.Org ANSI C Emulation: 0.4
+[ 35166.932] 	X.Org Video Driver: 11.0
+[ 35166.932] 	X.Org XInput driver : 16.0
+[ 35166.932] 	X.Org Server Extension : 6.0
+[ 35166.982] (--) PCI:*(0:0:15:0) 15ad:0405:15ad:0405 rev 0, Mem @ 0xe8000000/134217728, 0xfe000000/8388608, I/O @ 0x00001070/16, BIOS @ 0x????????/32768
+[ 35166.985] (II) Open ACPI successful (/var/run/acpid.socket)
+[ 35166.985] (II) LoadModule: "extmod"
+[ 35166.999] (II) Loading /usr/lib/xorg/modules/extensions/libextmod.so
+[ 35167.003] (II) Module extmod: vendor="X.Org Foundation"
+[ 35167.003] 	compiled for 1.11.3, module version = 1.0.0
+[ 35167.003] 	Module class: X.Org Server Extension
+[ 35167.003] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.003] (II) Loading extension MIT-SCREEN-SAVER
+[ 35167.003] (II) Loading extension XFree86-VidModeExtension
+[ 35167.003] (II) Loading extension XFree86-DGA
+[ 35167.003] (II) Loading extension DPMS
+[ 35167.003] (II) Loading extension XVideo
+[ 35167.003] (II) Loading extension XVideo-MotionCompensation
+[ 35167.003] (II) Loading extension X-Resource
+[ 35167.003] (II) LoadModule: "dbe"
+[ 35167.003] (II) Loading /usr/lib/xorg/modules/extensions/libdbe.so
+[ 35167.011] (II) Module dbe: vendor="X.Org Foundation"
+[ 35167.011] 	compiled for 1.11.3, module version = 1.0.0
+[ 35167.011] 	Module class: X.Org Server Extension
+[ 35167.011] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.011] (II) Loading extension DOUBLE-BUFFER
+[ 35167.011] (II) LoadModule: "glx"
+[ 35167.012] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 35167.032] (II) Module glx: vendor="X.Org Foundation"
+[ 35167.032] 	compiled for 1.11.3, module version = 1.0.0
+[ 35167.032] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.032] (==) AIGLX enabled
+[ 35167.032] (II) Loading extension GLX
+[ 35167.032] (II) LoadModule: "record"
+[ 35167.032] (II) Loading /usr/lib/xorg/modules/extensions/librecord.so
+[ 35167.033] (II) Module record: vendor="X.Org Foundation"
+[ 35167.033] 	compiled for 1.11.3, module version = 1.13.0
+[ 35167.033] 	Module class: X.Org Server Extension
+[ 35167.033] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.033] (II) Loading extension RECORD
+[ 35167.033] (II) LoadModule: "dri"
+[ 35167.033] (II) Loading /usr/lib/xorg/modules/extensions/libdri.so
+[ 35167.036] (II) Module dri: vendor="X.Org Foundation"
+[ 35167.036] 	compiled for 1.11.3, module version = 1.0.0
+[ 35167.036] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.036] (II) Loading extension XFree86-DRI
+[ 35167.036] (II) LoadModule: "dri2"
+[ 35167.036] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[ 35167.037] (II) Module dri2: vendor="X.Org Foundation"
+[ 35167.037] 	compiled for 1.11.3, module version = 1.2.0
+[ 35167.037] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.037] (II) Loading extension DRI2
+[ 35167.037] (==) Matched vmware as autoconfigured driver 0
+[ 35167.037] (==) Matched vesa as autoconfigured driver 1
+[ 35167.037] (==) Matched fbdev as autoconfigured driver 2
+[ 35167.037] (==) Assigned the driver to the xf86ConfigLayout
+[ 35167.037] (II) LoadModule: "vmware"
+[ 35167.037] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[ 35167.264] (II) Module vmware: vendor="X.Org Foundation"
+[ 35167.264] 	compiled for 1.11.3, module version = 12.0.1
+[ 35167.264] 	Module class: X.Org Video Driver
+[ 35167.264] 	ABI class: X.Org Video Driver, version 11.0
+[ 35167.264] (II) LoadModule: "vesa"
+[ 35167.265] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[ 35167.266] (II) Module vesa: vendor="X.Org Foundation"
+[ 35167.266] 	compiled for 1.11.3, module version = 2.3.0
+[ 35167.266] 	Module class: X.Org Video Driver
+[ 35167.266] 	ABI class: X.Org Video Driver, version 11.0
+[ 35167.266] (II) LoadModule: "fbdev"
+[ 35167.267] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[ 35167.277] (II) Module fbdev: vendor="X.Org Foundation"
+[ 35167.277] 	compiled for 1.11.3, module version = 0.4.2
+[ 35167.277] 	ABI class: X.Org Video Driver, version 11.0
+[ 35167.277] (II) vmware: driver for VMware SVGA: vmware0405, vmware0710
+[ 35167.277] (II) VESA: driver for VESA chipsets: vesa
+[ 35167.277] (II) FBDEV: driver for framebuffer: fbdev
+[ 35167.277] (--) using VT number 7
+
+[ 35167.282] (II) Loading /usr/lib/xorg/modules/drivers/vmware_drv.so
+[ 35167.282] (WW) Falling back to old probe method for vesa
+[ 35167.282] (WW) Falling back to old probe method for fbdev
+[ 35167.286] (II) Loading sub module "fbdevhw"
+[ 35167.286] (II) LoadModule: "fbdevhw"
+[ 35167.286] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[ 35167.296] (II) Module fbdevhw: vendor="X.Org Foundation"
+[ 35167.296] 	compiled for 1.11.3, module version = 0.0.2
+[ 35167.296] 	ABI class: X.Org Video Driver, version 11.0
+[ 35167.297] drmOpenDevice: node name is /dev/dri/card0
+[ 35167.297] drmOpenDevice: open result is 9, (OK)
+[ 35167.297] drmOpenByBusid: Searching for BusID PCI:0:15:0
+[ 35167.297] drmOpenDevice: node name is /dev/dri/card0
+[ 35167.297] drmOpenDevice: open result is 9, (OK)
+[ 35167.297] drmOpenByBusid: drmOpenMinor returns 9
+[ 35167.297] drmOpenByBusid: drmGetBusid reports pci:0000:00:0f.0
+[ 35167.297] (--) vmware(0): DRM driver version is 2.4.0
+[ 35167.297] (II) vmware(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[ 35167.297] (==) vmware(0): Depth 24, (--) framebuffer bpp 32
+[ 35167.297] (==) vmware(0): RGB weight 888
+[ 35167.297] (==) vmware(0): Default visual is TrueColor
+[ 35167.297] (--) vmware(0): Min width 1, Max Width 8192.
+[ 35167.297] (--) vmware(0): Min height 1, Max Height 8192.
+[ 35167.297] (II) vmware(0): Output Virtual1 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual2 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual3 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual4 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual5 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual6 has no monitor section
+[ 35167.297] (II) vmware(0): Output Virtual7 has no monitor section
+[ 35167.298] (II) vmware(0): Output Virtual8 has no monitor section
+[ 35167.298] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35167.298] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35167.298] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz)
+[ 35167.298] (II) vmware(0): Printing probed modes for output Virtual1
+[ 35167.298] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35167.298] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35167.298] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35167.298] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35167.298] (II) vmware(0): EDID for output Virtual2
+[ 35167.298] (II) vmware(0): EDID for output Virtual3
+[ 35167.298] (II) vmware(0): EDID for output Virtual4
+[ 35167.298] (II) vmware(0): EDID for output Virtual5
+[ 35167.298] (II) vmware(0): EDID for output Virtual6
+[ 35167.299] (II) vmware(0): EDID for output Virtual7
+[ 35167.299] (II) vmware(0): EDID for output Virtual8
+[ 35167.299] (II) vmware(0): Output Virtual1 connected
+[ 35167.299] (II) vmware(0): Output Virtual2 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual3 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual4 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual5 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual6 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual7 disconnected
+[ 35167.299] (II) vmware(0): Output Virtual8 disconnected
+[ 35167.299] (II) vmware(0): Using exact sizes for initial modes
+[ 35167.299] (II) vmware(0): Output Virtual1 using initial mode 800x600
+[ 35167.299] (II) vmware(0): Using default gamma of (1.0, 1.0, 1.0) unless otherwise stated.
+[ 35167.299] (==) vmware(0): DPI set to (96, 96)
+[ 35167.299] (II) Loading sub module "fb"
+[ 35167.299] (II) LoadModule: "fb"
+[ 35167.299] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 35167.304] (II) Module fb: vendor="X.Org Foundation"
+[ 35167.304] 	compiled for 1.11.3, module version = 1.0.0
+[ 35167.305] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 35167.305] (II) Loading sub module "dri2"
+[ 35167.305] (II) LoadModule: "dri2"
+[ 35167.305] (II) Loading /usr/lib/xorg/modules/extensions/libdri2.so
+[ 35167.305] (II) Module dri2: vendor="X.Org Foundation"
+[ 35167.305] 	compiled for 1.11.3, module version = 1.2.0
+[ 35167.305] 	ABI class: X.Org Server Extension, version 6.0
+[ 35167.305] (II) UnloadModule: "vesa"
+[ 35167.305] (II) Unloading vesa
+[ 35167.305] (II) UnloadModule: "fbdev"
+[ 35167.305] (II) Unloading fbdev
+[ 35167.305] (II) UnloadModule: "fbdevhw"
+[ 35167.305] (II) Unloading fbdevhw
+[ 35167.305] (==) Depth 24 pixmap format is 32 bpp
+[ 35167.331] (II) vmware(0): Initialized VMWARE_CTRL extension version 0.2
+[ 35167.570] (II) vmware(0): Gallium3D XA version: 1.0.0.
+[ 35167.570] (II) vmware(0): Path of drm device is "/dev/dri/card0".
+[ 35167.570] (II) vmware(0): [DRI2] Setup complete
+[ 35167.570] (II) vmware(0): [DRI2]   DRI driver: vmwgfx
+[ 35167.570] (--) vmware(0): Render acceleration is enabled.
+[ 35167.570] (==) vmware(0): Rendercheck mode is disabled.
+[ 35167.570] (--) vmware(0): Direct rendering (3D) is enabled.
+[ 35167.570] (==) vmware(0): Direct presents are disabled.
+[ 35167.570] (==) vmware(0): Hardware only presents are disabled.
+[ 35167.570] (==) vmware(0): Backing store disabled
+[ 35167.570] (==) vmware(0): Silken mouse enabled
+[ 35167.570] (II) vmware(0): RandR 1.2 enabled, ignore the following RandR disabled message.
+[ 35167.571] (==) vmware(0): DPMS enabled
+[ 35167.571] (--) RandR disabled
+[ 35167.571] (II) Initializing built-in extension Generic Event Extension
+[ 35167.571] (II) Initializing built-in extension SHAPE
+[ 35167.571] (II) Initializing built-in extension MIT-SHM
+[ 35167.571] (II) Initializing built-in extension XInputExtension
+[ 35167.571] (II) Initializing built-in extension XTEST
+[ 35167.571] (II) Initializing built-in extension BIG-REQUESTS
+[ 35167.571] (II) Initializing built-in extension SYNC
+[ 35167.571] (II) Initializing built-in extension XKEYBOARD
+[ 35167.571] (II) Initializing built-in extension XC-MISC
+[ 35167.571] (II) Initializing built-in extension SECURITY
+[ 35167.571] (II) Initializing built-in extension XINERAMA
+[ 35167.571] (II) Initializing built-in extension XFIXES
+[ 35167.571] (II) Initializing built-in extension RENDER
+[ 35167.571] (II) Initializing built-in extension RANDR
+[ 35167.571] (II) Initializing built-in extension COMPOSITE
+[ 35167.571] (II) Initializing built-in extension DAMAGE
+[ 35167.683] (II) AIGLX: enabled GLX_MESA_copy_sub_buffer
+[ 35167.683] (II) AIGLX: enabled GLX_INTEL_swap_event
+[ 35167.683] (II) AIGLX: GLX_EXT_texture_from_pixmap backed by buffer objects
+[ 35167.684] (II) AIGLX: Loaded and initialized vmwgfx
+[ 35167.684] (II) GLX: Initialized DRI2 GL provider for screen 0
+[ 35167.687] (II) vmware(0): Setting screen physical size to 211 x 158
+[ 35167.796] (II) XKB: reuse xkmfile /var/lib/xkb/server-B20D7FC79C7F597315E3E501AEF10E0D866E8E92.xkm
+[ 35167.821] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[ 35167.821] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[ 35167.821] (II) LoadModule: "evdev"
+[ 35167.821] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[ 35167.849] (II) Module evdev: vendor="X.Org Foundation"
+[ 35167.849] 	compiled for 1.11.3, module version = 2.7.0
+[ 35167.849] 	Module class: X.Org XInput Driver
+[ 35167.849] 	ABI class: X.Org XInput driver, version 16.0
+[ 35167.849] (II) Using input driver 'evdev' for 'Power Button'
+[ 35167.849] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[ 35167.849] (**) Power Button: always reports core events
+[ 35167.849] (**) evdev: Power Button: Device: "/dev/input/event0"
+[ 35167.849] (--) evdev: Power Button: Vendor 0 Product 0x1
+[ 35167.849] (--) evdev: Power Button: Found keys
+[ 35167.849] (II) evdev: Power Button: Configuring as keyboard
+[ 35167.849] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[ 35167.849] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[ 35167.849] (**) Option "xkb_rules" "evdev"
+[ 35167.849] (**) Option "xkb_model" "SKIP"
+[ 35167.849] (**) Option "xkb_layout" "us"
+[ 35167.854] (II) XKB: reuse xkmfile /var/lib/xkb/server-D378AD8F86E560F712A83EE36E4E5E92C595B9BD.xkm
+[ 35167.870] (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/event3)
+[ 35167.870] (**) VMware VMware Virtual USB Mouse: Applying InputClass "evdev pointer catchall"
+[ 35167.870] (II) Using input driver 'evdev' for 'VMware VMware Virtual USB Mouse'
+[ 35167.870] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[ 35167.870] (**) VMware VMware Virtual USB Mouse: always reports core events
+[ 35167.870] (**) evdev: VMware VMware Virtual USB Mouse: Device: "/dev/input/event3"
+[ 35167.870] (--) evdev: VMware VMware Virtual USB Mouse: Vendor 0xe0f Product 0x3
+[ 35167.870] (--) evdev: VMware VMware Virtual USB Mouse: Found 12 mouse buttons
+[ 35167.870] (--) evdev: VMware VMware Virtual USB Mouse: Found scroll wheel(s)
+[ 35167.870] (--) evdev: VMware VMware Virtual USB Mouse: Found relative axes
+[ 35167.870] (--) evdev: VMware VMware Virtual USB Mouse: Found x and y relative axes
+[ 35167.870] (II) evdev: VMware VMware Virtual USB Mouse: Configuring as mouse
+[ 35167.870] (II) evdev: VMware VMware Virtual USB Mouse: Adding scrollwheel support
+[ 35167.870] (**) evdev: VMware VMware Virtual USB Mouse: YAxisMapping: buttons 4 and 5
+[ 35167.870] (**) evdev: VMware VMware Virtual USB Mouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 35167.870] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:11.0/0000:02:00.0/usb2/2-1/2-1:1.0/input/input3/event3"
+[ 35167.870] (II) XINPUT: Adding extended input device "VMware VMware Virtual USB Mouse" (type: MOUSE, id 7)
+[ 35167.870] (II) evdev: VMware VMware Virtual USB Mouse: initialized for relative axes.
+[ 35167.871] (**) VMware VMware Virtual USB Mouse: (accel) keeping acceleration scheme 1
+[ 35167.871] (**) VMware VMware Virtual USB Mouse: (accel) acceleration profile 0
+[ 35167.871] (**) VMware VMware Virtual USB Mouse: (accel) acceleration factor: 2.000
+[ 35167.871] (**) VMware VMware Virtual USB Mouse: (accel) acceleration threshold: 4
+[ 35167.871] (II) config/udev: Adding input device VMware VMware Virtual USB Mouse (/dev/input/mouse1)
+[ 35167.871] (II) No input driver specified, ignoring this device.
+[ 35167.871] (II) This device may have been added with another device file.
+[ 35167.872] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event1)
+[ 35167.872] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[ 35167.872] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[ 35167.872] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[ 35167.872] (**) AT Translated Set 2 keyboard: always reports core events
+[ 35167.872] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event1"
+[ 35167.872] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[ 35167.872] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[ 35167.872] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[ 35167.872] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input1/event1"
+[ 35167.872] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+[ 35167.872] (**) Option "xkb_rules" "evdev"
+[ 35167.872] (**) Option "xkb_model" "SKIP"
+[ 35167.872] (**) Option "xkb_layout" "us"
+[ 35167.874] (II) config/udev: Adding input device ImPS/2 Generic Wheel Mouse (/dev/input/event2)
+[ 35167.874] (**) ImPS/2 Generic Wheel Mouse: Applying InputClass "evdev pointer catchall"
+[ 35167.874] (**) ImPS/2 Generic Wheel Mouse: Applying InputClass "vmmouse"
+[ 35167.874] (II) LoadModule: "vmmouse"
+[ 35167.874] (II) Loading /usr/lib/xorg/modules/input/vmmouse_drv.so
+[ 35167.875] (II) Module vmmouse: vendor="X.Org Foundation"
+[ 35167.875] 	compiled for 1.11.3, module version = 12.9.0
+[ 35167.875] 	Module class: X.Org XInput Driver
+[ 35167.875] 	ABI class: X.Org XInput driver, version 16.0
+[ 35167.875] (II) VMWARE(0): VMMOUSE module was loaded
+[ 35167.875] (II) Using input driver 'vmmouse' for 'ImPS/2 Generic Wheel Mouse'
+[ 35167.875] (II) Loading /usr/lib/xorg/modules/input/vmmouse_drv.so
+[ 35167.875] (**) ImPS/2 Generic Wheel Mouse: always reports core events
+[ 35167.876] (II) VMWARE(0): vmmouse is available
+[ 35167.876] (**) Option "Device" "/dev/input/event2"
+[ 35167.876] (**) ImPS/2 Generic Wheel Mouse: ZAxisMapping: buttons 4 and 5
+[ 35167.876] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[ 35167.876] (II) XINPUT: Adding extended input device "ImPS/2 Generic Wheel Mouse" (type: MOUSE, id 9)
+[ 35167.876] (II) VMWARE(0): VMMOUSE DEVICE_INIT
+[ 35167.876] (**) ImPS/2 Generic Wheel Mouse: (accel) keeping acceleration scheme 1
+[ 35167.876] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration profile 0
+[ 35167.876] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration factor: 2.000
+[ 35167.876] (**) ImPS/2 Generic Wheel Mouse: (accel) acceleration threshold: 4
+[ 35167.876] (II) VMWARE(0): VMMOUSE DEVICE_ON
+[ 35167.876] (II) VMWARE(0): vmmouse enabled
+[ 35167.877] (II) config/udev: Adding input device ImPS/2 Generic Wheel Mouse (/dev/input/mouse0)
+[ 35167.877] (II) No input driver specified, ignoring this device.
+[ 35167.877] (II) This device may have been added with another device file.
+[ 35169.556] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35169.556] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35169.556] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35169.556] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35169.556] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz)
+[ 35171.457] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35171.457] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35171.457] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35171.457] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35171.457] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz)
+[ 35176.450] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35176.450] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35176.450] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35176.450] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35176.450] (II) vmware(0): Modeline "800x600"x60.0   42.75  800 850 900 950  600 650 700 750 -hsync +vsync (45.0 kHz)
+[ 35178.251] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35178.251] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35178.251] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35178.251] (II) vmware(0): Modeline "1716x968"x60.0  125.17  1716 1766 1816 1866  968 1018 1068 1118 -hsync +vsync (67.1 kHz)
+[ 35184.519] (II) VMWARE(0): vmmouse enable absolute mode
+[ 35186.557] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35186.557] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35186.557] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35186.557] (II) vmware(0): Modeline "1716x968"x60.0  125.17  1716 1766 1816 1866  968 1018 1068 1118 -hsync +vsync (67.1 kHz)
+[ 35191.569] (II) vmware(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 489 492 525 -hsync -vsync (31.5 kHz)
+[ 35191.569] (II) vmware(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1152x864"x75.0  108.00  1152 1216 1344 1600  864 865 868 900 +hsync +vsync (67.5 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 +hsync -vsync (49.7 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1280x960"x60.0  108.00  1280 1376 1488 1800  960 961 964 1000 +hsync +vsync (60.0 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1280x1024"x60.0  108.00  1280 1328 1440 1688  1024 1025 1028 1066 +hsync +vsync (64.0 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1400x1050"x60.0  121.75  1400 1488 1632 1864  1050 1053 1057 1089 -hsync +vsync (65.3 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1440x900"x59.9  106.50  1440 1520 1672 1904  900 903 909 934 -hsync +vsync (55.9 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1600x1200"x60.0  162.00  1600 1664 1856 2160  1200 1201 1204 1250 +hsync +vsync (75.0 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1680x1050"x60.0  146.25  1680 1784 1960 2240  1050 1053 1059 1089 -hsync +vsync (65.3 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1792x1344"x60.0  204.75  1792 1920 2120 2448  1344 1345 1348 1394 -hsync +vsync (83.6 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1856x1392"x60.0  218.25  1856 1952 2176 2528  1392 1393 1396 1439 -hsync +vsync (86.3 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1920x1200"x59.9  193.25  1920 2056 2256 2592  1200 1203 1209 1245 -hsync +vsync (74.6 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1920x1440"x60.0  234.00  1920 2048 2256 2600  1440 1441 1444 1500 -hsync +vsync (90.0 kHz)
+[ 35191.569] (II) vmware(0): Modeline "2560x1600"x60.0  348.50  2560 2752 3032 3504  1600 1603 1609 1658 -hsync +vsync (99.5 kHz)
+[ 35191.569] (II) vmware(0): Modeline "1716x968"x60.0  125.17  1716 1766 1816 1866  968 1018 1068 1118 -hsync +vsync (67.1 kHz)
+[ 35239.024] (II) VMWARE(0): VMMOUSE DEVICE_OFF/CLOSE
+[ 35239.325] (II) AIGLX: Suspending AIGLX clients for VT switch
+[ 35507.344] (II) VMWARE(0): VMMOUSE DEVICE_OFF/CLOSE
+[ 35507.646] (II) VMWARE(0): VMMouseUnInit
+[ 35507.646] (II) evdev: AT Translated Set 2 keyboard: Close
+[ 35507.646] (II) UnloadModule: "evdev"
+[ 35507.646] (II) Unloading evdev
+[ 35507.646] (II) evdev: VMware VMware Virtual USB Mouse: Close
+[ 35507.646] (II) UnloadModule: "evdev"
+[ 35507.646] (II) Unloading evdev
+[ 35507.646] (II) evdev: Power Button: Close
+[ 35507.646] (II) UnloadModule: "evdev"
+[ 35507.646] (II) Unloading evdev
+[ 35507.654]  ddxSigGiveUp: Closing log
+[ 35507.656] Server terminated successfully (0). Closing log file.

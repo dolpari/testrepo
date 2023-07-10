@@ -1,0 +1,15 @@
+/.
+/usr
+/usr/share
+/usr/share/bug
+/usr/share/bug/libxatracker1
+/usr/share/bug/libxatracker1/control
+/usr/share/bug/libxatracker1/script
+/usr/share/doc
+/usr/share/doc/libxatracker1
+/usr/share/doc/libxatracker1/copyright
+/usr/share/doc/libxatracker1/changelog.Debian.gz
+/usr/lib
+/usr/lib/i386-linux-gnu
+/usr/lib/i386-linux-gnu/libxatracker.so.1.0.0
+/usr/lib/i386-linux-gnu/libxatracker.so.1

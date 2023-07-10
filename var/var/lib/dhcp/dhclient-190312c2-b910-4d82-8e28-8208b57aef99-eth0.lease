@@ -1,0 +1,192 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 09:50:00;
+  rebind 5 2017/01/06 10:04:07;
+  expire 5 2017/01/06 10:07:52;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 10:01:23;
+  rebind 5 2017/01/06 10:16:15;
+  expire 5 2017/01/06 10:20:00;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 10:12:58;
+  rebind 5 2017/01/06 10:27:38;
+  expire 5 2017/01/06 10:31:23;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 10:24:19;
+  rebind 5 2017/01/06 10:39:13;
+  expire 5 2017/01/06 10:42:58;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 10:37:52;
+  rebind 5 2017/01/06 10:50:34;
+  expire 5 2017/01/06 10:54:19;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 10:50:39;
+  rebind 5 2017/01/06 11:04:07;
+  expire 5 2017/01/06 11:07:52;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 11:02:19;
+  rebind 5 2017/01/06 11:16:55;
+  expire 5 2017/01/06 11:20:40;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 11:14:15;
+  rebind 5 2017/01/06 11:28:34;
+  expire 5 2017/01/06 11:32:19;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 11:28:14;
+  rebind 5 2017/01/06 11:40:30;
+  expire 5 2017/01/06 11:44:15;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 11:42:05;
+  rebind 5 2017/01/06 11:54:29;
+  expire 5 2017/01/06 11:58:14;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 11:55:46;
+  rebind 5 2017/01/06 12:08:20;
+  expire 5 2017/01/06 12:12:05;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.73.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.73.2;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.73.2;
+  option dhcp-server-identifier 192.168.73.254;
+  option broadcast-address 192.168.73.255;
+  option netbios-name-servers 192.168.73.2;
+  option domain-name "localdomain";
+  renew 5 2017/01/06 12:09:32;
+  rebind 5 2017/01/06 12:22:01;
+  expire 5 2017/01/06 12:25:46;
+}

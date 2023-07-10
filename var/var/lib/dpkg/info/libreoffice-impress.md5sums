@@ -1,0 +1,16 @@
+5fac3d9f5b8398ec80a1908c9b2ef4e0  usr/bin/loimpress
+b91591b1640e950bff6af8eee311b10b  usr/lib/libreoffice/program/libanimcorelo.so
+ea3c9f648e1d820ee63dc0b8cae756b5  usr/lib/libreoffice/program/libplacewarelo.so
+4be7054eb429e4b163412f18cd12cf91  usr/lib/libreoffice/program/simpress
+90b6adf99dcd985cbe92b22ace675c55  usr/lib/libreoffice/program/slideshow.uno.so
+a1d3cb6fd89db57e3c1425a7d55dde87  usr/lib/libreoffice/share/config/soffice.cfg/simpress/effects.xml
+064e267c0cbc3f1b8b209e92f930d9fd  usr/lib/libreoffice/share/config/soffice.cfg/simpress/transitions.xml
+df3af5933ee21a0ba63ad29a591e976b  usr/lib/libreoffice/share/registry/impress.xcd
+4840aadaa9955b741a8db2c9bc8685cf  usr/lib/libreoffice/share/xdg/impress.desktop
+6cf3c82a85f0757aed890ea602f94b7a  usr/lib/mime/packages/libreoffice-impress
+29645c7cc4d1eba43bde960f9a6cda4c  usr/share/bug/libreoffice-impress/control
+4583c119b7c148a61e54ddbbdc1917a9  usr/share/bug/libreoffice-impress/presubj
+ae704830e4042d0a454ed1240d01564c  usr/share/doc/libreoffice-impress/copyright
+0f6474b40fcb5df2a6397ecc1ff71f4f  usr/share/lintian/overrides/libreoffice-impress
+57fd0a6637b28abad9f5cc4b897b5ee3  usr/share/man/man1/loimpress.1.gz
+7e0a182e1face9e756ee57709137a5c5  usr/share/menu/libreoffice-impress

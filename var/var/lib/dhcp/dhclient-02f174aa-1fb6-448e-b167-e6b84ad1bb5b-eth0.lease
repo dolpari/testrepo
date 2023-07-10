@@ -1,0 +1,144 @@
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 13:14:40;
+  rebind 6 2016/12/31 13:27:42;
+  expire 6 2016/12/31 13:31:27;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 13:26:06;
+  rebind 6 2016/12/31 13:40:55;
+  expire 6 2016/12/31 13:44:40;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 13:38:36;
+  rebind 6 2016/12/31 13:52:21;
+  expire 6 2016/12/31 13:56:06;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 13:52:43;
+  rebind 6 2016/12/31 14:04:51;
+  expire 6 2016/12/31 14:08:36;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 14:04:40;
+  rebind 6 2016/12/31 14:18:58;
+  expire 6 2016/12/31 14:22:43;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 14:18:07;
+  rebind 6 2016/12/31 14:30:55;
+  expire 6 2016/12/31 14:34:40;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 14:30:17;
+  rebind 6 2016/12/31 14:44:22;
+  expire 6 2016/12/31 14:48:07;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 14:41:45;
+  rebind 6 2016/12/31 14:56:32;
+  expire 6 2016/12/31 15:00:17;
+}
+lease {
+  interface "eth0";
+  fixed-address 192.168.1.128;
+  option subnet-mask 255.255.255.0;
+  option routers 192.168.1.4;
+  option dhcp-lease-time 1800;
+  option dhcp-message-type 5;
+  option domain-name-servers 192.168.1.4;
+  option dhcp-server-identifier 192.168.1.254;
+  option broadcast-address 192.168.1.255;
+  option netbios-name-servers 192.168.1.4;
+  option domain-name "localdomain";
+  renew 6 2016/12/31 14:53:17;
+  rebind 6 2016/12/31 15:08:00;
+  expire 6 2016/12/31 15:11:45;
+}
